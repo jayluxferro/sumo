@@ -1,0 +1,28 @@
+digraph "NWFrame.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="NWFrame.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="netconvert_main.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d09/netconvert__main_8cpp.html"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="GNEApplicationWindow.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d18/_g_n_e_application_window_8cpp.html"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="GNELoadThread.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/de1/_g_n_e_load_thread_8cpp.html"];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="GNENet.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/db1/_g_n_e_net_8cpp.html"];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="netedit_main.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d93/netedit__main_8cpp.html"];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="netgen_main.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/ddc/netgen__main_8cpp.html"];
+  Node2 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="NIFrame.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d09/_n_i_frame_8cpp.html"];
+  Node2 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="NWFrame.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9d/_n_w_frame_8cpp.html"];
+  Node2 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="NWWriter_DlrNavteq.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d32/_n_w_writer___dlr_navteq_8cpp.html"];
+  Node2 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="NWWriter_SUMO.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d9d/_n_w_writer___s_u_m_o_8cpp.html"];
+  Node2 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="NWWriter_XML.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/dbc/_n_w_writer___x_m_l_8cpp.html"];
+}

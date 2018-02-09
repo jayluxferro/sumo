@@ -1,0 +1,14 @@
+digraph "MSSOTLPlatoonPolicy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{MSSOTLPlatoonPolicy\n||+ canRelease()\l+ MSSOTLPlatoonPolicy()\l+ MSSOTLPlatoonPolicy()\l+ MSSOTLPlatoonPolicy()\l# init()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{MSSOTLPolicy\n|- myDesirabilityAlgorithm\l- myName\l- theta_sensitivity\l|+ canRelease()\l+ computeDesirability()\l+ computeDesirability()\l+ decideNextPhase()\l+ getDesirabilityAlgorithm()\l+ getName()\l+ getThetaSensitivity()\l+ MSSOTLPolicy()\l+ MSSOTLPolicy()\l+ MSSOTLPolicy()\l+ setThetaSensitivity()\l+ ~MSSOTLPolicy()\l# init()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d9d/class_m_s_s_o_t_l_policy.html",tooltip="Class for a low-level policy. "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{Parameterised\n|- myMap\l|+ clearParameter()\l+ getDouble()\l+ getMap()\l+ getParameter()\l+ knowsParameter()\l+ Parameterised()\l+ Parameterised()\l+ setParameter()\l+ unsetParameter()\l+ updateParameter()\l+ writeParams()\l+ ~Parameterised()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dc7/class_parameterised.html",tooltip="An upper class for objects with additional parameters. "];
+  Node3 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{SigmoidLogic\n|# m_k\l# m_prefix\l# m_useSigmoid\l|# init()\l# sigmoidLogic()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d08/class_sigmoid_logic.html"];
+  Node4 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{PushButtonLogic\n|# m_prefix\l# m_pushButtonScaleFactor\l|# init()\l# pushButtonLogic()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d82/class_push_button_logic.html"];
+}

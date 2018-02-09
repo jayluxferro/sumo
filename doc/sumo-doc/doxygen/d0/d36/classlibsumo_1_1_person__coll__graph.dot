@@ -1,0 +1,6 @@
+digraph "libsumo::Person"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{libsumo::Person\n||+ add()\l+ appendDrivingStage()\l+ appendWaitingStage()\l+ appendWalkingStage()\l+ getAngle()\l+ getColor()\l+ getEdges()\l+ getIDCount()\l+ getIDList()\l+ getLanePosition()\land 23 more...\l- operator=()\l- Person()\l- Person()\l- getPerson()\l- getSingularVType()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

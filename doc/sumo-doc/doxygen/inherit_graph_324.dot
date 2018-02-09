@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="NBNode::nodes_by_id\l_sorter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/def/class_n_b_node_1_1nodes__by__id__sorter.html",tooltip="Used for sorting the cells by the begin time they describe. "];
+}

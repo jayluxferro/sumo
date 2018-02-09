@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="PCLoaderOSM::PCOSMNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d58/struct_p_c_loader_o_s_m_1_1_p_c_o_s_m_node.html",tooltip="An internal representation of an OSM-node. "];
+}

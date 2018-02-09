@@ -1,0 +1,6 @@
+digraph "GeomHelper"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{GeomHelper\n|+ INVALID_OFFSET\l|+ angle2D()\l+ angleDiff()\l+ crossPoint()\l+ findLineCircleIntersections()\l+ fromNaviDegree()\l+ getCCWAngleDiff()\l+ getCWAngleDiff()\l+ getMinAngleDiff()\l+ legacyDegree()\l+ naviDegree()\l+ nearest_offset_on_line\l_to_point2D()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

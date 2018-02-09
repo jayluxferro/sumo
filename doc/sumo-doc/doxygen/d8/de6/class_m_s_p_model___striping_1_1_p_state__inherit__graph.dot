@@ -1,0 +1,8 @@
+digraph "MSPModel_Striping::PState"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{MSPModel_Striping::\lPState\n|+ myAmJammed\l+ myDir\l+ myLane\l+ myNLI\l+ myPerson\l+ myRelX\l+ myRelY\l+ mySpeed\l+ myStage\l+ myWaitingTime\l+ myWaitingToEnter\l+ myWalkingAreaPath\l|+ distanceTo()\l+ distToLaneEnd()\l+ getImpatience()\l+ getLength()\l+ getMaxX()\l+ getMinGap()\l+ getMinX()\l+ ignoreRed()\l+ mergeObstacles()\l+ moveToNextLane()\land 6 more...\l+ getEdgePos()\l+ getPosition()\l+ getAngle()\l+ getWaitingTime()\l+ getSpeed()\l+ getNextEdge()\l+ moveToXY()\l+ stripe()\l* getEdgePos()\l* getPosition()\l* getAngle()\l* getWaitingTime()\l* getSpeed()\l* getNextEdge()\l* moveToXY()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{PedestrianState\n||+ getAngle()\l+ getEdgePos()\l+ getNextEdge()\l+ getPosition()\l+ getSpeed()\l+ getWaitingTime()\l+ moveToXY()\l+ ~PedestrianState()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/de4/class_pedestrian_state.html",tooltip="abstract base class for managing callbacks to retrieve various state information from the model ..."];
+}

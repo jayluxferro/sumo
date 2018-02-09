@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="SAXWeightsHandler::\lToRetrieveDefinition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d4d/class_s_a_x_weights_handler_1_1_to_retrieve_definition.html",tooltip="Complete definition about what shall be retrieved and where to store it. "];
+}

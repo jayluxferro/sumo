@@ -1,0 +1,24 @@
+digraph "NBDistrict.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node16 [label="NBDistrict.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="NBDistrict.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d5a/_n_b_district_8cpp.html"];
+  Node16 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="NBDistrictCont.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dc0/_n_b_district_cont_8cpp.html"];
+  Node16 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="NBNetBuilder.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/db8/_n_b_net_builder_8cpp.html"];
+  Node16 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="NBNode.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d41/_n_b_node_8cpp.html"];
+  Node16 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="NBNodeCont.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d69/_n_b_node_cont_8cpp.html"];
+  Node16 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="NIImporter_VISUM.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d0e/_n_i_importer___v_i_s_u_m_8cpp.html"];
+  Node16 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="NIVissimDistrictConnection.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dda/_n_i_vissim_district_connection_8cpp.html"];
+  Node16 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="NIVissimSingleTypeParser\l_Parkplatzdefinition.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d0d/_n_i_vissim_single_type_parser___parkplatzdefinition_8cpp.html"];
+  Node16 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="NWWriter_SUMO.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d9d/_n_w_writer___s_u_m_o_8cpp.html"];
+}

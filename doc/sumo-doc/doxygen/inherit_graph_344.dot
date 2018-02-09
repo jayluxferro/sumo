@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="NBTrafficLightLogic\l::PhaseDefinition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/dac/class_n_b_traffic_light_logic_1_1_phase_definition.html",tooltip="The definition of a single phase of the logic. "];
+}

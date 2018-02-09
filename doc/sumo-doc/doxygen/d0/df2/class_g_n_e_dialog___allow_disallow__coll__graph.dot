@@ -1,0 +1,8 @@
+digraph "GNEDialog_AllowDisallow"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{GNEDialog_AllowDisallow\n|# myAcceptButton\l# myAllow\l# myCancelButton\l# myCopyOfAllow\l# myResetButton\l# mySelectAllVClassButton\l# mySelectOnlyNonRoadVClass\lButton\l# myUnselectAllVClassButton\l# myVClassMap\l|+ GNEDialog_AllowDisallow()\l+ ~GNEDialog_AllowDisallow()\l+ onCmdValueChanged()\l+ onCmdSelectAll()\l+ onCmdUnselectAll()\l+ onCmdSelectOnlyNonRoad()\l+ onCmdAccept()\l+ onCmdCancel()\l+ onCmdReset()\l# GNEDialog_AllowDisallow()\l- buildVClass()\l- GNEDialog_AllowDisallow()\l- operator=()\l* onCmdValueChanged()\l* onCmdSelectAll()\l* onCmdUnselectAll()\l* onCmdSelectOnlyNonRoad()\l* onCmdAccept()\l* onCmdCancel()\l* onCmdReset()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{FXDialogBox\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

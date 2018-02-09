@@ -1,0 +1,10 @@
+digraph "SigmoidLogic"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{SigmoidLogic\n|# m_k\l# m_prefix\l# m_useSigmoid\l|# init()\l# sigmoidLogic()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{MSSOTLPhasePolicy\n|# m_useVehicleTypesWeights\l|+ canRelease()\l+ MSSOTLPhasePolicy()\l+ MSSOTLPhasePolicy()\l+ MSSOTLPhasePolicy()\l# init()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d53/class_m_s_s_o_t_l_phase_policy.html",tooltip="Class for low-level phase policy. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{MSSOTLPlatoonPolicy\n||+ canRelease()\l+ MSSOTLPlatoonPolicy()\l+ MSSOTLPlatoonPolicy()\l+ MSSOTLPlatoonPolicy()\l# init()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/db4/class_m_s_s_o_t_l_platoon_policy.html",tooltip="Class for low-level platoon policy. "];
+}

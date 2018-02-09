@@ -1,0 +1,11 @@
+digraph "RONode"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{RONode\n|- myIncoming\l- myOutgoing\l|+ addIncoming()\l+ addOutgoing()\l+ getIncoming()\l+ getOutgoing()\l+ getPosition()\l+ RONode()\l+ setPosition()\l+ ~RONode()\l- operator=()\l- RONode()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{Named\n|# myID\l|+ addTo()\l+ getID()\l+ Named()\l+ setID()\l+ ~Named()\l+ getIDSecure()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dbf/class_named.html",tooltip="Base class for objects which have an id. "];
+  Node4 -> Node2 [color="grey25",fontsize="10",style="solid",label=" -myPosition" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{Position\n|- myX\l- myY\l- myZ\l|+ add()\l+ add()\l+ add()\l+ almostSame()\l+ angleTo2D()\l+ crossProduct()\l+ distanceSquaredTo()\l+ distanceSquaredTo2D()\l+ distanceTo()\l+ distanceTo2D()\land 28 more...\l+ invalidPosition()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d3b/class_position.html",tooltip="A point in 2D or 3D with translation and scaling methods. "];
+  Node4 -> Node4 [color="grey25",fontsize="10",style="solid",label=" +INVALID" ,arrowhead="odiamond",fontname="Helvetica"];
+}

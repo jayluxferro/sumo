@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="MFXAddEditTypedTable\l::EditedTableItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d06/struct_m_f_x_add_edit_typed_table_1_1_edited_table_item.html"];
+}

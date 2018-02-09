@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="NBLoadedTLDef::SignalGroup\l::PhaseDef",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d54/class_n_b_loaded_t_l_def_1_1_signal_group_1_1_phase_def.html",tooltip="Definition of a single, loaded phase. "];
+}

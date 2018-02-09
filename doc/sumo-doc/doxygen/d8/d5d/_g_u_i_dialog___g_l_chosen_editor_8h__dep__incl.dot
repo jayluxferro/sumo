@@ -1,0 +1,14 @@
+digraph "GUIDialog_GLChosenEditor.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node28 [label="GUIDialog_GLChosenEditor.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node28 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="GUIApplicationWindow.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de8/_g_u_i_application_window_8cpp.html"];
+  Node28 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="GNEApplicationWindow.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d18/_g_n_e_application_window_8cpp.html"];
+  Node28 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="GUIDialog_GLChosenEditor.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dc6/_g_u_i_dialog___g_l_chosen_editor_8cpp.html"];
+  Node28 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 [label="GUISelectedStorage.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d87/_g_u_i_selected_storage_8cpp.html"];
+}

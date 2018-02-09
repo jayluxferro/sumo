@@ -1,0 +1,6 @@
+digraph "AGDataAndStatistics"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{AGDataAndStatistics\n|+ AdultNbr\l+ beginWorkHours\l+ busStations\l+ carPreference\l+ carRate\l+ departureVariation\l+ endWorkHours\l+ factorInhabitants\l+ factorWorkPositions\l+ freeTimeActivityRate\land 21 more...\l|+ consolidateStat()\l+ getInverseExpRandomValue()\l+ getPeopleOlderThan()\l+ getPeopleYoungerThan()\l+ getPoissonsNumberOfChildren()\l+ getPropYoungerThan()\l+ getRandom()\l+ getRandomCityGateByIncoming()\l+ getRandomCityGateByOutgoing()\l+ getRandomPopDistributed()\l+ getDataAndStatistics()\l- AGDataAndStatistics()\l- factorial()\l- normalizeMapProb()\l- poisson()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

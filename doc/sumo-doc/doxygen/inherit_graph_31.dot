@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="CHBuilder\< E, V \>::\lConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d8b/class_c_h_builder_1_1_connection.html",tooltip="Forward/backward connection with associated forward/backward cost. "];
+}

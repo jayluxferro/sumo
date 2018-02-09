@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="NBContHelper::relative\l_outgoing_edge_sorter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/db1/class_n_b_cont_helper_1_1relative__outgoing__edge__sorter.html"];
+}

@@ -1,0 +1,14 @@
+digraph "GUIManipulator"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{GUIManipulator\n||+ GUIManipulator()\l+ ~GUIManipulator()\l# GUIManipulator()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{FXDialogBox\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{GUICalibrator::GUIManip\l_Calibrator\n|- myChosenTarget\l- myChosenValue\l- myObject\l- myParent\l- myPredefinedValues\l- mySpeed\l- mySpeedTarget\l- myUserDefinedSpeed\l|+ GUIManip_Calibrator()\l+ onCmdChangeOption()\l+ onCmdClose()\l+ onCmdOverride()\l+ onCmdPreDef()\l+ onCmdUserDef()\l+ onUpdPreDef()\l+ onUpdUserDef()\l+ ~GUIManip_Calibrator()\l# GUIManip_Calibrator()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dd4/class_g_u_i_calibrator_1_1_g_u_i_manip___calibrator.html"];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{GUILaneSpeedTrigger\l::GUIManip_LaneSpeedTrigger\n|- myChosenTarget\l- myChosenValue\l- myObject\l- myParent\l- myPredefinedValues\l- mySpeed\l- mySpeedTarget\l- myUserDefinedSpeed\l|+ GUIManip_LaneSpeedTrigger()\l+ onCmdChangeOption()\l+ onCmdClose()\l+ onCmdOverride()\l+ onCmdPreDef()\l+ onCmdUserDef()\l+ onUpdPreDef()\l+ onUpdUserDef()\l+ ~GUIManip_LaneSpeedTrigger()\l# GUIManip_LaneSpeedTrigger()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d71/class_g_u_i_lane_speed_trigger_1_1_g_u_i_manip___lane_speed_trigger.html"];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{GUITriggeredRerouter\l::GUIManip_TriggeredRerouter\n|- myChosenTarget\l- myChosenValue\l- myObject\l- myParent\l- myUsageProbability\l- myUsageProbabilityDial\l- myUsageProbabilityTarget\l|+ GUIManip_TriggeredRerouter()\l+ onCmdChangeOption()\l+ onCmdClose()\l+ onCmdOverride()\l+ onCmdUserDef()\l+ onUpdUserDef()\l+ ~GUIManip_TriggeredRerouter()\l# GUIManip_TriggeredRerouter()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d79/class_g_u_i_triggered_rerouter_1_1_g_u_i_manip___triggered_rerouter.html"];
+}

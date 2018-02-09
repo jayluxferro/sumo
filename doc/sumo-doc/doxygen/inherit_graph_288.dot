@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="NBContHelper::edge\l_opposite_direction\l_sorter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d3c/class_n_b_cont_helper_1_1edge__opposite__direction__sorter.html",tooltip="Class to sort edges by their angle in relation to the given edge. "];
+}

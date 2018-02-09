@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="PCLoaderOSM::PCOSMEdge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d3d/struct_p_c_loader_o_s_m_1_1_p_c_o_s_m_edge.html",tooltip="An internal definition of a loaded edge. "];
+}

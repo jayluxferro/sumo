@@ -1,0 +1,6 @@
+digraph "PHEMlightdll::Constants"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{PHEMlightdll::Constants\n|+ _DRIVE_TRAIN_EFFICIENCY\l+ AIR_DENSITY_CONST\l+ DRIVE_TRAIN_EFFICIENCY_All\l+ DRIVE_TRAIN_EFFICIENCY_CB\l+ GRAVITY_CONST\l+ HeavyVehicle\l+ NORMALIZING_ACCELARATION\l+ NORMALIZING_SPEED\l+ SPEED_DCEL_MIN\l+ strBEV\land 19 more...\l|+ getDRIVE_TRAIN_EFFICIENCY()\l+ setDRIVE_TRAIN_EFFICIENCY()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

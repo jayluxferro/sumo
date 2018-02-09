@@ -1,0 +1,6 @@
+digraph "NIVissimDistrictConnection"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{NIVissimDistrictConnection\n|- myAssignedVehicles\l- myDistricts\l- myEdgeID\l- myID\l- myName\l- myPercentages\l- myPosition\l- myDict\l- myDistrictsConnections\l|+ geomPosition()\l+ getID()\l+ getMeanSpeed()\l+ getPosition()\l+ NIVissimDistrictConnection()\l+ ~NIVissimDistrictConnection()\l+ clearDict()\l+ dict_BuildDistrictConnections()\l+ dict_BuildDistrictNodes()\l+ dict_BuildDistricts()\l+ dict_CheckEdgeEnds()\l+ dict_findForEdge()\l+ dictionary()\l+ dictionary()\l+ dictionary()\l- checkEdgeEnd()\l- getRealSpeed()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

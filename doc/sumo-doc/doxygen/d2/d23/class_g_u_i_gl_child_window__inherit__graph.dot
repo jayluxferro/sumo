@@ -1,0 +1,12 @@
+digraph "GUIGlChildWindow"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{GUIGlChildWindow\n|# myColoringSchemes\l# myContentFrame\l# myLocatorButton\l# myLocatorPopup\l# myNavigationToolBar\l# myParent\l# myView\l|+ buildColoringToolBar()\l+ buildNavigationToolBar()\l+ buildScreenshotToolBar()\l+ create()\l+ getBuildGLCanvas()\l+ getColoringSchemesCombo()\l+ getLocatorPopup()\l+ getNavigationToolBar()\l+ getParent()\l+ getView()\land 10 more...\l# GUIGlChildWindow()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{FXMDIChild\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{GNEViewParent\n|- myFramesArea\l- myFramesSplitter\l- myGNEAppWindows\l- myGNEFrames\l- myViewArea\l|+ getAdditionalFrame()\l+ getApp()\l+ getConnectorFrame()\l+ getCrossingFrame()\l+ getDeleteFrame()\l+ getGNEAppWindows()\l+ getInspectorFrame()\l+ getPolygonFrame()\l+ getSelectorFrame()\l+ getTLSEditorFrame()\land 6 more...\l+ onCmdMakeSnapshot()\l+ onCmdClose()\l+ onCmdLocate()\l+ onKeyPress()\l+ onKeyRelease()\l+ onCmdUpdateFrameAreaWidth()\l# GNEViewParent()\l* onCmdMakeSnapshot()\l* onCmdClose()\l* onCmdLocate()\l* onKeyPress()\l* onKeyRelease()\l* onCmdUpdateFrameAreaWidth()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d5e/class_g_n_e_view_parent.html",tooltip="A single child window which contains a view of the simulation area. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{GUISUMOViewParent\n||+ GUISUMOViewParent()\l+ init()\l+ isSelected()\l+ onCmdLocate()\l+ onCmdMakeSnapshot()\l+ onKeyPress()\l+ onKeyRelease()\l+ onSimStep()\l+ setToolBarVisibility()\l+ ~GUISUMOViewParent()\l# GUISUMOViewParent()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/da6/class_g_u_i_s_u_m_o_view_parent.html",tooltip="A single child window which contains a view of the simulation area. "];
+}

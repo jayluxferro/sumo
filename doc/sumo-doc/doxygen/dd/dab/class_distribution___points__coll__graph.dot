@@ -1,0 +1,12 @@
+digraph "Distribution_Points"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node4 [label="{Distribution_Points\n||+ Distribution_Points()\l+ getMax()\l+ sample()\l+ toStr()\l+ ~Distribution_Points()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{Distribution\n||+ Distribution()\l+ getMax()\l+ sample()\l+ toStr()\l+ ~Distribution()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d4f/class_distribution.html"];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{Named\n|# myID\l|+ addTo()\l+ getID()\l+ Named()\l+ setID()\l+ ~Named()\l+ getIDSecure()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dbf/class_named.html",tooltip="Base class for objects which have an id. "];
+  Node7 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node7 [label="{RandomDistributor\<\l double \>\n|- myProb\l- myProbs\l- myVals\l|+ add()\l+ clear()\l+ get()\l+ getOverallProb()\l+ getProbs()\l+ getVals()\l+ RandomDistributor()\l+ ~RandomDistributor()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9b/class_random_distributor.html"];
+}

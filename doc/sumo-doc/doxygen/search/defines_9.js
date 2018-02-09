@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['id_5fcount',['ID_COUNT',['../dd/dba/_tra_c_i_constants_8h.html#a10ef5e45606c2977dd1eaf386f5d3de6',1,'TraCIConstants.h']]],
+  ['id_5flist',['ID_LIST',['../dd/dba/_tra_c_i_constants_8h.html#a28687ff0fca27086bca2dfb0c0aa8708',1,'TraCIConstants.h']]],
+  ['idle_5fspeed',['IDLE_SPEED',['../df/de3/_helpers_p_h_e_mlight_8cpp.html#a8a99bc6b476ab24b5ca724e353cbd2dc',1,'HelpersPHEMlight.cpp']]],
+  ['infinite',['INFINITE',['../df/de6/fxexdefs_8h.html#aa84a29002ab81c719c0d07bb446296e0',1,'fxexdefs.h']]],
+  ['input_5fcount_5fsensor_5flength',['INPUT_COUNT_SENSOR_LENGTH',['../dc/df4/_m_s_s_o_t_l_definitions_8h.html#a8423b270a2067ff2f1f6dbce94ab6a7d',1,'MSSOTLDefinitions.h']]],
+  ['input_5fsensor_5flength',['INPUT_SENSOR_LENGTH',['../dc/df4/_m_s_s_o_t_l_definitions_8h.html#a08ca72c808a5209f6271257ada18df8e',1,'MSSOTLDefinitions.h']]],
+  ['internal_5fphem',['INTERNAL_PHEM',['../dd/d67/_helpers_p_h_e_mlight_8h.html#a11fd23b754d21284a14e5d611a6c4b80',1,'HelpersPHEMlight.h']]],
+  ['intmax',['INTMAX',['../d8/ddf/_f_x_real_spin_dial_8cpp.html#ab63c100c678f613b73872e77bfa6f64f',1,'FXRealSpinDial.cpp']]],
+  ['intmin',['INTMIN',['../d8/ddf/_f_x_real_spin_dial_8cpp.html#a0d6f30858cfa03604e05f98924fdbded',1,'FXRealSpinDial.cpp']]],
+  ['invalid',['INVALID',['../d8/d6e/_m_s_device___s_s_m_8cpp.html#adf770fe2eec438e3758ffe905dbae208',1,'MSDevice_SSM.cpp']]],
+  ['invalid_5fdouble_5fvalue',['INVALID_DOUBLE_VALUE',['../dd/dba/_tra_c_i_constants_8h.html#abd665a03a6204505716245362eeca1b2',1,'TraCIConstants.h']]],
+  ['invalid_5fhandle',['INVALID_HANDLE',['../df/de6/fxexdefs_8h.html#a6bedb180bae32d77457eca11086b6142',1,'fxexdefs.h']]],
+  ['invalid_5fid',['INVALID_ID',['../db/d86/_n_w_writer___open_drive_8cpp.html#a483b0a38edf0c10ef4a7cb633dc8a9fc',1,'NWWriter_OpenDrive.cpp']]],
+  ['invalid_5fint_5fvalue',['INVALID_INT_VALUE',['../dd/dba/_tra_c_i_constants_8h.html#a5722d9b8df900cf44a69151b6f4b1e8b',1,'TraCIConstants.h']]],
+  ['invalid_5fposition',['INVALID_POSITION',['../d7/def/_m_s_delay_based_traffic_light_logic_8cpp.html#a2d3191e3c0a9f18f6f172934ae8ea56b',1,'INVALID_POSITION():&#160;MSDelayBasedTrafficLightLogic.cpp'],['../d9/d7e/_m_s_s_o_t_l_e2_sensors_8cpp.html#a2d3191e3c0a9f18f6f172934ae8ea56b',1,'INVALID_POSITION():&#160;MSSOTLE2Sensors.cpp']]],
+  ['invalid_5fspeed',['INVALID_SPEED',['../d4/d70/_m_s_c_f_model_8h.html#a9535c95773190afec05c2c9064e9f80d',1,'INVALID_SPEED():&#160;MSCFModel.h'],['../df/d81/_m_s_l_c_m___l_c2013_8h.html#a9535c95773190afec05c2c9064e9f80d',1,'INVALID_SPEED():&#160;MSLCM_LC2013.h'],['../dc/d38/_m_s_vehicle_8h.html#a9535c95773190afec05c2c9064e9f80d',1,'INVALID_SPEED():&#160;MSVehicle.h']]]
+];

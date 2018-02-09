@@ -1,0 +1,6 @@
+digraph "MSE3Collector::E3Values"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{MSE3Collector::E3Values\n|+ backLeaveTime\l+ entryTime\l+ frontLeaveTime\l+ hadUpdate\l+ haltingBegin\l+ haltings\l+ intervalHaltings\l+ intervalSpeedSum\l+ intervalTimeLoss\l+ speedSum\l+ timeLoss\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

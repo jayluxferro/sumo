@@ -1,0 +1,8 @@
+digraph "NBTypeCont"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{NBTypeCont\n|- myTypes\l|+ addRestriction()\l+ copyRestrictionsAndAttrs()\l+ insert()\l+ knows()\l+ markAsSet()\l+ markAsToDiscard()\l+ NBTypeCont()\l+ setDefaults()\l+ size()\l+ writeTypes()\l+ ~NBTypeCont()\l+ getNumLanes()\l+ getSpeed()\l+ getPriority()\l+ getIsOneWay()\l+ getShallBeDiscarded()\l+ wasSet()\l+ getPermissions()\l+ getWidth()\l+ getSidewalkWidth()\l+ getBikeLaneWidth()\l- getType()\l- NBTypeCont()\l- operator=()\l* getNumLanes()\l* getSpeed()\l* getPriority()\l* getIsOneWay()\l* getShallBeDiscarded()\l* wasSet()\l* getPermissions()\l* getWidth()\l* getSidewalkWidth()\l* getBikeLaneWidth()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -myDefaultType" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{NBTypeCont::TypeDefinition\n|+ attrs\l+ bikeLaneWidth\l+ discard\l+ numLanes\l+ oneWay\l+ permissions\l+ priority\l+ restrictions\l+ sidewalkWidth\l+ speed\l+ width\l|+ TypeDefinition()\l+ TypeDefinition()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d0e/struct_n_b_type_cont_1_1_type_definition.html"];
+}

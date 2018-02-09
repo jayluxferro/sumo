@@ -1,0 +1,6 @@
+digraph "AGTime"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{AGTime\n|- sec\l|+ addDays()\l+ addHours()\l+ addMinutes()\l+ addSeconds()\l+ AGTime()\l+ AGTime()\l+ AGTime()\l+ AGTime()\l+ AGTime()\l+ AGTime()\land 19 more...\l- convert()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

@@ -1,0 +1,6 @@
+digraph "NBContHelper::edge_similar_direction_sorter"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{NBContHelper::edge\l_similar_direction_sorter\n|- myAngle\l|+ edge_similar_direction\l_sorter()\l+ operator()()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

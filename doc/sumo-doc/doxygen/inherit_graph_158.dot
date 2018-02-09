@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="MSAbstractLaneChangeModel\l::MSLCMessager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d1f/class_m_s_abstract_lane_change_model_1_1_m_s_l_c_messager.html",tooltip="A class responsible for exchanging messages between cars involved in lane-change interaction. "];
+}

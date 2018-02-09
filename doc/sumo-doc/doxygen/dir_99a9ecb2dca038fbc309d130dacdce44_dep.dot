@@ -1,0 +1,11 @@
+digraph "foxtools" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_313caf1132e152dd9b58bea13a4052ca {
+    graph [ bgcolor="#ddddee", pencolor="black", label="utils" fontname="Helvetica", fontsize="10", URL="dir_313caf1132e152dd9b58bea13a4052ca.html"]
+  dir_99a9ecb2dca038fbc309d130dacdce44 [shape=box, label="foxtools", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_99a9ecb2dca038fbc309d130dacdce44.html"];
+  }
+  dir_bf12584007c722bc233481bc9c6db799 [shape=box label="common" URL="dir_bf12584007c722bc233481bc9c6db799.html"];
+  dir_99a9ecb2dca038fbc309d130dacdce44->dir_bf12584007c722bc233481bc9c6db799 [headlabel="8", labeldistance=1.5 headhref="dir_000023_000002.html"];
+}

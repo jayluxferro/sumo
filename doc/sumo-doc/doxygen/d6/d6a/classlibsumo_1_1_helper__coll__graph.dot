@@ -1,0 +1,6 @@
+digraph "libsumo::Helper"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{libsumo::Helper\n|- mySubscribedContextValues\l- mySubscribedValues\l- myLaneTree\l- myObjects\l- myRemoteControlledPersons\l- myRemoteControlledVehicles\l|+ close()\l+ getContextSubscriptionResults()\l+ getContextSubscriptionResults()\l+ getSubscriptionResults()\l+ getSubscriptionResults()\l+ cleanup()\l+ collectObjectsInRange()\l+ convertCartesianToRoadMap()\l+ findIntermodalRoute()\l+ findRoute()\l+ getCurrentTime()\l+ getDeltaT()\l+ getEdge()\l+ getLaneChecking()\l+ getMinExpectedNumber()\land 13 more...\l+ moveToXYMap()\l+ moveToXYMap_matchingRoute\lPosition()\l+ findCloserLane()\l- Helper()\l- Helper()\l- operator=()\l* moveToXYMap()\l* moveToXYMap_matchingRoute\lPosition()\l* findCloserLane()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

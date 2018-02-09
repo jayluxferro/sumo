@@ -1,0 +1,12 @@
+digraph "OutputDevice_Network"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{OutputDevice_Network\n|- myMessage\l|+ OutputDevice_Network()\l+ ~OutputDevice_Network()\l# getOStream()\l# postWriteHook()\l* getOStream()\l* postWriteHook()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{OutputDevice\n||+ realString()\l+ getDevice()\l+ createDeviceByOption()\l+ getDeviceByOption()\l+ closeAll()\l* getDevice()\l* createDeviceByOption()\l* getDeviceByOption()\l* closeAll()\l* myOutputDevices\l* myAmBinary\l* OutputDevice()\l* ~OutputDevice()\l* ok()\l* close()\l* setPrecision()\l* getPrecision()\l* writeXMLHeader()\l* writeHeader()\land 15 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/da0/class_output_device.html",tooltip="Static storage of an output device and its base (abstract) implementation. "];
+  Node4 -> Node3 [color="grey25",fontsize="10",style="solid",label=" -myFormatter" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{OutputFormatter\n||+ closeTag()\l+ openTag()\l+ openTag()\l+ writePreformattedTag()\l+ writeXMLHeader()\l+ ~OutputFormatter()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d84/class_output_formatter.html",tooltip="Abstract base class for output formatters. "];
+  Node5 -> Node2 [color="grey25",fontsize="10",style="solid",label=" -mySocket" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{tcpip::Socket\n|# lengthLen\l- blocking_\l- host_\l- port_\l- server_socket_\l- socket_\l- verbose_\l|+ accept()\l+ close()\l+ connect()\l+ has_client_connection()\l+ is_blocking()\l+ port()\l+ receive()\l+ receiveExact()\l+ send()\l+ sendExact()\land 6 more...\l# printBufferOnVerbose()\l# receiveComplete()\l# recvAndCheck()\l- atoaddr()\l- BailOnSocketError()\l- datawaiting()\l- init()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d80/classtcpip_1_1_socket.html"];
+}

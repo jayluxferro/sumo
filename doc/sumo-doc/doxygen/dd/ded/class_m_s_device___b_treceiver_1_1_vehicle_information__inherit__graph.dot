@@ -1,0 +1,10 @@
+digraph "MSDevice_BTreceiver::VehicleInformation"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{MSDevice_BTreceiver\l::VehicleInformation\n|+ currentlySeen\l+ range\l+ seen\l|+ VehicleInformation()\l+ ~VehicleInformation()\l- operator=()\l- VehicleInformation()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{MSDevice_BTsender::\lVehicleInformation\n|+ amOnNet\l+ haveArrived\l+ route\l+ updates\l|+ getBoxBoundary()\l+ VehicleInformation()\l+ ~VehicleInformation()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d02/class_m_s_device___b_tsender_1_1_vehicle_information.html",tooltip="Stores the information of a vehicle. "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{Named\n|# myID\l|+ addTo()\l+ getID()\l+ Named()\l+ setID()\l+ ~Named()\l+ getIDSecure()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dbf/class_named.html",tooltip="Base class for objects which have an id. "];
+}

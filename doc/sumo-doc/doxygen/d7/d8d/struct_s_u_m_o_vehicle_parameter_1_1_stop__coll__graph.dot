@@ -1,0 +1,6 @@
+digraph "SUMOVehicleParameter::Stop"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{SUMOVehicleParameter\l::Stop\n|+ accessPos\l+ awaitedContainers\l+ awaitedPersons\l+ busstop\l+ chargingStation\l+ containerstop\l+ containerTriggered\l+ duration\l+ endPos\l+ index\land 7 more...\l|+ write()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

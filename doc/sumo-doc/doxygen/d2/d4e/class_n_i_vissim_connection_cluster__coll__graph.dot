@@ -1,0 +1,10 @@
+digraph "NIVissimConnectionCluster"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{NIVissimConnectionCluster\n|- myBlaID\l- myConnections\l- myEdges\l- myIncomingEdges\l- myNodeCluster\l- myNodes\l- myOutgoingEdges\l- myTLs\l- myClusters\l- myFirstFreeID\l- myStaticBlaID\l|+ around()\l+ getConnections()\l+ getIncomingContinuation()\l+ getIncomingContinuationGeometry()\l+ getNBNode()\l+ getOutgoingContinuation()\l+ getOutgoingContinuationGeometry()\l+ getPositionForEdge()\l+ hasNodeCluster()\l+ NIVissimConnectionCluster()\l+ NIVissimConnectionCluster()\l+ overlapsWith()\l+ ~NIVissimConnectionCluster()\l+ _debugOut()\l+ buildNodeClusters()\l+ clearDict()\l+ dictSize()\l+ getNextFreeNodeID()\l+ joinByDisturbances()\l+ joinBySameEdges()\l- add()\l- extendByToTreatAsSame()\l- getDisturbanceParticipators()\l- isWeakDistrictConnRealisation()\l- joinable()\l- liesOnSameEdgesEnd()\l- recheckEdges()\l- recomputeBoundary()\l- removeConnections()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -myBoundary" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{Boundary\n|- myWasInitialised\l- myXmax\l- myXmin\l- myYmax\l- myYmin\l- myZmax\l- myZmin\l|+ add()\l+ add()\l+ add()\l+ around()\l+ Boundary()\l+ Boundary()\l+ Boundary()\l+ crosses()\l+ distanceTo2D()\l+ distanceTo2D()\land 20 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dda/class_boundary.html",tooltip="A class that stores a 2D geometrical boundary. "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{AbstractPoly\n||+ AbstractPoly()\l+ AbstractPoly()\l+ around()\l+ crosses()\l+ overlapsWith()\l+ partialWithin()\l+ ~AbstractPoly()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d1a/class_abstract_poly.html"];
+}

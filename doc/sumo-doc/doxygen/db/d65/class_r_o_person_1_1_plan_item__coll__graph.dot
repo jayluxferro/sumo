@@ -1,0 +1,6 @@
+digraph "ROPerson::PlanItem"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node3 [label="{ROPerson::PlanItem\n||+ addTripItem()\l+ getDestination()\l+ getOrigin()\l+ isStop()\l+ needsRouting()\l+ saveAsXML()\l+ saveVehicles()\l+ ~PlanItem()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

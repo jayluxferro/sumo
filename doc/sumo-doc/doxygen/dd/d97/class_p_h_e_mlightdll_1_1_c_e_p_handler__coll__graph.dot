@@ -1,0 +1,6 @@
+digraph "PHEMlightdll::CEPHandler"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{PHEMlightdll::CEPHandler\n|- _ceps\l|+ CEPHandler()\l+ GetCEP()\l+ getCEPS()\l- Load()\l- ReadEmissionData()\l- ReadLine()\l- ReadVehicleFile()\l- split()\l- todouble()\l- todoubleList()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

@@ -1,0 +1,17 @@
+digraph "NIImporter_OpenStreetMap::EdgesHandler"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node4 [label="{NIImporter_OpenStreetMap\l::EdgesHandler\n|- myEdgeMap\l- myOSMNodes\l- myParentElements\l- myPlatformShapesMap\l- mySpeedMap\l|+ EdgesHandler()\l+ ~EdgesHandler()\l# myStartElement()\l# myEndElement()\l- EdgesHandler()\l- operator=()\l* myStartElement()\l* myEndElement()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{SUMOSAXHandler\n||+ SUMOSAXHandler()\l+ ~SUMOSAXHandler()\l- operator=()\l- SUMOSAXHandler()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/db8/class_s_u_m_o_s_a_x_handler.html",tooltip="SAX-handler base for SUMO-files. "];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{GenericSAXHandler\n|- myCharactersVector\l- myFileName\l- myParentIndicator\l|+ characters()\l+ endElement()\l+ GenericSAXHandler()\l+ getFileName()\l+ registerParent()\l+ setFileName()\l+ startElement()\l+ ~GenericSAXHandler()\l+ warning()\l+ error()\l+ fatalError()\l# buildErrorMessage()\l# myCharacters()\l# myEndElement()\l# myStartElement()\l- convert()\l- convertTag()\l- GenericSAXHandler()\l- operator=()\l* warning()\l* error()\l* fatalError()\l* AttrMap\l* myPredefinedTags\l* myPredefinedTagsMML\l* TagMap\l* myTagMap\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/da8/class_generic_s_a_x_handler.html",tooltip="A handler which converts occuring elements and attributes into enums. "];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node7 [label="{XERCES_CPP_NAMESPACE\l::DefaultHandler\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node6 [color="grey25",fontsize="10",style="solid",label=" -myParentHandler" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 -> Node4 [color="grey25",fontsize="10",style="solid",label=" -myCurrentEdge" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 [label="{NIImporter_OpenStreetMap\l::Edge\n|+ id\l+ myBuswayType\l+ myCurrentIsPlatform\l+ myCurrentIsRoad\l+ myCurrentNodes\l+ myCyclewayType\l+ myHighWayType\l+ myIsOneWay\l+ myLayer\l+ myMaxSpeed\l+ myNoLanes\l+ myNoLanesForward\l+ myParkingType\l+ streetName\l|+ Edge()\l- operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d25/struct_n_i_importer___open_street_map_1_1_edge.html",tooltip="An internal definition of a loaded edge. "];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node9 [label="{Parameterised\n|- myMap\l|+ clearParameter()\l+ getDouble()\l+ getMap()\l+ getParameter()\l+ knowsParameter()\l+ Parameterised()\l+ Parameterised()\l+ setParameter()\l+ unsetParameter()\l+ updateParameter()\l+ writeParams()\l+ ~Parameterised()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dc7/class_parameterised.html",tooltip="An upper class for objects with additional parameters. "];
+}

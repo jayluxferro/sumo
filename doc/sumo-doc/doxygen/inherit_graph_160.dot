@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="MSAmitranTrajectories",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/ded/class_m_s_amitran_trajectories.html",tooltip="Realises dumping the complete network state. "];
+}

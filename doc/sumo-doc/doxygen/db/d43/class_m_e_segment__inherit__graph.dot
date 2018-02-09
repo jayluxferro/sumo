@@ -1,0 +1,8 @@
+digraph "MESegment"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{MESegment\n|+ DO_NOT_PATCH_JAM_THRESHOLD\l- myA\l- myB\l- myBlockTimes\l- myCapacity\l- myCarQues\l- myDetectorData\l- myEdge\l- myEntryBlockTime\l- myFollowerMap\l- myHeadwayCapacity\land 16 more...\l- myDummyParent\l- myVaporizationTarget\l|+ addReminders()\l+ free()\l+ getBruttoOccupancy()\l+ getCarNumber()\l+ getEdge()\l+ getEntryBlockTime()\l+ getEventTime()\l+ getEventTimeSeconds()\l+ getFlow()\l+ getIndex()\land 27 more...\l+ addDetector()\l+ removeDetector()\l+ prepareDetectorForWriting()\l+ saveState()\l+ loadState()\l+ isInvalid()\l- getMaxPenaltySeconds()\l- getTimeHeadway()\l- hasBlockedLeader()\l- jamThresholdForSpeed()\l- limitedControlOverride()\l- MESegment()\l- MESegment()\l- newArrival()\l- operator=()\l- overtake()\l- recomputeJamThreshold()\l- setSpeedForQueue()\l- tauWithVehLength()\l- updateDetectorsOnLeave()\l- useMultiQueue()\l* addDetector()\l* removeDetector()\l* prepareDetectorForWriting()\l* saveState()\l* loadState()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{Named\n|# myID\l|+ addTo()\l+ getID()\l+ Named()\l+ setID()\l+ ~Named()\l+ getIDSecure()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dbf/class_named.html",tooltip="Base class for objects which have an id. "];
+}

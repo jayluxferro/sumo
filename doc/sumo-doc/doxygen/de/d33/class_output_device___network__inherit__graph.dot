@@ -1,0 +1,8 @@
+digraph "OutputDevice_Network"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{OutputDevice_Network\n|- myMessage\l- mySocket\l|+ OutputDevice_Network()\l+ ~OutputDevice_Network()\l# getOStream()\l# postWriteHook()\l* getOStream()\l* postWriteHook()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{OutputDevice\n||+ realString()\l+ getDevice()\l+ createDeviceByOption()\l+ getDeviceByOption()\l+ closeAll()\l* getDevice()\l* createDeviceByOption()\l* getDeviceByOption()\l* closeAll()\l* myOutputDevices\l* myFormatter\l* myAmBinary\l* OutputDevice()\l* ~OutputDevice()\l* ok()\l* close()\l* setPrecision()\l* getPrecision()\l* writeXMLHeader()\land 16 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/da0/class_output_device.html",tooltip="Static storage of an output device and its base (abstract) implementation. "];
+}

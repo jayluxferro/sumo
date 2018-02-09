@@ -1,0 +1,19 @@
+digraph "ODAmitranHandler"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node4 [label="{ODAmitranHandler\n|- myBegin\l- myEnd\l- myVehicleType\l|+ ODAmitranHandler()\l+ ~ODAmitranHandler()\l# myStartElement()\l- ODAmitranHandler()\l- operator=()\l* myStartElement()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{SUMOSAXHandler\n||+ SUMOSAXHandler()\l+ ~SUMOSAXHandler()\l- operator=()\l- SUMOSAXHandler()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/db8/class_s_u_m_o_s_a_x_handler.html",tooltip="SAX-handler base for SUMO-files. "];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{GenericSAXHandler\n|- myCharactersVector\l- myFileName\l- myParentIndicator\l|+ characters()\l+ endElement()\l+ GenericSAXHandler()\l+ getFileName()\l+ registerParent()\l+ setFileName()\l+ startElement()\l+ ~GenericSAXHandler()\l+ warning()\l+ error()\l+ fatalError()\l# buildErrorMessage()\l# myCharacters()\l# myEndElement()\l# myStartElement()\l- convert()\l- convertTag()\l- GenericSAXHandler()\l- operator=()\l* warning()\l* error()\l* fatalError()\l* AttrMap\l* myPredefinedTags\l* myPredefinedTagsMML\l* TagMap\l* myTagMap\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/da8/class_generic_s_a_x_handler.html",tooltip="A handler which converts occuring elements and attributes into enums. "];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node7 [label="{XERCES_CPP_NAMESPACE\l::DefaultHandler\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node6 [color="grey25",fontsize="10",style="solid",label=" -myParentHandler" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 -> Node4 [color="grey25",fontsize="10",style="solid",label=" -myMatrix" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 [label="{ODMatrix\n|- myContainer\l- myMissingDistricts\l- myNumDiscarded\l- myNumLoaded\l- myNumWritten\l- myShortCut\l|+ add()\l+ add()\l+ applyCurve()\l+ getCells()\l+ getNumDiscarded()\l+ getNumLoaded()\l+ getNumWritten()\l+ loadMatrix()\l+ loadRoutes()\l+ ODMatrix()\land 8 more...\l# applyCurve()\l# computeDeparts()\l- getNextNonCommentLine()\l- ODMatrix()\l- operator=()\l- parseSingleTime()\l- readFactor()\l- readTime()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d15/class_o_d_matrix.html",tooltip="An O/D (origin/destination) matrix. "];
+  Node9 -> Node8 [color="grey25",fontsize="10",style="solid",label=" -myDistricts" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node9 [label="{ODDistrictCont\n||+ getRandomSinkFromDistrict()\l+ getRandomSourceFromDistrict()\l+ loadDistricts()\l+ makeDistricts()\l+ ODDistrictCont()\l+ ~ODDistrictCont()\l- ODDistrictCont()\l- operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d1f/class_o_d_district_cont.html",tooltip="A container for districts. "];
+  Node10 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node10 [label="{NamedObjectCont\< ODDistrict *\>\n|- myMap\l|+ add()\l+ begin()\l+ changeID()\l+ clear()\l+ end()\l+ get()\l+ insertIDs()\l+ remove()\l+ size()\l+ ~NamedObjectCont()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4d/class_named_object_cont.html"];
+}

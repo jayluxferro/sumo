@@ -1,0 +1,13 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="MSAbstractLaneChangeModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d0d/class_m_s_abstract_lane_change_model.html",tooltip="Interface for lane-change models. "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="MSLCM_DK2008",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/daf/class_m_s_l_c_m___d_k2008.html",tooltip="A lane change model developed by D. Krajzewicz between 2004 and 2010. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="MSLCM_LC2013",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/ddc/class_m_s_l_c_m___l_c2013.html",tooltip="A lane change model developed by D. Krajzewicz, J. Erdmann et al. between 2004 and 2013..."];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="MSLCM_SL2015",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9d/class_m_s_l_c_m___s_l2015.html",tooltip="A lane change model developed by J. Erdmann. "];
+}

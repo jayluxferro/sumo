@@ -1,0 +1,12 @@
+digraph "MSParkingArea"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{MSParkingArea\n|# myAngle\l# myCapacity\l# myLastFreeLot\l# myLength\l# myShape\l# mySpaceOccupancies\l# myWidth\l|+ addLotEntry()\l+ enter()\l+ getAngle()\l+ getCapacity()\l+ getLastFreePos()\l+ getLength()\l+ getOccupancy()\l+ getSpaceDim()\l+ getVehicleAngle()\l+ getVehiclePosition()\l+ getWidth()\l+ leaveFrom()\l+ MSParkingArea()\l+ ~MSParkingArea()\l# computeLastFreePos()\l- MSParkingArea()\l- operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{MSStoppingPlace\n|# myAccessPos\l# myBegPos\l# myEndPos\l# myEndPositions\l# myLane\l# myLastFreePos\l# myLines\l# myName\l# myWaitingPos\l# myWaitingTransportables\l|+ addAccess()\l+ addTransportable()\l+ enter()\l+ getAccessPos()\l+ getAllAccessPos()\l+ getBeginLanePosition()\l+ getEndLanePosition()\l+ getLane()\l+ getLastFreePos()\l+ getMyName()\land 9 more...\l# computeLastFreePos()\l- MSStoppingPlace()\l- operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d39/class_m_s_stopping_place.html",tooltip="A lane area vehicles can halt at. "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{Named\n|# myID\l|+ addTo()\l+ getID()\l+ Named()\l+ setID()\l+ ~Named()\l+ getIDSecure()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dbf/class_named.html",tooltip="Base class for objects which have an id. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{GUIParkingArea\n|- myShapeLengths\l- myShapeRotations\l- mySignPos\l- mySignRot\l|+ GUIParkingArea()\l+ ~GUIParkingArea()\l+ getPopUpMenu()\l+ getParameterWindow()\l+ getCenteringBoundary()\l+ drawGL()\l* getPopUpMenu()\l* getParameterWindow()\l* getCenteringBoundary()\l* drawGL()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/db6/class_g_u_i_parking_area.html",tooltip="A lane area vehicles can halt at (gui-version) "];
+}

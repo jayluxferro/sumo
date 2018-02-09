@@ -1,0 +1,8 @@
+digraph "BinaryFormatter"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{BinaryFormatter\n|- myXMLStack\l|+ BinaryFormatter()\l+ closeTag()\l+ openTag()\l+ openTag()\l+ writeAttr()\l+ writeAttr()\l+ writeAttr()\l+ writeAttr()\l+ writeAttr()\l+ writeAttr()\land 8 more...\l+ writeAttr()\l+ writeAttr()\l+ writeAttr()\l+ writeAttr()\l- writeAttrHeader()\l- writePosition()\l- writeStaticHeader()\l- writeStringList()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{OutputFormatter\n||+ closeTag()\l+ openTag()\l+ openTag()\l+ writePreformattedTag()\l+ writeXMLHeader()\l+ ~OutputFormatter()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d84/class_output_formatter.html",tooltip="Abstract base class for output formatters. "];
+}

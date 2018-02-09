@@ -1,0 +1,14 @@
+digraph "GUIInstantInductLoop"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{GUIInstantInductLoop\n|+ myLock\l|+ buildDetectorGUIRepresentation()\l+ GUIInstantInductLoop()\l+ ~GUIInstantInductLoop()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{MSInstantInductLoop\n|# myEntryTimes\l# myLastExitTime\l# myOutputDevice\l# myPosition\l|+ MSInstantInductLoop()\l+ writeXMLDetectorProlog()\l+ writeXMLOutput()\l+ ~MSInstantInductLoop()\l+ notifyMove()\l+ notifyLeave()\l# write()\l- MSInstantInductLoop()\l- operator=()\l* notifyMove()\l* notifyLeave()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dde/class_m_s_instant_induct_loop.html",tooltip="An instantaneous induction loop. "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{MSMoveReminder\n|# myDescription\l# myLane\l- myLastVehicleUpdateValues\l|+ getDescription()\l+ getLane()\l+ MSMoveReminder()\l+ notifyMoveInternal()\l+ setDescription()\l+ ~MSMoveReminder()\l+ notifyEnter()\l+ notifyMove()\l+ notifyLeave()\l+ updateDetector()\l# removeFromVehicleUpdateValues()\l- operator=()\l* notifyEnter()\l* notifyMove()\l* notifyLeave()\l* updateDetector()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/da5/class_m_s_move_reminder.html",tooltip="Something on a lane to be noticed about vehicle movement. "];
+  Node3 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{MSDetectorFileOutput\n||+ MSDetectorFileOutput()\l+ MSDetectorFileOutput()\l+ ~MSDetectorFileOutput()\l* myVehicleTypes\l* writeXMLOutput()\l* writeXMLDetectorProlog()\l* reset()\l* detectorUpdate()\l* buildDetectorGUIRepresentation()\l* vehicleApplies()\l* isTyped()\l* MSDetectorFileOutput()\l* operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/de2/class_m_s_detector_file_output.html",tooltip="Base of value-generating classes (detectors) "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{Named\n|# myID\l|+ addTo()\l+ getID()\l+ Named()\l+ setID()\l+ ~Named()\l+ getIDSecure()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dbf/class_named.html",tooltip="Base class for objects which have an id. "];
+}

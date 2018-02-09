@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="NBEdgeCont::PostProcessConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dfd/struct_n_b_edge_cont_1_1_post_process_connection.html",tooltip="A structure representing a connection between two lanes. "];
+}

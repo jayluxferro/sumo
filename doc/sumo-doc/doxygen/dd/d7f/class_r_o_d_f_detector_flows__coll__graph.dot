@@ -1,0 +1,6 @@
+digraph "RODFDetectorFlows"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{RODFDetectorFlows\n|# myBeginTime\l# myEndTime\l# myFastAccessFlows\l# myMaxDetectorFlow\l# myStepOffset\l|+ addFlow()\l+ getFlowDefs()\l+ getFlowSumSecure()\l+ getMaxDetectorFlow()\l+ knows()\l+ mesoJoin()\l+ printAbsolute()\l+ removeFlow()\l+ RODFDetectorFlows()\l+ setFlows()\l+ ~RODFDetectorFlows()\l- operator=()\l- RODFDetectorFlows()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

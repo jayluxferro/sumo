@@ -1,0 +1,8 @@
+digraph "TrackerValueDesc"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{TrackerValueDesc\n|- myActiveCol\l- myAggregatedValues\l- myAggregationInterval\l- myInactiveCol\l- myInvalidValue\l- myLock\l- myMax\l- myMin\l- myName\l- myRecordingBegin\l- myTmpLastAggValue\l- myValidNo\l- myValues\l|+ addValue()\l+ getAggregatedValues()\l+ getAggregationSpan()\l+ getColor()\l+ getMax()\l+ getMin()\l+ getName()\l+ getRange()\l+ getRecordingBegin()\l+ getValues()\l+ getYCenter()\l+ setAggregationSpan()\l+ TrackerValueDesc()\l+ unlockValues()\l+ ~TrackerValueDesc()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{ValueRetriever\< double \>\n||+ addValue()\l+ ValueRetriever()\l+ ~ValueRetriever()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/de3/class_value_retriever.html"];
+}

@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="MSSOTLSensors",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d45/class_m_s_s_o_t_l_sensors.html"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="MSSOTLE2Sensors",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d42/class_m_s_s_o_t_l_e2_sensors.html"];
+}

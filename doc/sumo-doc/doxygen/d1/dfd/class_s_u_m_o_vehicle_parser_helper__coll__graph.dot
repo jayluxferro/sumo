@@ -1,0 +1,6 @@
+digraph "SUMOVehicleParserHelper"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{SUMOVehicleParserHelper\n|- allowedCFModelAttrs\l- allowedJMAttrs\l- allowedLCModelAttrs\l|+ beginVTypeParsing()\l+ parseFlowAttributes()\l+ parseGuiShape()\l+ parseJMParams()\l+ parseLCParams()\l+ parseVehicleAttributes()\l+ parseVehicleClass()\l+ parseVTypeEmbedded()\l+ parseWalkPos()\l+ processActionStepLength()\l- getAllowedCFModelAttrs()\l- parseCommonAttributes()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

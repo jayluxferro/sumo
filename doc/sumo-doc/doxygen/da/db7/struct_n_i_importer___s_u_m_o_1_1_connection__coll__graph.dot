@@ -1,0 +1,15 @@
+digraph "NIImporter_SUMO::Connection"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{NIImporter_SUMO::Connection\n|+ contPos\l+ keepClear\l+ mayDefinitelyPass\l+ speed\l+ tlID\l+ tlLinkNo\l+ toEdgeID\l+ toLaneIdx\l+ visibility\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{Parameterised\n|- myMap\l|+ clearParameter()\l+ getDouble()\l+ getMap()\l+ getParameter()\l+ knowsParameter()\l+ Parameterised()\l+ Parameterised()\l+ setParameter()\l+ unsetParameter()\l+ updateParameter()\l+ writeParams()\l+ ~Parameterised()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dc7/class_parameterised.html",tooltip="An upper class for objects with additional parameters. "];
+  Node4 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +customShape" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{PositionVector\n||+ add()\l+ add()\l+ angleAt2D()\l+ append()\l+ area()\l+ around()\l+ beginEndAngle()\l+ closePolygon()\l+ crosses()\l+ distance2D()\land 65 more...\l+ positionAtOffset()\l+ positionAtOffset2D()\l+ sideOffset()\l- intersects()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d56/class_position_vector.html",tooltip="A list of positions. "];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{AbstractPoly\n||+ AbstractPoly()\l+ AbstractPoly()\l+ around()\l+ crosses()\l+ overlapsWith()\l+ partialWithin()\l+ ~AbstractPoly()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d1a/class_abstract_poly.html"];
+  Node6 -> Node4 [dir="back",color="firebrick4",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{std::vector\< Position \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node4 [color="grey25",fontsize="10",style="solid",label=" +EMPTY" ,arrowhead="odiamond",fontname="Helvetica"];
+}

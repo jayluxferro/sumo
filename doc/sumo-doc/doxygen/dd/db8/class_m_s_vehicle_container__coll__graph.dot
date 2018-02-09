@@ -1,0 +1,6 @@
+digraph "MSVehicleContainer"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{MSVehicleContainer\n|- array\l- currentSize\l|+ add()\l+ add()\l+ anyWaitingBefore()\l+ isEmpty()\l+ MSVehicleContainer()\l+ pop()\l+ remove()\l+ showArray()\l+ size()\l+ top()\l+ topTime()\l+ ~MSVehicleContainer()\l- addReplacing()\l- isFull()\l- percolateDown()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

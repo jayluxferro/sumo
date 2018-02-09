@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="GLHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d96/class_g_l_helper.html",tooltip="Some methods which help to draw certain geometrical objects in openGL. "];
+}

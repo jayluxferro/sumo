@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="TraCIServerAPI_MultiEntryExit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/da4/class_tra_c_i_server_a_p_i___multi_entry_exit.html",tooltip="APIs for getting/setting multi-entry/multi-exit detector values via TraCI. "];
+}

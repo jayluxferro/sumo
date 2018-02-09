@@ -1,0 +1,10 @@
+digraph "RODFDetector"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{RODFDetector\n|# myFollowingDetectors\l# myLaneID\l# myPosition\l# myPriorDetectors\l# myRoute2Edge\l# mySplitProbabilities\l# myType\l|+ addFollowingDetector()\l+ addPriorDetector()\l+ addRoute()\l+ addRoutes()\l+ buildDestinationDistribution()\l+ computeSplitProbabilities()\l+ getFollowerDetectors()\l+ getPriorDetectors()\l+ getRouteVector()\l+ getSplitProbabilities()\l+ hasRoutes()\l+ RODFDetector()\l+ RODFDetector()\l+ setType()\l+ ~RODFDetector()\l+ getLaneID()\l+ getEdgeID()\l+ getPos()\l+ getType()\l+ writeEmitterDefinition()\l+ writeRoutes()\l+ writeSingleSpeedTrigger()\l+ writeEndRerouterDetectors()\l# computeDistanceFactor()\l# getFlowFor()\l- operator=()\l- RODFDetector()\l* getLaneID()\l* getEdgeID()\l* getPos()\l* getType()\l* writeEmitterDefinition()\l* writeRoutes()\l* writeSingleSpeedTrigger()\l* writeEndRerouterDetectors()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{Named\n|# myID\l|+ addTo()\l+ getID()\l+ Named()\l+ setID()\l+ ~Named()\l+ getIDSecure()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dbf/class_named.html",tooltip="Base class for objects which have an id. "];
+  Node4 -> Node2 [color="grey25",fontsize="10",style="solid",label=" #myRoutes" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{RODFRouteCont\n|# myConnectionOccurences\l# myRoutes\l|+ addRouteDesc()\l+ get()\l+ removeIllegal()\l+ removeRouteDesc()\l+ RODFRouteCont()\l+ save()\l+ sortByDistance()\l+ ~RODFRouteCont()\l# setID()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/de4/class_r_o_d_f_route_cont.html",tooltip="A container for DFROUTER-routes. "];
+}

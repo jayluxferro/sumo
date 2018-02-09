@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="MSVehicle::LaneQ",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d89/struct_m_s_vehicle_1_1_lane_q.html",tooltip="A structure representing the best lanes for continuing the current route starting at &#39;lane&#39;..."];
+}

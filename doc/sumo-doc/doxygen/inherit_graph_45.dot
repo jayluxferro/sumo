@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="FileHelpers",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d41/class_file_helpers.html",tooltip="Functions for an easier usage of files and paths. "];
+}

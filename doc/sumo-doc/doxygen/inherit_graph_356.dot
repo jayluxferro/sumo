@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="NIImporter_DlrNavteq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d5b/class_n_i_importer___dlr_navteq.html",tooltip="Importer for networks stored in Elmar&#39;s format. "];
+}

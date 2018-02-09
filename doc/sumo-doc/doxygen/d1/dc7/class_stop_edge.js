@@ -1,0 +1,27 @@
+var class_stop_edge =
+[
+    [ "StopEdge", "d1/dc7/class_stop_edge.html#a6fcd4d1747fd705231323fb310cb5af7", null ],
+    [ "addSuccessor", "d1/dc7/class_stop_edge.html#a98bba6fe2b3430cbc0d04d56763ef7ee", null ],
+    [ "addTo", "d1/dc7/class_stop_edge.html#a3e003a70feed88c03c0dd8506c3ad2bc", null ],
+    [ "clearSuccessors", "d1/dc7/class_stop_edge.html#aeb553a5d351890d5a13dfd809e9989da", null ],
+    [ "getEdge", "d1/dc7/class_stop_edge.html#a7ef683727192707ef4a76e83466aab3e", null ],
+    [ "getEffort", "d1/dc7/class_stop_edge.html#aabd53519672ea7fec3f073ce89484614", null ],
+    [ "getEffortStatic", "d1/dc7/class_stop_edge.html#aaf7662005410a8242a7499237e7c333e", null ],
+    [ "getID", "d1/dc7/class_stop_edge.html#a816d9a1d886e7a51864d60d9f2bfe51b", null ],
+    [ "getIDSecure", "d1/dc7/class_stop_edge.html#a5c1d1ed133d7f0cafa8932ba36930e16", null ],
+    [ "getLength", "d1/dc7/class_stop_edge.html#a8089ea21ac5befaf771b1ca4ebbb61b9", null ],
+    [ "getLine", "d1/dc7/class_stop_edge.html#a9e695f174484db3d23523ae5e5a113d1", null ],
+    [ "getNumericalID", "d1/dc7/class_stop_edge.html#a8f9c6dc2ef3e3291d8862a4073e335f5", null ],
+    [ "getSuccessors", "d1/dc7/class_stop_edge.html#a699711baa6524a509e986e41aab51497", null ],
+    [ "getTravelTime", "d1/dc7/class_stop_edge.html#a3cb7f3f93bbdde942b26eaccfaff5448", null ],
+    [ "getTravelTimeStatic", "d1/dc7/class_stop_edge.html#a15047f592ecc810a87b209062f640bc1", null ],
+    [ "hasEffort", "d1/dc7/class_stop_edge.html#a01a4852522a1dac731c8601c10453a67", null ],
+    [ "includeInRoute", "d1/dc7/class_stop_edge.html#aef55bd31f671cef43bb6d84f1bcece9c", null ],
+    [ "prohibits", "d1/dc7/class_stop_edge.html#aa78849c019d369a874e9f41eb47e25b2", null ],
+    [ "removeSuccessor", "d1/dc7/class_stop_edge.html#a03dd31f49e46941d36725013f27060bc", null ],
+    [ "setID", "d1/dc7/class_stop_edge.html#a297f24cc96a298e45038720ebaec5b7a", null ],
+    [ "setLength", "d1/dc7/class_stop_edge.html#a3a7d11775c596197a62826e932963948", null ],
+    [ "setSuccessors", "d1/dc7/class_stop_edge.html#ac63167567a62484a82d1c8e1445ef554", null ],
+    [ "myFollowingEdges", "d1/dc7/class_stop_edge.html#a404d5df10a44960182b8437e6c3be062", null ],
+    [ "myID", "d1/dc7/class_stop_edge.html#a1c4c561f94309ed24571ddc8baa9370a", null ]
+];

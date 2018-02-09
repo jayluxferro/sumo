@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="NIImporter_VISUM::TypeParser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/daa/struct_n_i_importer___v_i_s_u_m_1_1_type_parser.html",tooltip="A complete call description for parsing a single db. "];
+}

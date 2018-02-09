@@ -1,0 +1,6 @@
+digraph "MSLaneChanger"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{MSLaneChanger\n|# myAllowsChanging\l# myCandi\l# myChanger\l# myChangeToOpposite\l|+ laneChange()\l+ MSLaneChanger()\l+ ~MSLaneChanger()\l# applyTraCICommands()\l# change()\l# changeOpposite()\l# checkChange()\l# checkChangeWithinEdge()\l# checkTraCICommands()\l# continueChange()\l# findCandidate()\l# getRealFollower()\l# getRealLeader()\land 8 more...\l# computeOvertakingTime()\l# getCloserFollower()\l- MSLaneChanger()\l- MSLaneChanger()\l- operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

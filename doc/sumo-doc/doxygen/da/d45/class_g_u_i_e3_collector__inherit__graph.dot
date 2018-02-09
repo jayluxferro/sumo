@@ -1,0 +1,12 @@
+digraph "GUIE3Collector"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{GUIE3Collector\n||+ buildDetectorGUIRepresentation()\l+ getEntries()\l+ getExits()\l+ GUIE3Collector()\l+ ~GUIE3Collector()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{MSE3Collector\n|# myEnteredContainer\l# myEntries\l# myEntryReminders\l# myExits\l# myHaltingSpeedThreshold\l# myHaltingTimeThreshold\l# myLastResetTime\l# myLeaveReminders\l# myLeftContainer\l# myCurrentMeanSpeed\l# myCurrentHaltingsNumber\l|+ detectorUpdate()\l+ enter()\l+ leave()\l+ leaveFront()\l+ MSE3Collector()\l+ reset()\l+ ~MSE3Collector()\l+ getCurrentMeanSpeed()\l+ getCurrentHaltingNumber()\l+ getVehiclesWithin()\l+ getCurrentVehicleIDs()\l+ writeXMLOutput()\l+ writeXMLDetectorProlog()\l- MSE3Collector()\l- operator=()\l* myCurrentMeanSpeed\l* myCurrentHaltingsNumber\l* getCurrentMeanSpeed()\l* getCurrentHaltingNumber()\l* getVehiclesWithin()\l* getCurrentVehicleIDs()\l* writeXMLOutput()\l* writeXMLDetectorProlog()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/de7/class_m_s_e3_collector.html",tooltip="A detector of vehicles passing an area between entry/exit points. "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{MSDetectorFileOutput\n||+ MSDetectorFileOutput()\l+ MSDetectorFileOutput()\l+ ~MSDetectorFileOutput()\l* myVehicleTypes\l* writeXMLOutput()\l* writeXMLDetectorProlog()\l* reset()\l* detectorUpdate()\l* buildDetectorGUIRepresentation()\l* vehicleApplies()\l* isTyped()\l* MSDetectorFileOutput()\l* operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/de2/class_m_s_detector_file_output.html",tooltip="Base of value-generating classes (detectors) "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{Named\n|# myID\l|+ addTo()\l+ getID()\l+ Named()\l+ setID()\l+ ~Named()\l+ getIDSecure()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dbf/class_named.html",tooltip="Base class for objects which have an id. "];
+}

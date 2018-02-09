@@ -1,0 +1,8 @@
+digraph "MSDetectorControl"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{MSDetectorControl\n|# myDetectors\l# myIntervals\l# myLastCalls\l# myMeanData\l|+ add()\l+ add()\l+ add()\l+ addDetectorAndInterval()\l+ close()\l+ getAvailableTypes()\l+ getTypedDetectors()\l+ MSDetectorControl()\l+ updateDetectors()\l+ writeOutput()\l+ ~MSDetectorControl()\l- MSDetectorControl()\l- operator=()\l* DetectorFilePair\l* DetectorFileVec\l* IntervalsKey\l* Intervals\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #myEmptyContainer" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{NamedObjectCont\< MSDetector\lFileOutput *\>\n|- myMap\l|+ add()\l+ begin()\l+ changeID()\l+ clear()\l+ end()\l+ get()\l+ insertIDs()\l+ remove()\l+ size()\l+ ~NamedObjectCont()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4d/class_named_object_cont.html"];
+}

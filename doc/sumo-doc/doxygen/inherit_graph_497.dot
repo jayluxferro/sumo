@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="RODFRouteCont",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/de4/class_r_o_d_f_route_cont.html",tooltip="A container for DFROUTER-routes. "];
+}

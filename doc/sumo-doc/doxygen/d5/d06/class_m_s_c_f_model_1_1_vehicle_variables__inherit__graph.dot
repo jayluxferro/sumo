@@ -1,0 +1,16 @@
+digraph "MSCFModel::VehicleVariables"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{MSCFModel::VehicleVariables\n||+ ~VehicleVariables()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{MSCFModel_IDM::VehicleVariables\n|+ levelOfService\l|+ VehicleVariables()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d1e/class_m_s_c_f_model___i_d_m_1_1_vehicle_variables.html"];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{MSCFModel_Kerner::Vehicle\lVariables\n|+ rand\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d69/class_m_s_c_f_model___kerner_1_1_vehicle_variables.html"];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{MSCFModel_PWag2009\l::VehicleVariables\n|+ aOld\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d64/class_m_s_c_f_model___p_wag2009_1_1_vehicle_variables.html"];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{MSCFModel_SmartSK::\lSSKVehicleVariables\n|+ ggOld\l+ gOld\l+ myHeadway\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dd6/class_m_s_c_f_model___smart_s_k_1_1_s_s_k_vehicle_variables.html"];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{MSCFModel_Wiedemann\l::VehicleVariables\n|+ accelSign\l|+ VehicleVariables()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dd6/class_m_s_c_f_model___wiedemann_1_1_vehicle_variables.html"];
+}

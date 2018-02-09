@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="MSDevice_BTreceiver\l::MeetingPoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/dd2/class_m_s_device___b_treceiver_1_1_meeting_point.html",tooltip="Holds the information about exact positions/speeds/time of the begin/end of a meeting. "];
+}

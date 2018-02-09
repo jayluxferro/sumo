@@ -1,0 +1,16 @@
+digraph "FXSingleEventThread"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{FXSingleEventThread\n|- event\l- myApp\l- myClient\l|+ FXSingleEventThread()\l+ onThreadEvent()\l+ onThreadSignal()\l+ run()\l+ signal()\l+ signal()\l+ ~FXSingleEventThread()\l+ sleep()\l# FXSingleEventThread()\l- FXSingleEventThread()\l- operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{FXObject\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node2 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{FXThread\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{GNELoadThread\n|# myErrorRetriever\l# myEventQue\l# myEventThrow\l# myFile\l# myLoadNet\l# myMessageRetriever\l# myNewNet\l# myParent\l# myWarningRetriever\l|+ GNELoadThread()\l+ loadConfigOrNet()\l+ retrieveMessage()\l+ run()\l+ ~GNELoadThread()\l+ fillOptions()\l+ setDefaultOptions()\l# initOptions()\l# submitEndAndCleanup()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/de8/class_g_n_e_load_thread.html"];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{GUILoadThread\n|# myErrorRetriever\l# myEventQue\l# myEventThrow\l# myFile\l# myLoadNet\l# myMessageRetriever\l# myParent\l# myTitle\l# myWarningRetriever\l|+ getFileName()\l+ GUILoadThread()\l+ loadConfigOrNet()\l+ retrieveMessage()\l+ run()\l+ ~GUILoadThread()\l# submitEndAndCleanup()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/db5/class_g_u_i_load_thread.html"];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{GUIRunThread\n|# myApplicationSnapshots\l# myApplicationSnapshotsLock\l# myBreakpointLock\l# myBreakpoints\l# myErrorRetriever\l# myEventQue\l# myEventThrow\l# myHalting\l# myHaveSignaledEnd\l# myMessageRetriever\land 10 more...\l|+ begin()\l+ deleteSim()\l+ getBreakpointLock()\l+ getBreakpoints()\l+ getNet()\l+ getSimEndTime()\l+ getSnapshots()\l+ getSnapshotsLock()\l+ GUIRunThread()\l+ init()\land 11 more...\l# makeStep()\l# waitForSnapshots()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d27/class_g_u_i_run_thread.html"];
+}

@@ -1,0 +1,6 @@
+digraph "RTree&lt; DATATYPE, DATATYPENP, ELEMTYPE, NUMDIMS, CONTEXT, ELEMTYPEREAL, TMAXNODES, TMINNODES &gt;::Rect"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{RTree\< DATATYPE, DATATYPENP,\l ELEMTYPE, NUMDIMS, CONTEXT,\l ELEMTYPEREAL, TMAXNODES, TMINNODES \>::Rect\n|+ m_max\l+ m_min\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

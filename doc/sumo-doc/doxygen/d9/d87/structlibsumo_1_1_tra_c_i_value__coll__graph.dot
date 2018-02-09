@@ -1,0 +1,10 @@
+digraph "libsumo::TraCIValue"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{libsumo::TraCIValue\n|+ @15\l+ scalar\l+ string\l+ stringList\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +color" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{libsumo::TraCIColor\n|+ a\l+ b\l+ g\l+ r\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d97/structlibsumo_1_1_tra_c_i_color.html",tooltip="A color. "];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +position" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{libsumo::TraCIPosition\n|+ x\l+ y\l+ z\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d40/structlibsumo_1_1_tra_c_i_position.html",tooltip="A 3D-position. "];
+}

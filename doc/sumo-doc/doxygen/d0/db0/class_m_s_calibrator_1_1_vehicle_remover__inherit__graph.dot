@@ -1,0 +1,8 @@
+digraph "MSCalibrator::VehicleRemover"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{MSCalibrator::VehicleRemover\n|- myLaneIndex\l- myParent\l|+ disable()\l+ notifyEnter()\l+ VehicleRemover()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{MSMoveReminder\n|# myDescription\l# myLane\l- myLastVehicleUpdateValues\l|+ getDescription()\l+ getLane()\l+ MSMoveReminder()\l+ notifyMoveInternal()\l+ setDescription()\l+ ~MSMoveReminder()\l+ notifyEnter()\l+ notifyMove()\l+ notifyLeave()\l+ updateDetector()\l# removeFromVehicleUpdateValues()\l- operator=()\l* notifyEnter()\l* notifyMove()\l* notifyLeave()\l* updateDetector()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/da5/class_m_s_move_reminder.html",tooltip="Something on a lane to be noticed about vehicle movement. "];
+}

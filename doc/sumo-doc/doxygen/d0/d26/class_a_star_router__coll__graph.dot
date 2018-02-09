@@ -1,0 +1,21 @@
+digraph "AStarRouter&lt; E, V, PF &gt;"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node3 [label="{AStarRouter\< E, V, PF \>\n|# myEdgeInfos\l# myFound\l# myFrontierList\l# myMaxSpeed\l|+ AStarRouter()\l+ AStarRouter()\l+ buildPathFrom()\l+ clone()\l+ compute()\l+ init()\l+ recomputeCosts()\l+ ~AStarRouter()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{SUMOAbstractRouter\l\< E, V \>\n|# myBulkMode\l- myNumQueries\l- myQueryStartTime\l- myQueryTimeSum\l- myQueryVisits\l- myType\l|+ clone()\l+ compute()\l+ endQuery()\l+ getEffort()\l+ recomputeCosts()\l+ setBulkMode()\l+ startQuery()\l+ SUMOAbstractRouter()\l+ ~SUMOAbstractRouter()\l- operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d23/class_s_u_m_o_abstract_router.html"];
+  Node5 -> Node4 [color="grey25",fontsize="10",style="solid",label=" #myOperation" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{E\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{PF\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node7 -> Node3 [color="grey25",fontsize="10",style="solid",label=" #myComparator" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{AStarRouter\< E, V,\l PF \>::EdgeInfoComparator\n||+ operator()()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d73/class_a_star_router_1_1_edge_info_comparator.html"];
+  Node8 -> Node3 [color="grey25",fontsize="10",style="solid",label=" #myLookupTable" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 [label="{AbstractLookupTable\l\< E, V \>\n||+ consistent()\l+ lowerBound()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d64/class_abstract_lookup_table.html"];
+  Node9 -> Node3 [color="grey25",fontsize="10",style="solid",label=" #myErrorMsgHandler" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node9 [label="{MsgHandler\n|- myRetrievers\l- myType\l- myWasInformed\l- myAmProcessingProcess\l|+ addRetriever()\l+ beginProcessMsg()\l+ clear()\l+ endProcessMsg()\l+ inform()\l+ isRetriever()\l+ operator\<\<()\l+ removeRetriever()\l+ wasInformed()\l+ assignLock()\l+ cleanupOnEnd()\l+ getErrorInstance()\l+ getMessageInstance()\l+ getWarningInstance()\l+ initOutputOptions()\l# build()\l- MsgHandler()\l- MsgHandler()\l- operator=()\l- ~MsgHandler()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/df6/class_msg_handler.html"];
+  Node10 -> Node9 [color="grey25",fontsize="10",style="solid",label=" -myLock" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node10 [label="{AbstractMutex\n||+ AbstractMutex()\l+ lock()\l+ unlock()\l+ ~AbstractMutex()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d30/class_abstract_mutex.html",tooltip="An abstract class for encapsulating mutex implementations. "];
+  Node9 -> Node9 [color="grey25",fontsize="10",style="solid",label=" -myErrorInstance\n-myWarningInstance\n-myMessageInstance" ,arrowhead="odiamond",fontname="Helvetica"];
+}

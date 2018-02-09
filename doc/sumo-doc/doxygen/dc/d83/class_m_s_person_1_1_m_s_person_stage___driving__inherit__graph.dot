@@ -1,0 +1,10 @@
+digraph "MSPerson::MSPersonStage_Driving"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{MSPerson::MSPersonStage\l_Driving\n||+ getStageDescription()\l+ MSPersonStage_Driving()\l+ proceed()\l+ routeOutput()\l+ tripInfoOutput()\l+ ~MSPersonStage_Driving()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{MSTransportable::Stage\l_Driving\n|# myLines\l# myStopWaitPos\l# myVehicle\l# myVehicleDistance\l# myVehicleID\l# myVehicleLine\l# myVehicleVClass\l# myWaitingEdge\l# myWaitingPos\l# myWaitingSince\l|+ abort()\l+ beginEventOutput()\l+ endEventOutput()\l+ getAngle()\l+ getEdge()\l+ getEdgePos()\l+ getEdges()\l+ getFromEdge()\l+ getPosition()\l+ getSpeed()\land 9 more...\l- operator=()\l- Stage_Driving()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d16/class_m_s_transportable_1_1_stage___driving.html"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{MSTransportable::Stage\n|# myArrivalPos\l# myArrived\l# myDeparted\l# myDestination\l# myDestinationStop\l# myType\l|+ abort()\l+ beginEventOutput()\l+ endEventOutput()\l+ getAngle()\l+ getArrivalPos()\l+ getDestination()\l+ getDestinationStop()\l+ getEdge()\l+ getEdgeAngle()\l+ getEdgePos()\land 20 more...\l- operator=()\l- Stage()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dce/class_m_s_transportable_1_1_stage.html"];
+}

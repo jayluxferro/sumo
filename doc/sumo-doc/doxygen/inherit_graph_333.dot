@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="NBOwnTLDef::edge_by\l_incoming_priority_sorter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/daa/class_n_b_own_t_l_def_1_1edge__by__incoming__priority__sorter.html",tooltip="Sorts edges by their priority within the node they end at. "];
+}

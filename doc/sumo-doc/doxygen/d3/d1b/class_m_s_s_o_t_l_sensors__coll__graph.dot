@@ -1,0 +1,6 @@
+digraph "MSSOTLSensors"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{MSSOTLSensors\n|# currentStep\l# myPhases\l# tlLogicID\l|+ buildOutSensors()\l+ buildSensors()\l+ countVehicles()\l+ countVehicles()\l+ getMaxSpeed()\l+ meanVehiclesSpeed()\l+ meanVehiclesSpeed()\l+ MSSOTLSensors()\l+ stepChanged()\l+ ~MSSOTLSensors()\l# buildSensorForLane()\l# buildSensorForOutLane()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

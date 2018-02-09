@@ -1,0 +1,6 @@
+digraph "NIImporter_OpenDrive::sections_by_s_sorter"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{NIImporter_OpenDrive\l::sections_by_s_sorter\n||+ operator()()\l+ sections_by_s_sorter()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

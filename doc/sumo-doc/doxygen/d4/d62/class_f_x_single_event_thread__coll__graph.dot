@@ -1,0 +1,12 @@
+digraph "FXSingleEventThread"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node6 [label="{FXSingleEventThread\n|- event\l- myApp\l|+ FXSingleEventThread()\l+ onThreadEvent()\l+ onThreadSignal()\l+ run()\l+ signal()\l+ signal()\l+ ~FXSingleEventThread()\l+ sleep()\l# FXSingleEventThread()\l- FXSingleEventThread()\l- operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node7 [label="{FXObject\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node8 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node8 [label="{FXThread\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node9 -> Node6 [color="grey25",fontsize="10",style="solid",label=" -myClient" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node9 [label="{MFXInterThreadEventClient\n||+ eventOccured()\l+ MFXInterThreadEventClient()\l+ ~MFXInterThreadEventClient()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d41/class_m_f_x_inter_thread_event_client.html"];
+}

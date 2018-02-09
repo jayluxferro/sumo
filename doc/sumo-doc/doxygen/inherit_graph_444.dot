@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="ODMatrix::descending\l_departure_comperator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/ddd/class_o_d_matrix_1_1descending__departure__comperator.html",tooltip="Used for sorting vehicles by their departure (latest first) "];
+}

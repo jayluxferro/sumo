@@ -1,0 +1,10 @@
+digraph "NIVissimConnection"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{NIVissimConnection\n|- myAssignedVehicles\l- myClosedLanes\l- myFromDef\l- myName\l- myToDef\l- myDict\l- myMaxID\l|+ buildEdgeConnections()\l+ buildGeom()\l+ computeBounding()\l+ getBoundingBox()\l+ getFromEdgeID()\l+ getFromGeomPosition()\l+ getFromLanes()\l+ getFromPosition()\l+ getToEdgeID()\l+ getToGeomPosition()\land 6 more...\l+ buildNodeClusters()\l+ dict_assignToEdges()\l+ dict_buildNBEdgeConnections()\l+ dictionary()\l+ dictionary()\l+ getForEdge()\l+ getMaxID()\l+ getWithin()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{NIVissimBoundedClusterObject\n|# myBoundary\l# myClusterID\l# myDict\l|+ clustered()\l+ computeBounding()\l+ crosses()\l+ getBoundary()\l+ inCluster()\l+ NIVissimBoundedClusterObject()\l+ ~NIVissimBoundedClusterObject()\l+ closeLoading()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d3c/class_n_i_vissim_bounded_cluster_object.html"];
+  Node2 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{NIVissimAbstractEdge\n|# myDisturbances\l# myGeom\l# myID\l# myNode\l- myDict\l|+ addDisturbance()\l+ buildGeom()\l+ crossesEdge()\l+ crossesEdgeAtPoint()\l+ getDisturbances()\l+ getGeometry()\l+ getGeomPosition()\l+ getID()\l+ hasNodeCluster()\l+ NIVissimAbstractEdge()\l+ overlapsWith()\l+ setNodeCluster()\l+ splitAssigning()\l+ ~NIVissimAbstractEdge()\l+ clearDict()\l+ dictionary()\l+ dictionary()\l+ getWithin()\l+ splitAndAssignToNodes()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d14/class_n_i_vissim_abstract_edge.html"];
+}

@@ -1,0 +1,25 @@
+var class_m_s_critical_follower_distance_info =
+[
+    [ "MSCriticalFollowerDistanceInfo", "df/d87/class_m_s_critical_follower_distance_info.html#a3afbcc3ef1193ee917eda1f9c94857bb", null ],
+    [ "~MSCriticalFollowerDistanceInfo", "df/d87/class_m_s_critical_follower_distance_info.html#aaa62b8b14db7465e9d1e5933122ccf2a", null ],
+    [ "addFollower", "df/d87/class_m_s_critical_follower_distance_info.html#afd07400ad35069a3e299789b90c2f19f", null ],
+    [ "addLeader", "df/d87/class_m_s_critical_follower_distance_info.html#a40df63994c826fb61a75b7e7ee14f98e", null ],
+    [ "addLeader", "df/d87/class_m_s_critical_follower_distance_info.html#ac87b118666b0fc34deec1b14b2f1efb7", null ],
+    [ "clear", "df/d87/class_m_s_critical_follower_distance_info.html#ae902082184eb435ca195cc34b742fd84", null ],
+    [ "getSublaneBorders", "df/d87/class_m_s_critical_follower_distance_info.html#a6c3d47eaf6320734927d03fe04ae30a6", null ],
+    [ "getSubLanes", "df/d87/class_m_s_critical_follower_distance_info.html#adc4d092ae4b7fb3af587237fcc6949fe", null ],
+    [ "hasStoppedVehicle", "df/d87/class_m_s_critical_follower_distance_info.html#a4b3088fb3271ae75ed3b1af49bd2e27d", null ],
+    [ "hasVehicles", "df/d87/class_m_s_critical_follower_distance_info.html#acbd18d775ac4217843a00cfec06200b3", null ],
+    [ "numFreeSublanes", "df/d87/class_m_s_critical_follower_distance_info.html#a60940e6c0eca78e655435bce4e88a135", null ],
+    [ "numSublanes", "df/d87/class_m_s_critical_follower_distance_info.html#a6e5e7303f4bccfdb84796e46396b0b1f", null ],
+    [ "operator[]", "df/d87/class_m_s_critical_follower_distance_info.html#a952a83faece7f3ef5bde18870d8a9eb1", null ],
+    [ "toString", "df/d87/class_m_s_critical_follower_distance_info.html#ae6c8b21962c37db5e57f97ff335a3ab2", null ],
+    [ "egoLeftMost", "df/d87/class_m_s_critical_follower_distance_info.html#a8cd44fb6f014ed67f703f76b79eca0c6", null ],
+    [ "egoRightMost", "df/d87/class_m_s_critical_follower_distance_info.html#a5c7fd416948229b364747b079aa3e04d", null ],
+    [ "myDistances", "df/d87/class_m_s_critical_follower_distance_info.html#aa795cf1c1e4f19a5af509fec52e8bf01", null ],
+    [ "myFreeSublanes", "df/d87/class_m_s_critical_follower_distance_info.html#a2262729f43e5f6c9c61c208e0e74e327", null ],
+    [ "myHasVehicles", "df/d87/class_m_s_critical_follower_distance_info.html#af22ae2774392cbe5e5f95e5feb1ac8d1", null ],
+    [ "myMissingGaps", "df/d87/class_m_s_critical_follower_distance_info.html#a4d1b984f2e28eb3d39bc56577e8f8bee", null ],
+    [ "myVehicles", "df/d87/class_m_s_critical_follower_distance_info.html#a1532d1b45e96322844a7f3e04a3524d3", null ],
+    [ "myWidth", "df/d87/class_m_s_critical_follower_distance_info.html#ae025c630d80f4f002ed106d94f32b022", null ]
+];

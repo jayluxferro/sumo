@@ -1,0 +1,12 @@
+digraph "GNEVariableSpeedSignDialog.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node40 [label="GNEVariableSpeedSignDialog.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node40 -> Node41 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node41 [label="GNEVariableSpeedSign.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d45/_g_n_e_variable_speed_sign_8cpp.html"];
+  Node40 -> Node42 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node42 [label="GNEVariableSpeedSignDialog.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d3c/_g_n_e_variable_speed_sign_dialog_8cpp.html"];
+  Node40 -> Node43 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node43 [label="GNEVariableSpeedSignStep.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d7a/_g_n_e_variable_speed_sign_step_8cpp.html"];
+}

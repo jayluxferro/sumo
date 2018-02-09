@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="NBTrafficLightDefinition\l::StreamPair",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d37/struct_n_b_traffic_light_definition_1_1_stream_pair.html",tooltip="data structure for caching needsCont information "];
+}

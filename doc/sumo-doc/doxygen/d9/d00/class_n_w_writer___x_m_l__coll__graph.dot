@@ -1,0 +1,6 @@
+digraph "NWWriter_XML"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{NWWriter_XML\n||+ writeJoinedJunctions()\l+ writeNetwork()\l+ writeStreetSigns()\l- writeEdgesAndConnections()\l- writeNodes()\l- writeParkingAreas()\l- writePTLines()\l- writePTStops()\l- writeTrafficLights()\l- writeTypes()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

@@ -1,0 +1,26 @@
+var class_g_n_e_additional_dialog =
+[
+    [ "GNEAdditionalDialog", "da/d75/class_g_n_e_additional_dialog.html#a5230d8764904f89eaddc8aa5e0ff183c", null ],
+    [ "~GNEAdditionalDialog", "da/d75/class_g_n_e_additional_dialog.html#a2f90d35525e4db61e43f1fd15f5f5753", null ],
+    [ "GNEAdditionalDialog", "da/d75/class_g_n_e_additional_dialog.html#a00be5a088db3f9268a6ded2a9f15e47f", null ],
+    [ "GNEAdditionalDialog", "da/d75/class_g_n_e_additional_dialog.html#a5fdde8704093645e94e37fccd0406a3d", null ],
+    [ "acceptChanges", "da/d75/class_g_n_e_additional_dialog.html#aa066ce7d615034f796ae68f04f5387e1", null ],
+    [ "cancelChanges", "da/d75/class_g_n_e_additional_dialog.html#ab96da8bd446a4eb0ffbe358098f6f793", null ],
+    [ "changeAdditionalDialogHeader", "da/d75/class_g_n_e_additional_dialog.html#a29a48771b1f0a13df3eea8b15b55ae15", null ],
+    [ "initChanges", "da/d75/class_g_n_e_additional_dialog.html#aecbc204ac7c00fe602fa72f451565576", null ],
+    [ "onCmdAccept", "da/d75/class_g_n_e_additional_dialog.html#a1a535384e10b05e3639ce5e4807ad335", null ],
+    [ "onCmdCancel", "da/d75/class_g_n_e_additional_dialog.html#a074525f30384d66fcfff35f4189a1472", null ],
+    [ "onCmdReset", "da/d75/class_g_n_e_additional_dialog.html#afe92f859993ae492878c2ad5819edb3e", null ],
+    [ "onKeyPress", "da/d75/class_g_n_e_additional_dialog.html#ab22749bea9ff29cff7b31bab76aad959", null ],
+    [ "onKeyRelease", "da/d75/class_g_n_e_additional_dialog.html#aff39c47603705281ee443f06653e7f8a", null ],
+    [ "openAsModalDialog", "da/d75/class_g_n_e_additional_dialog.html#ad14fc518f4551247c6066ad8f3759c2d", null ],
+    [ "operator=", "da/d75/class_g_n_e_additional_dialog.html#a1a52fbfe3ce57aa1af25f8e5e62fac5f", null ],
+    [ "resetChanges", "da/d75/class_g_n_e_additional_dialog.html#af267aa3942a94fe0b6d3196e53d2ed8c", null ],
+    [ "myAcceptButton", "da/d75/class_g_n_e_additional_dialog.html#ae39ea2ebadff59a7f433605f9229ee03", null ],
+    [ "myCancelButton", "da/d75/class_g_n_e_additional_dialog.html#a314243cb979310a7f436616ca82dd822", null ],
+    [ "myChangesDescription", "da/d75/class_g_n_e_additional_dialog.html#ab0b7e9c10b6a3bb9c235e6dee62c382f", null ],
+    [ "myContentFrame", "da/d75/class_g_n_e_additional_dialog.html#a4a12ecd7fb2d1881f7f4420cb96bcff6", null ],
+    [ "myNumberOfChanges", "da/d75/class_g_n_e_additional_dialog.html#a8b7423aa652564e081b674f1fb3be3b3", null ],
+    [ "myResetButton", "da/d75/class_g_n_e_additional_dialog.html#acbf4657f1ef6ab68df0ebe604241fcb3", null ],
+    [ "myUndoList", "da/d75/class_g_n_e_additional_dialog.html#a87b34936aa3b81759ba9d3ece9d31bad", null ]
+];

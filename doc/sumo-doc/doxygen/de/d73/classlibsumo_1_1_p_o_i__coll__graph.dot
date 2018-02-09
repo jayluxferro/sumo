@@ -1,0 +1,6 @@
+digraph "libsumo::POI"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{libsumo::POI\n||+ add()\l+ getColor()\l+ getIDCount()\l+ getIDList()\l+ getParameter()\l+ getPosition()\l+ getTree()\l+ getType()\l+ remove()\l+ setColor()\l+ setParameter()\l+ setPosition()\l+ setType()\l+ subscribe()\l+ subscribeContext()\l- operator=()\l- POI()\l- POI()\l- getPoI()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

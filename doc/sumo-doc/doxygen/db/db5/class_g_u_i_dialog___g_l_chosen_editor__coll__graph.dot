@@ -1,0 +1,21 @@
+digraph "GUIDialog_GLChosenEditor"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node3 [label="{GUIDialog_GLChosenEditor\n|- myList\l|+ GUIDialog_GLChosenEditor()\l+ rebuildList()\l+ selectionUpdated()\l+ ~GUIDialog_GLChosenEditor()\l+ onCmdLoad()\l+ onCmdSave()\l+ onCmdDeselect()\l+ onCmdClear()\l+ onCmdClose()\l# GUIDialog_GLChosenEditor()\l* onCmdLoad()\l* onCmdSave()\l* onCmdDeselect()\l* onCmdClear()\l* onCmdClose()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{FXMainWindow\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{GUISelectedStorage\l::UpdateTarget\n||+ selectionUpdated()\l+ ~UpdateTarget()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d58/class_g_u_i_selected_storage_1_1_update_target.html"];
+  Node6 -> Node3 [color="grey25",fontsize="10",style="solid",label=" -myParent" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{GUIMainWindow\n|# myAmGaming\l# myBoldFont\l# myBottomDock\l# myCartesianCoordinate\l# myCartesianFrame\l# myGeoCoordinate\l# myGeoFrame\l# myGLVisual\l# myLeftDock\l# myListInternal\land 8 more...\l|+ addChild()\l+ addChild()\l+ getActiveView()\l+ getBoldFont()\l+ getBuildGLCanvas()\l+ getCartesianLabel()\l+ getCurrentSimTime()\l+ getDelay()\l+ getGeoLabel()\l+ getGLVisual()\land 15 more...\l+ getInstance()\l# GUIMainWindow()\l# setWindowSizeAndPos()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dba/class_g_u_i_main_window.html"];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 -> Node6 [color="grey25",fontsize="10",style="solid",label=" #myInstance" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 -> Node6 [color="grey25",fontsize="10",style="solid",label=" #myTrackerLock" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{MFXMutex\n|# lock_\l- mutexHandle\l|+ lock()\l+ locked()\l+ MFXMutex()\l+ unlock()\l+ ~MFXMutex()\l- MFXMutex()\l- operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d79/class_m_f_x_mutex.html"];
+  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node8 [label="{AbstractMutex\n||+ AbstractMutex()\l+ lock()\l+ unlock()\l+ ~AbstractMutex()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d30/class_abstract_mutex.html",tooltip="An abstract class for encapsulating mutex implementations. "];
+  Node9 -> Node3 [color="grey25",fontsize="10",style="solid",label=" -myStorage" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node9 [label="{GUISelectedStorage\n|- myAllSelected\l- mySelections\l|+ add2Update()\l+ clear()\l+ deselect()\l+ getSelected()\l+ getSelected()\l+ GUISelectedStorage()\l+ isSelected()\l+ load()\l+ loadIDs()\l+ remove2Update()\l+ save()\l+ save()\l+ select()\l+ toggleSelection()\l+ ~GUISelectedStorage()\l- load()\l- save()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dae/class_g_u_i_selected_storage.html",tooltip="Storage for \"selected\" objects. "];
+  Node5 -> Node9 [color="grey25",fontsize="10",style="solid",label=" -myUpdateTarget" ,arrowhead="odiamond",fontname="Helvetica"];
+}

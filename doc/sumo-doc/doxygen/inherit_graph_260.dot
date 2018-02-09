@@ -1,0 +1,13 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="MSVehicleControl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d2f/class_m_s_vehicle_control.html",tooltip="The class responsible for building and deletion of vehicles. "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="GUIVehicleControl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dd5/class_g_u_i_vehicle_control.html",tooltip="The class responsible for building and deletion of vehicles (gui-version) "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="MEVehicleControl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d5b/class_m_e_vehicle_control.html",tooltip="The class responsible for building and deletion of vehicles (gui-version) "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="GUIMEVehicleControl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/class_g_u_i_m_e_vehicle_control.html",tooltip="The class responsible for building and deletion of vehicles (gui-version) "];
+}

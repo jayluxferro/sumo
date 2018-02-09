@@ -1,0 +1,8 @@
+digraph "RORouteDef"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{RORouteDef\n|# myAlternatives\l# myLastUsed\l# myMayBeDisconnected\l# myNewRoute\l# myPrecomputed\l# myRouteRefs\l# myTryRepair\l# myUsingJTRR\l|+ addAlternative()\l+ addAlternativeDef()\l+ addLoadedAlternative()\l+ buildCurrentRoute()\l+ copy()\l+ copyOrigDest()\l+ getDestination()\l+ getFirstRoute()\l+ getOverallProb()\l+ preComputeCurrentRoute()\l+ repairCurrentRoute()\l+ RORouteDef()\l+ writeXMLDefinition()\l+ ~RORouteDef()\l+ setUsingJTRR()\l- operator=()\l- RORouteDef()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{Named\n|# myID\l|+ addTo()\l+ getID()\l+ Named()\l+ setID()\l+ ~Named()\l+ getIDSecure()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dbf/class_named.html",tooltip="Base class for objects which have an id. "];
+}

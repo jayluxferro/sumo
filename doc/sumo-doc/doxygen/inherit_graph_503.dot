@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="ROJTRFrame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d04/class_r_o_j_t_r_frame.html",tooltip="Sets and checks options for jtr-routing. "];
+}

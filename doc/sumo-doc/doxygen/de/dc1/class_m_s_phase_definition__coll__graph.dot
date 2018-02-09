@@ -1,0 +1,6 @@
+digraph "MSPhaseDefinition"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{MSPhaseDefinition\n|+ duration\l+ lastDuration\l+ maxDuration\l+ minDuration\l+ myLastSwitch\l- phaseType\l- state\l- targetLaneSet\l|+ getSignalState()\l+ getState()\l+ getTargetLaneSet()\l+ isCommit()\l+ isDecisional()\l+ isGreenPhase()\l+ isTarget()\l+ isTransient()\l+ isUndefined()\l+ MSPhaseDefinition()\land 7 more...\l- init()\l- init()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

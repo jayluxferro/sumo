@@ -1,0 +1,14 @@
+digraph "NIVissimDisturbance"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{NIVissimDisturbance\n|- myID\l- myName\l- myNode\l- myDict\l- myRunningID\l- refusedProhibits\l|+ addToNode()\l+ computeBounding()\l+ getConnection()\l+ getDisturbanceID()\l+ getEdgeID()\l+ NIVissimDisturbance()\l+ ~NIVissimDisturbance()\l+ clearDict()\l+ dict_SetDisturbances()\l+ dictionary()\l+ dictionary()\l+ dictionary()\l+ getWithin()\l+ reportRefused()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{NIVissimBoundedClusterObject\n|# myClusterID\l# myDict\l|+ clustered()\l+ computeBounding()\l+ crosses()\l+ getBoundary()\l+ inCluster()\l+ NIVissimBoundedClusterObject()\l+ ~NIVissimBoundedClusterObject()\l+ closeLoading()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d3c/class_n_i_vissim_bounded_cluster_object.html"];
+  Node4 -> Node3 [color="grey25",fontsize="10",style="solid",label=" #myBoundary" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{Boundary\n|- myWasInitialised\l- myXmax\l- myXmin\l- myYmax\l- myYmin\l- myZmax\l- myZmin\l|+ add()\l+ add()\l+ add()\l+ around()\l+ Boundary()\l+ Boundary()\l+ Boundary()\l+ crosses()\l+ distanceTo2D()\l+ distanceTo2D()\land 20 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dda/class_boundary.html",tooltip="A class that stores a 2D geometrical boundary. "];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{AbstractPoly\n||+ AbstractPoly()\l+ AbstractPoly()\l+ around()\l+ crosses()\l+ overlapsWith()\l+ partialWithin()\l+ ~AbstractPoly()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d1a/class_abstract_poly.html"];
+  Node6 -> Node2 [color="grey25",fontsize="10",style="solid",label=" -myEdge\n-myDisturbance" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{NIVissimExtendedEdgePoint\n|- myAssignedVehicles\l- myEdgeID\l- myLanes\l- myPosition\l|+ getEdgeID()\l+ getGeomPosition()\l+ getLanes()\l+ getPosition()\l+ NIVissimExtendedEdgePoint()\l+ recheckLanes()\l+ ~NIVissimExtendedEdgePoint()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d9e/class_n_i_vissim_extended_edge_point.html"];
+}

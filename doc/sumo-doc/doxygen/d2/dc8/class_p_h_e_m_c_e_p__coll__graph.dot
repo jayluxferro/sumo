@@ -1,0 +1,10 @@
+digraph "PHEMCEP"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{PHEMCEP\n|- _axleRatio\l- _cdValue\l- _cepCurveFC\l- _crossSectionalArea\l- _dragNormTable\l- _drivingPower\l- _effictiveWheelDiameter\l- _emissionClass\l- _engineIdlingSpeed\l- _engineRatedSpeed\land 29 more...\l|+ CalcPower()\l+ GetCdValue()\l+ GetCrossSectionalArea()\l+ GetDecelCoast()\l+ GetEmission()\l+ GetEmissionClass()\l+ GetMassRot()\l+ GetMassVehicle()\l+ GetMaxAccel()\l+ GetRatedPower()\land 9 more...\l- FindLowerUpperInPattern()\l- GetDragCoeffecient()\l- GetGearCoeffecient()\l- GetPMaxNorm()\l- GetRotationalCoeffecient()\l- Interpolate()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -_idlingValuesPollutants" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{StringBijection\< double \>\n|- myString2T\l- myT2String\l|+ addAlias()\l+ addKeysInto()\l+ get()\l+ getString()\l+ getStrings()\l+ has()\l+ hasString()\l+ insert()\l+ remove()\l+ size()\l+ StringBijection()\l+ StringBijection()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d41/class_string_bijection.html"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -_cepCurvePollutants\n-_normalizedCepCurvePollutants" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{StringBijection\< std\l::vector\< double \> \>\n|- myString2T\l- myT2String\l|+ addAlias()\l+ addKeysInto()\l+ get()\l+ getString()\l+ getStrings()\l+ has()\l+ hasString()\l+ insert()\l+ remove()\l+ size()\l+ StringBijection()\l+ StringBijection()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d41/class_string_bijection.html"];
+}

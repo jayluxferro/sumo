@@ -1,0 +1,25 @@
+var classlibsumo_1_1_traffic_light =
+[
+    [ "TrafficLight", "d5/df8/classlibsumo_1_1_traffic_light.html#ab6e5f7d0c907c27d0e4f7d8b68142b98", null ],
+    [ "TrafficLight", "d5/df8/classlibsumo_1_1_traffic_light.html#a7e780030b87265ee6e302876ee551eba", null ],
+    [ "getCompleteRedYellowGreenDefinition", "d5/df8/classlibsumo_1_1_traffic_light.html#a783d55b922406fb058f1e662e453f4bd", null ],
+    [ "getControlledJunctions", "d5/df8/classlibsumo_1_1_traffic_light.html#a553f1986023281be2ed06bc4d9ae888e", null ],
+    [ "getControlledLanes", "d5/df8/classlibsumo_1_1_traffic_light.html#a75bc19d614c0b43a235690b73f480c75", null ],
+    [ "getControlledLinks", "d5/df8/classlibsumo_1_1_traffic_light.html#a5161a81a5ed2debd450aeea8e3b0d364", null ],
+    [ "getIDCount", "d5/df8/classlibsumo_1_1_traffic_light.html#a25b223183e9e966630df5bc5aa2f0614", null ],
+    [ "getIDList", "d5/df8/classlibsumo_1_1_traffic_light.html#a070d8b435461fe2eab5fefdd1e531353", null ],
+    [ "getNextSwitch", "d5/df8/classlibsumo_1_1_traffic_light.html#a5e77b3711673afe8034d531b5c6012c5", null ],
+    [ "getParameter", "d5/df8/classlibsumo_1_1_traffic_light.html#abbf0f5ccb2fba46556406ed394159d07", null ],
+    [ "getPhase", "d5/df8/classlibsumo_1_1_traffic_light.html#a2ea980ac5dfb267f812b953a30d70cec", null ],
+    [ "getPhaseDuration", "d5/df8/classlibsumo_1_1_traffic_light.html#aa60583ed68637cb4f23320c7230c73f3", null ],
+    [ "getProgram", "d5/df8/classlibsumo_1_1_traffic_light.html#a0c4501f0c6f1f82cc8859352da703853", null ],
+    [ "getRedYellowGreenState", "d5/df8/classlibsumo_1_1_traffic_light.html#abbade84098f525e92ca1757498bf7810", null ],
+    [ "getTLS", "d5/df8/classlibsumo_1_1_traffic_light.html#ae67ad6fd6c8336e310d563b1df5cc1c3", null ],
+    [ "operator=", "d5/df8/classlibsumo_1_1_traffic_light.html#a2d77b06881d1443888deca400f2b88c6", null ],
+    [ "setCompleteRedYellowGreenDefinition", "d5/df8/classlibsumo_1_1_traffic_light.html#a758488ffe0cb0e45190c714347d0b685", null ],
+    [ "setParameter", "d5/df8/classlibsumo_1_1_traffic_light.html#ab88b3f143724582cabb427f33bef715d", null ],
+    [ "setPhase", "d5/df8/classlibsumo_1_1_traffic_light.html#a85db1e74a660a96f12fe12ac2aaacedc", null ],
+    [ "setPhaseDuration", "d5/df8/classlibsumo_1_1_traffic_light.html#a899928e052aff432b5334a9467479272", null ],
+    [ "setProgram", "d5/df8/classlibsumo_1_1_traffic_light.html#a215c9eee885dc5e0e98c7cda7216c6ca", null ],
+    [ "setRedYellowGreenState", "d5/df8/classlibsumo_1_1_traffic_light.html#adf3a27daf6810a05486cd7a606d45a00", null ]
+];

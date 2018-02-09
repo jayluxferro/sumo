@@ -1,0 +1,8 @@
+digraph "ROVehicle"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{ROVehicle\n|- myRoute\l- myStopEdges\l|+ computeRoute()\l+ getChosenSpeedFactor()\l+ getDepartEdge()\l+ getDepartureTime()\l+ getRouteDefinition()\l+ getStopEdges()\l+ ROVehicle()\l+ saveAsXML()\l+ ~ROVehicle()\l- addStop()\l- operator=()\l- ROVehicle()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{RORoutable\n|# myRoutingSuccess\l- myParameter\l- myType\l|+ computeRoute()\l+ getDepart()\l+ getDepartEdge()\l+ getID()\l+ getMaxSpeed()\l+ getParameter()\l+ getRoutingSuccess()\l+ getType()\l+ getVClass()\l+ isPartOfFlow()\l+ isPublicTransport()\l+ RORoutable()\l+ write()\l+ ~RORoutable()\l# saveAsXML()\l- operator=()\l- RORoutable()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d7c/class_r_o_routable.html",tooltip="A routable thing such as a vehicle or person. "];
+}

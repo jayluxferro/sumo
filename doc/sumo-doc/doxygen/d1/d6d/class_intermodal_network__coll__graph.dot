@@ -1,0 +1,6 @@
+digraph "IntermodalNetwork&lt; E, L, N, V &gt;"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{IntermodalNetwork\<\l E, L, N, V \>\n|- myArrivalLookup\l- myBidiLookup\l- myDepartLookup\l- myEdges\l- myWalkingConnectorLookup\l|+ addConnectors()\l+ addEdge()\l+ getAllEdges()\l+ getArrivalConnector()\l+ getArrivalEdge()\l+ getBothDirections()\l+ getDepartConnector()\l+ getDepartEdge()\l+ getWalkingConnector()\l+ IntermodalNetwork()\l+ ~IntermodalNetwork()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

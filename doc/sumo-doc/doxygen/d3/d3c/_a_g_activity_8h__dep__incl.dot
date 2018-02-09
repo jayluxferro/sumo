@@ -1,0 +1,19 @@
+digraph "AGActivity.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node82 [label="AGActivity.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node82 -> Node83 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node83 [label="AGWorkAndSchool.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dff/_a_g_work_and_school_8h.html"];
+  Node83 -> Node84 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node84 [label="AGActivities.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dd3/_a_g_activities_8cpp.html"];
+  Node83 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node85 [label="AGWorkAndSchool.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d19/_a_g_work_and_school_8cpp.html"];
+  Node82 -> Node86 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node86 [label="AGFreeTime.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d3a/_a_g_free_time_8h.html"];
+  Node86 -> Node84 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node86 -> Node87 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node87 [label="AGFreeTime.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dc5/_a_g_free_time_8cpp.html"];
+  Node82 -> Node88 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node88 [label="AGActivity.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d68/_a_g_activity_8cpp.html"];
+}

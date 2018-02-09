@@ -1,0 +1,6 @@
+digraph "NIImporter_OpenDrive::OpenDriveSignal"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{NIImporter_OpenDrive\l::OpenDriveSignal\n|+ dynamic\l+ id\l+ name\l+ orientation\l+ s\l+ type\l|+ OpenDriveSignal()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

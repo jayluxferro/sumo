@@ -1,0 +1,6 @@
+digraph "libsumo::TrafficLight"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{libsumo::TrafficLight\n||+ getCompleteRedYellowGreen\lDefinition()\l+ getControlledJunctions()\l+ getControlledLanes()\l+ getControlledLinks()\l+ getIDCount()\l+ getIDList()\l+ getNextSwitch()\l+ getParameter()\l+ getPhase()\l+ getPhaseDuration()\land 8 more...\l- operator=()\l- TrafficLight()\l- TrafficLight()\l- getTLS()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

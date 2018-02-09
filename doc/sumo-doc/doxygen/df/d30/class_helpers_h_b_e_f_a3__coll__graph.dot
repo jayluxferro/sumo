@@ -1,0 +1,10 @@
+digraph "HelpersHBEFA3"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{HelpersHBEFA3\n|+ HBEFA3_BASE\l- myFunctionParameter\l|+ compute()\l+ getAmitranVehicleClass()\l+ getClass()\l+ getEuroClass()\l+ getFuel()\l+ HelpersHBEFA3()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{PollutantsInterface\l::Helper\n|# myName\l|+ addAllClassesInto()\l+ compute()\l+ getClassByName()\l+ getClassName()\l+ getModifiedAccel()\l+ getName()\l+ Helper()\l+ isSilent()\l+ getClass()\l+ getAmitranVehicleClass()\l+ getFuel()\l+ getEuroClass()\l+ getWeight()\l- operator=()\l* getClass()\l* getAmitranVehicleClass()\l* getFuel()\l* getEuroClass()\l* getWeight()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d93/class_pollutants_interface_1_1_helper.html",tooltip="abstract superclass for the model helpers "];
+  Node4 -> Node3 [color="grey25",fontsize="10",style="solid",label=" #myEmissionClassStrings" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{StringBijection\< SUMOEmission\lClass \>\n|- myString2T\l- myT2String\l|+ addAlias()\l+ addKeysInto()\l+ get()\l+ getString()\l+ getStrings()\l+ has()\l+ hasString()\l+ insert()\l+ remove()\l+ size()\l+ StringBijection()\l+ StringBijection()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d41/class_string_bijection.html"];
+}

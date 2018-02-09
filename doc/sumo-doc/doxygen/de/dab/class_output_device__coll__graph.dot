@@ -1,0 +1,8 @@
+digraph "OutputDevice"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node8 [label="{OutputDevice\n||+ realString()\l+ getDevice()\l+ createDeviceByOption()\l+ getDeviceByOption()\l+ closeAll()\l* myOutputDevices\l* myAmBinary\l* OutputDevice()\l* ~OutputDevice()\l* ok()\l* close()\l* setPrecision()\l* getPrecision()\l* writeXMLHeader()\l* writeHeader()\land 15 more...\l* getDevice()\l* createDeviceByOption()\l* getDeviceByOption()\l* closeAll()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node9 -> Node8 [color="grey25",fontsize="10",style="solid",label=" -myFormatter" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node9 [label="{OutputFormatter\n||+ closeTag()\l+ openTag()\l+ openTag()\l+ writePreformattedTag()\l+ writeXMLHeader()\l+ ~OutputFormatter()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d84/class_output_formatter.html",tooltip="Abstract base class for output formatters. "];
+}

@@ -1,0 +1,6 @@
+digraph "NBTrafficLightLogicCont"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{NBTrafficLightLogicCont\n|- myComputed\l- myDefinitions\l- myExtracted\l- myHalfOffsetTLS\l- myQuarterOffsetTLS\l- EmptyDefinitions\l|+ applyOptions()\l+ computeLogics()\l+ computeSingleLogic()\l+ extract()\l+ getComputed()\l+ getDefinition()\l+ getLogic()\l+ getNumExtracted()\l+ getPrograms()\l+ insert()\land 7 more...\l- clear()\l- getDefinitions()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

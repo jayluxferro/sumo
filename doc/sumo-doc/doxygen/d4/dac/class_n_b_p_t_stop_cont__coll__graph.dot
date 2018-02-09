@@ -1,0 +1,6 @@
+digraph "NBPTStopCont"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{NBPTStopCont\n|- myPTStops\l|+ addEdges2Keep()\l+ alignIdSigns()\l+ assignLanes()\l+ begin()\l+ end()\l+ findAccessEdgesForRailStops()\l+ get()\l+ insert()\l+ localizePTStops()\l+ postprocess()\l+ reviseStops()\l+ size()\l+ ~NBPTStopCont()\l+ getReverseEdge()\l- assignAndCreatNewPTStopAs\lNeeded()\l- assignPTStopToEdgeOfClosest\lPlatform()\l- computeCrossProductEdgePosition()\l- getClosestPlatformToPTStop\lPosition()\l- getReverseStop()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

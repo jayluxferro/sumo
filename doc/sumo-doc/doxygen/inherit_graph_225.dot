@@ -1,0 +1,11 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="MSPModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/da8/class_m_s_p_model.html",tooltip="The pedestrian following model. "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="MSPModel_NonInteracting",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d51/class_m_s_p_model___non_interacting.html",tooltip="The pedestrian following model. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="MSPModel_Striping",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d71/class_m_s_p_model___striping.html",tooltip="The pedestrian following model. "];
+}

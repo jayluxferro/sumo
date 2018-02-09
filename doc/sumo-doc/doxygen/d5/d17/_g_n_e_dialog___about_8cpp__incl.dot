@@ -1,0 +1,37 @@
+digraph "GNEDialog_About.cpp"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="GNEDialog_About.cpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="config.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d16/config_8h.html"];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="utils/common/StdDefs.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dbd/_std_defs_8h.html"];
+  Node2 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="string",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="cmath",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="limits",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node0 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="utils/foxtools/FXLinkLabel.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d4b/_f_x_link_label_8h.html"];
+  Node6 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="fx.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node0 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="utils/gui/images/GUIIcon\lSubSys.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d85/_g_u_i_icon_sub_sys_8h.html"];
+  Node8 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="GUIIcons.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d48/_g_u_i_icons_8h.html"];
+  Node9 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="utils/gui/div/GUIDesigns.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/db4/_g_u_i_designs_8h.html"];
+  Node10 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="GNEDialog_About.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/da9/_g_n_e_dialog___about_8h.html"];
+  Node11 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

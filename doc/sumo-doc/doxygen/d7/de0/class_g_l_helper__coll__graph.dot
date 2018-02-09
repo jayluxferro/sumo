@@ -1,0 +1,6 @@
+digraph "GLHelper"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{GLHelper\n|- myCircleCoords\l- myFont\l- myFontSize\l|+ debugVertices()\l+ drawBoxLine()\l+ drawBoxLine()\l+ drawBoxLines()\l+ drawBoxLines()\l+ drawBoxLines()\l+ drawBoxLines()\l+ drawFilledCircle()\l+ drawFilledCircle()\l+ drawFilledPoly()\land 15 more...\l- angleLookup()\l- initFont()\l- rightTurn()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

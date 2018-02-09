@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="PCLoaderOSM::PCOSMRelation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d1d/struct_p_c_loader_o_s_m_1_1_p_c_o_s_m_relation.html",tooltip="An internal definition of a loaded relation. "];
+}

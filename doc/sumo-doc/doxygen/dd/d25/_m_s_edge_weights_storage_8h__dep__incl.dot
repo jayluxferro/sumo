@@ -1,0 +1,32 @@
+digraph "MSEdgeWeightsStorage.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node11 [label="MSEdgeWeightsStorage.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="GUILane.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d2b/_g_u_i_lane_8cpp.html"];
+  Node11 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Edge.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d8b/_edge_8cpp.html"];
+  Node11 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Vehicle.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dce/_vehicle_8cpp.html"];
+  Node11 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="MSEdge.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d38/_m_s_edge_8cpp.html"];
+  Node11 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="MSEdgeWeightsStorage.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dd7/_m_s_edge_weights_storage_8cpp.html"];
+  Node11 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="MSNet.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d23/_m_s_net_8cpp.html"];
+  Node11 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="MSVehicle.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d1d/_m_s_vehicle_8cpp.html"];
+  Node11 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="MSTriggeredRerouter.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d03/_m_s_triggered_rerouter_8cpp.html"];
+  Node11 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="NLBuilder.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d38/_n_l_builder_8cpp.html"];
+  Node11 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="TraCIServerAPI_Vehicle.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/da4/_tra_c_i_server_a_p_i___vehicle_8h.html"];
+  Node21 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="TraCIServer.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d7d/_tra_c_i_server_8cpp.html"];
+  Node21 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="TraCIServerAPI_Vehicle.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/de4/_tra_c_i_server_a_p_i___vehicle_8cpp.html"];
+  Node11 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="TraCIServerAPI_Edge.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d04/_tra_c_i_server_a_p_i___edge_8cpp.html"];
+}

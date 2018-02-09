@@ -1,0 +1,9 @@
+digraph "NBPTStop"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{NBPTStop\n|- myAccesses\l- myAdditionalEdgeCandidates\l- myEdgeId\l- myEndPos\l- myIsMultipleStopPositions\l- myLaneId\l- myName\l- myOrigEdgeId\l- myPermissions\l- myPlatformCands\l- myPTStopId\l- myPTStopLength\l- myStartPos\l|+ addAccess()\l+ addPlatformCand()\l+ computExtent()\l+ findLaneAndComputeBusStop\lExtend()\l+ getEdgeId()\l+ getID()\l+ getIsMultipleStopPositions()\l+ getLength()\l+ getMyAdditionalEdgeCandidates()\l+ getName()\land 13 more...\l- operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -myPosition" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{Position\n|- myX\l- myY\l- myZ\l|+ add()\l+ add()\l+ add()\l+ almostSame()\l+ angleTo2D()\l+ crossProduct()\l+ distanceSquaredTo()\l+ distanceSquaredTo2D()\l+ distanceTo()\l+ distanceTo2D()\land 28 more...\l+ invalidPosition()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d3b/class_position.html",tooltip="A point in 2D or 3D with translation and scaling methods. "];
+  Node2 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +INVALID" ,arrowhead="odiamond",fontname="Helvetica"];
+}

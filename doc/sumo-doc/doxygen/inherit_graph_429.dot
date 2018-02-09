@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="NLEdgeControlBuilder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d96/class_n_l_edge_control_builder.html",tooltip="Interface for building edges. "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="GUIEdgeControlBuilder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dd0/class_g_u_i_edge_control_builder.html",tooltip="Derivation of NLEdgeControlBuilder which builds gui-edges. "];
+}

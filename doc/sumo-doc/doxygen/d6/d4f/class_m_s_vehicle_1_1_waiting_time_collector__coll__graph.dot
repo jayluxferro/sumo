@@ -1,0 +1,6 @@
+digraph "MSVehicle::WaitingTimeCollector"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{MSVehicle::WaitingTimeCollector\n|- myMemorySize\l- myWaitingIntervals\l|+ cumulatedWaitingTime()\l+ getMemorySize()\l+ getWaitingIntervals()\l+ operator!=()\l+ operator=()\l+ operator=()\l+ passTime()\l+ WaitingTimeCollector()\l+ WaitingTimeCollector()\l- appendWaitingTime()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

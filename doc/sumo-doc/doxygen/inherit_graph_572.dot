@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="SUMOVehicleParameter\l::Stop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/de9/struct_s_u_m_o_vehicle_parameter_1_1_stop.html",tooltip="Definition of vehicle stop (position and duration) "];
+}

@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="MSQueueExport",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dd7/class_m_s_queue_export.html",tooltip="Export the queueing length in front of a junction (very experimental!) "];
+}

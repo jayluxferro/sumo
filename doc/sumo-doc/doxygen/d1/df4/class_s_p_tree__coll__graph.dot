@@ -1,0 +1,8 @@
+digraph "SPTree&lt; E, C &gt;"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{SPTree\< E, C \>\n|- myFound\l- myFrontier\l- myMaxDepth\l- myNeededShortcuts\l- myShortcutsToValidate\l- myValidatePermissions\l|+ getNeededShortcuts()\l+ init()\l+ rebuildFrom()\l+ registerForValidation()\l+ SPTree()\l+ validatePermissions()\l- debugPrintVector()\l- dijkstraTT()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -myCmp" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{SPTree\< E, C \>::EdgeByTTComparator\n||+ operator()()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d5f/class_s_p_tree_1_1_edge_by_t_t_comparator.html"];
+}

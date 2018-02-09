@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="Named::NamedLikeComparator\lIdLess\< NamedLike \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dd5/struct_named_1_1_named_like_comparator_id_less.html",tooltip="Function-object for stable sorting of objects acting like Named without being derived (SUMOVehicle) ..."];
+}

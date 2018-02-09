@@ -1,0 +1,24 @@
+digraph "GNEChange_Selection.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node25 [label="GNEChange_Selection.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node25 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="GNEAdditionalFrame.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d4b/_g_n_e_additional_frame_8cpp.html"];
+  Node25 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 [label="GNEChange_Selection.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d37/_g_n_e_change___selection_8cpp.html"];
+  Node25 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="GNECrossingFrame.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d93/_g_n_e_crossing_frame_8cpp.html"];
+  Node25 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="GNEDeleteFrame.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dcc/_g_n_e_delete_frame_8cpp.html"];
+  Node25 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="GNEDialog_FixAdditionalPositions.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d1d/_g_n_e_dialog___fix_additional_positions_8cpp.html"];
+  Node25 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="GNEInspectorFrame.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d65/_g_n_e_inspector_frame_8cpp.html"];
+  Node25 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 [label="GNENet.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/db1/_g_n_e_net_8cpp.html"];
+  Node25 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="GNEPolygonFrame.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d37/_g_n_e_polygon_frame_8cpp.html"];
+  Node25 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 [label="GNESelectorFrame.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d2e/_g_n_e_selector_frame_8cpp.html"];
+}

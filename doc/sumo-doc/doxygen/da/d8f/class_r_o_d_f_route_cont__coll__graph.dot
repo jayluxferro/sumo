@@ -1,0 +1,6 @@
+digraph "RODFRouteCont"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{RODFRouteCont\n|# myConnectionOccurences\l# myRoutes\l|+ addRouteDesc()\l+ get()\l+ removeIllegal()\l+ removeRouteDesc()\l+ RODFRouteCont()\l+ save()\l+ sortByDistance()\l+ ~RODFRouteCont()\l# setID()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

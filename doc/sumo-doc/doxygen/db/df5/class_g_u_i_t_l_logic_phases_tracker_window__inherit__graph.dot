@@ -1,0 +1,10 @@
+digraph "GUITLLogicPhasesTrackerWindow"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{GUITLLogicPhasesTrackerWindow\n||+ addValue()\l+ create()\l+ GUITLLogicPhasesTrackerWindow()\l+ GUITLLogicPhasesTrackerWindow()\l+ setBeginTime()\l+ ~GUITLLogicPhasesTracker\lWindow()\l* PhasesVector\l* DurationsVector\l* myApplication\l* myTLLogic\l* myPhases\l* myDurations\l* myPanel\l* myLock\l* myLinkNames\l* myFirstPhase2Show\land 14 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{FXMainWindow\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node2 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{ValueRetriever\< std\l::pair\< SUMOTime, MSPhaseDefinition \> \>\n||+ addValue()\l+ ValueRetriever()\l+ ~ValueRetriever()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/de3/class_value_retriever.html"];
+}

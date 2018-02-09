@@ -1,0 +1,6 @@
+digraph "libsumo::TraCILogic"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{libsumo::TraCILogic\n|+ currentPhaseIndex\l+ phases\l+ subID\l+ subParameter\l+ type\l|+ TraCILogic()\l+ TraCILogic()\l+ ~TraCILogic()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

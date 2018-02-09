@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="NBTrafficLightLogicCont",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d5e/class_n_b_traffic_light_logic_cont.html",tooltip="A container for traffic light definitions and built programs. "];
+}

@@ -1,0 +1,8 @@
+digraph "Option_Integer"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{Option_Integer\n|- myValue\l|+ getInt()\l+ getValueString()\l+ operator=()\l+ Option_Integer()\l+ Option_Integer()\l+ set()\l+ ~Option_Integer()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{Option\n|# myTypeName\l- myAmSet\l- myAmWritable\l- myDescription\l- myHaveTheDefaultValue\l|+ getBool()\l+ getDescription()\l+ getFloat()\l+ getInt()\l+ getIntVector()\l+ getString()\l+ getTypeName()\l+ getValueString()\l+ isBool()\l+ isDefault()\land 9 more...\l# markSet()\l# operator=()\l# Option()\l# Option()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d33/class_option.html",tooltip="A class representing a single program option. "];
+}

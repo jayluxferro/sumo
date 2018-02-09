@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="NBNodesEdgesSorter\l::crossing_by_junction\l_angle_sorter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d9c/class_n_b_nodes_edges_sorter_1_1crossing__by__junction__angle__sorter.html",tooltip="Sorts crossings by minimum clockwise clockwise edge angle. Use the ordering found in myAllEdges of th..."];
+}

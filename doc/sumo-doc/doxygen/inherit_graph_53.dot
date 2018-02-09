@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1072 [label="FXTextField",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1072 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="FX::FXRealSpinDialText",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d1b/class_f_x_1_1_f_x_real_spin_dial_text.html"];
+}

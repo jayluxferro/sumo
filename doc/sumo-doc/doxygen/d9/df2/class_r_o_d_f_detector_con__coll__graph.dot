@@ -1,0 +1,6 @@
+digraph "RODFDetectorCon"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{RODFDetectorCon\n|# myDetectorEdgeMap\l# myDetectorMap\l# myDetectors\l|+ addDetector()\l+ detectorsHaveCompleteTypes()\l+ detectorsHaveRoutes()\l+ getAggFlowFor()\l+ getAnyDetectorForEdge()\l+ getDetector()\l+ getDetectors()\l+ getModifiableDetector()\l+ guessEmptyFlows()\l+ knows()\land 13 more...\l# clearDists()\l- operator=()\l- RODFDetectorCon()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

@@ -1,0 +1,8 @@
+digraph "FX::FXRealSpinDial"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{FX::FXRealSpinDial\n|# dial\l# dialpos\l# downButton\l# incr\l# keystate\l# pos\l# range\l# textField\l# upButton\l|+ create()\l+ decrement()\l+ disable()\l+ enable()\l+ FXRealSpinDial()\l+ getCoarseIncrement()\l+ getCursorColor()\l+ getDefaultHeight()\l+ getDefaultWidth()\l+ getDial()\land 73 more...\l# FXRealSpinDial()\l- FXRealSpinDial()\l- operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{FXPacker\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

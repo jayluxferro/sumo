@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="RODFNet::idComp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d17/struct_r_o_d_f_net_1_1id_comp.html",tooltip="comparator for maps using edges as key, used only in myDetectorsOnEdges to make tests comparable ..."];
+}

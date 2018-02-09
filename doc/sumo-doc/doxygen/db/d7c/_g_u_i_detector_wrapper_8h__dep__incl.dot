@@ -1,0 +1,36 @@
+digraph "GUIDetectorWrapper.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node55 [label="GUIDetectorWrapper.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node55 -> Node56 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node56 [label="GUIDetectorWrapper.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dd0/_g_u_i_detector_wrapper_8cpp.html"];
+  Node55 -> Node57 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node57 [label="GUIE2Collector.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7b/_g_u_i_e2_collector_8h.html"];
+  Node57 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node58 [label="GUIDetectorBuilder.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/db7/_g_u_i_detector_builder_8cpp.html"];
+  Node57 -> Node59 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node59 [label="GUIE2Collector.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc9/_g_u_i_e2_collector_8cpp.html"];
+  Node55 -> Node60 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node60 [label="GUIE3Collector.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d5f/_g_u_i_e3_collector_8h.html"];
+  Node60 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node60 -> Node61 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node61 [label="GUIE3Collector.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d95/_g_u_i_e3_collector_8cpp.html"];
+  Node55 -> Node62 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node62 [label="GUIInductLoop.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dd6/_g_u_i_induct_loop_8h.html"];
+  Node62 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node62 -> Node63 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node63 [label="GUIInductLoop.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/dbb/_g_u_i_induct_loop_8cpp.html"];
+  Node55 -> Node64 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node64 [label="GUIInstantInductLoop.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d6f/_g_u_i_instant_induct_loop_8h.html"];
+  Node64 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node64 -> Node65 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node65 [label="GUIInstantInductLoop.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d0a/_g_u_i_instant_induct_loop_8cpp.html"];
+  Node55 -> Node66 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node66 [label="GUINet.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d90/_g_u_i_net_8cpp.html"];
+  Node55 -> Node67 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node67 [label="GUIMEInductLoop.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/dfb/_g_u_i_m_e_induct_loop_8h.html"];
+  Node67 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node67 -> Node68 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node68 [label="GUIMEInductLoop.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/de6/_g_u_i_m_e_induct_loop_8cpp.html"];
+}

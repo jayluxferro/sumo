@@ -1,0 +1,6 @@
+digraph "XMLSubSys"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{XMLSubSys\n|- myNetValidationScheme\l- myNextFreeReader\l- myReaders\l- myValidationScheme\l|+ close()\l+ getSAXReader()\l+ init()\l+ runParser()\l+ setHandler()\l+ setValidation()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

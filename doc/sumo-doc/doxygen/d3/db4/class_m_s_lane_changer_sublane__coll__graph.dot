@@ -1,0 +1,8 @@
+digraph "MSLaneChangerSublane"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{MSLaneChangerSublane\n||+ MSLaneChangerSublane()\l+ ~MSLaneChangerSublane()\l# abortLCManeuver()\l# change()\l# checkChangeHelper()\l# checkChangeSublane()\l# checkChangeToNewLane()\l# continueChangeSublane()\l# getLeaders()\l# initChanger()\l# outputLCEnded()\l# outputLCStarted()\l# startChangeSublane()\l# updateChanger()\l- MSLaneChangerSublane()\l- MSLaneChangerSublane()\l- operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{MSLaneChanger\n|# myAllowsChanging\l# myCandi\l# myChanger\l# myChangeToOpposite\l|+ laneChange()\l+ MSLaneChanger()\l+ ~MSLaneChanger()\l# applyTraCICommands()\l# change()\l# changeOpposite()\l# checkChange()\l# checkChangeWithinEdge()\l# checkTraCICommands()\l# continueChange()\l# findCandidate()\l# getRealFollower()\l# getRealLeader()\land 8 more...\l# computeOvertakingTime()\l# getCloserFollower()\l- MSLaneChanger()\l- MSLaneChanger()\l- operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dad/class_m_s_lane_changer.html",tooltip="Performs lane changing of vehicles. "];
+}

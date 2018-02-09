@@ -1,0 +1,8 @@
+digraph "MSTransportable::Stage_Waiting"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{MSTransportable::Stage\l_Waiting\n|- myActType\l- myWaitingDuration\l- myWaitingUntil\l|+ abort()\l+ beginEventOutput()\l+ endEventOutput()\l+ getAngle()\l+ getEdge()\l+ getEdgePos()\l+ getEdges()\l+ getFromEdge()\l+ getPosition()\l+ getSpeed()\land 8 more...\l- operator=()\l- Stage_Waiting()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{MSTransportable::Stage\n|# myArrivalPos\l# myArrived\l# myDeparted\l# myDestination\l# myDestinationStop\l# myType\l|+ abort()\l+ beginEventOutput()\l+ endEventOutput()\l+ getAngle()\l+ getArrivalPos()\l+ getDestination()\l+ getDestinationStop()\l+ getEdge()\l+ getEdgeAngle()\l+ getEdgePos()\land 20 more...\l- operator=()\l- Stage()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dce/class_m_s_transportable_1_1_stage.html"];
+}

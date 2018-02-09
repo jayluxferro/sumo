@@ -1,0 +1,198 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: SUMO
+Upstream-Contact: sumo-user@lists.sf.net
+Source: http://sumo.dlr.de/
+Files-Excluded:
+  *.pdf
+  src/foreign/gl2ps
+  tools/projects/vehicles2d/images_save/*
+  build
+  tools/contributed/trafficmodeler/src/resources/icons/Thumbs.db
+  tools/contributed/traci4matlab/Thumbs.db
+  tools/contributed/traci4matlab/examples/inter_palmas/tls_actuated/Thumbs.db
+
+Files: *
+Copyright: 2001-2016, DLR (http://www.dlr.de/) and contributors
+License: GPL-3+
+
+Files: ./src/activitygen/*
+Copyright: 2001-2015, DLR (http://www.dlr.de/) and contributors
+           2010, TUM (Technische Universitaet Muenchen, http://www.tum.de/)
+License: GPL-3+
+
+Files: ./tools/contributed/traci4j/*
+Copyright: 2011, ApPeAL Group, Politecnico di Torino
+License: GPL-3+
+
+Files: ./src/utils/foxtools/*
+Copyright: 2003, Mathew Robertson. *
+License: LGPL-2.1+
+
+Files: ./src/foreign/tcpip/*
+Copyright: 2004-2007, the SwarmNet (www.swarmnet.de) project
+License: BSD-3-clause
+
+Files: ./tools/trip/*
+Copyright: : 2006, by DLR/IVF http://ivf.dlr.de/
+License: GPL-2+
+
+Files: ./src/foreign/polyfonts/*
+Copyright: 2003, Bob Pendleton
+License: LGPL-2.1+
+
+Files: ./src/utils/geom/*
+Copyright: 2001-2012, DLR (http://www.dlr.de/) and contributors
+           2002, softSurfer (www.softsurfer.com)
+License: GPL-3+
+
+Files: ./tools/contributed/trafficmodeler/src/shapes/*
+Copyright: 1998-2005, The Regents of the University of California
+           1998-2006, The Regents of the University of California
+License: Expat
+ Permission is hereby granted, without written agreement and without
+ license or royalty fees, to use, copy, modify, and distribute this
+ software and its documentation for any purpose, provided that the above
+ copyright notice and the following two paragraphs appear in all copies
+ of this software.
+ .
+ IN NO EVENT SHALL THE UNIVERSITY OF CALIFORNIA BE LIABLE TO ANY PARTY
+ FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES
+ ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF
+ THE UNIVERSITY OF CALIFORNIA HAS BEEN ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+ .
+ THE UNIVERSITY OF CALIFORNIA SPECIFICALLY DISCLAIMS ANY WARRANTIES,
+ INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE SOFTWARE
+ PROVIDED HEREUNDER IS ON AN  BASIS, AND THE UNIVERSITY OF
+ CALIFORNIA HAS NO OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES,
+ ENHANCEMENTS, OR MODIFICATIONS.
+ .
+ PT_COPYRIGHT_VERSION_2
+ COPYRIGHTENDKEY
+
+Files: ./src/foreign/mersenne/MersenneTwister.h
+Copyright: 1997 - 2002, Makoto Matsumoto and Takuji Nishimura
+           2000 - 2003, Richard J. Wagner
+License: BSD-3-clause
+
+Files: ./ltmain.sh
+Copyright: 1996-2001, 2003-2007, 2008 Free Software Foundation, Inc
+License: GPL-2+
+
+Files: ./src/utils/geom/bezier.cpp
+Copyright: 2000, David F. Rogers.
+           2001-2012, DLR (http://www.dlr.de/) and contributors
+License: GPL-3+
+
+Files: ./src/utils/foxtools/FXRealSpinDial.cpp
+Copyright: 2004, Bill Baxter. *
+License: LGPL-2.1+
+
+Files: ./src/utils/foxtools/FXRealSpinDial.h
+Copyright: 1998,2003, Lyle Johnson. *
+  2003, Bill Baxter. *
+License: LGPL-2.1+
+
+Files: ./src/foreign/eulerspiral/*
+Copyright: 2004, Brown University, Providence, RI
+License: LGPL
+ Originally these files were released under non-free license.
+ After that authors permitted yo use the code under LGPL-license.
+ http://sourceforge.net/mailarchive/message.php?msg_id=31648968
+ "You may feel free to re-release your code to sourceforge under the
+ LGPL in this case."
+ On Debian systems, the complete text of the GNU LESSER GENERAL PUBLIC
+ LICENSE ver 2.1 can be found in `/usr/share/common-licenses/LGPL'.
+
+Files: tools/contributed/traci4matlab/*
+Copyright: 2015, Andres Acosta, Jairo Espinosa, Jorge Espinosa
+License: BSD-2-clause
+
+Files: tools/contributed/sumoplayer/*
+Copyright: Michael Willigens <michael@willigens.de>, Sandesh upper <suppoor@gmail.com>
+License: GPL-2+
+
+Files: tools/contributed/traas/*
+Copyright: 2013-2015 Mario Krumnow, Dresden University of Technology
+License: GPL-3+
+
+Files: tools/contributed/traci4j/*
+Copyright: 2013 ApPeAL Group, Politecnico di Torino
+License: GPL-3+
+
+Files: tools/game/sounds/*
+Copyright: unknown
+License: public-domain
+ All sounds are licensed as CC0 (public domain).
+
+License: BSD-2-clause
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions are
+  met:
+ .
+      * Redistributions of source code must retain the above copyright
+        notice, this list of conditions and the following disclaimer.
+      * Redistributions in binary form must reproduce the above copyright
+        notice, this list of conditions and the following disclaimer in
+        the documentation and/or other materials provided with the distribution
+ .
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+  AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+  IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+  ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+  LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+  CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+  SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+  INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+  CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+  ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+  POSSIBILITY OF SUCH DAMAGE.
+
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ 3. The names of its contributors may not be used to endorse or promote
+    products derived from this software without specific prior written
+    permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ .
+ The original code included the following notice:
+ .
+ When you use this, send an email to: matumoto@math.keio.ac.jp
+ with an appropriate reference to your work.
+ .
+ It would be nice to CC: rjwagner@writeme.com and Cokus@math.washington.edu
+ when you write.
+
+License: GPL-2+
+ On Debian systems, the complete text of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-3+
+ On Debian systems, the complete text of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-3'.
+
+License: LGPL-2.1+
+ On Debian systems, the complete text of the GNU LESSER GENERAL PUBLIC
+ LICENSE ver 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1'.

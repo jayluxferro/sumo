@@ -1,0 +1,8 @@
+digraph "MSGlobals"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{MSGlobals\n|+ gActionStepLength\l+ gCheck4Accidents\l+ gCheckRoutes\l+ gIgnoreJunctionBlocker\l+ gLaneChangeDuration\l+ gLateralResolution\l+ gMesoLimitedJunctionControl\l+ gMesoMinorPenalty\l+ gMesoOvertaking\l+ gMesoTLSPenalty\land 9 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +gMesoNet" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{MELoop\n|- myEdges2FirstSegments\l- myFullRecheckInterval\l- myLeaderCars\l- myLinkRecheckInterval\l|+ addLeaderCar()\l+ buildSegmentsFor()\l+ changeSegment()\l+ getSegmentForEdge()\l+ MELoop()\l+ removeLeaderCar()\l+ simulate()\l+ ~MELoop()\l+ numSegmentsFor()\l+ setApproaching()\l- checkCar()\l- MELoop()\l- nextSegment()\l- operator=()\l- teleportVehicle()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2a/class_m_e_loop.html",tooltip="The main mesocopic simulation loop. "];
+}

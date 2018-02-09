@@ -1,0 +1,10 @@
+digraph "GUIMEInductLoop.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node75 [label="GUIMEInductLoop.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node75 -> Node76 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node76 [label="GUIDetectorBuilder.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/db7/_g_u_i_detector_builder_8cpp.html"];
+  Node75 -> Node77 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node77 [label="GUIMEInductLoop.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/de6/_g_u_i_m_e_induct_loop_8cpp.html"];
+}

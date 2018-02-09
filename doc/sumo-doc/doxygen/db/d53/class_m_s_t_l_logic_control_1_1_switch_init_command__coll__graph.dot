@@ -1,0 +1,10 @@
+digraph "MSTLLogicControl::SwitchInitCommand"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{MSTLLogicControl::Switch\lInitCommand\n|# myIndex\l# myWAUTID\l|+ getIndex()\l+ getWAUTID()\l+ SwitchInitCommand()\l+ ~SwitchInitCommand()\l+ execute()\l- operator=()\l- SwitchInitCommand()\l* execute()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{Command\n||+ Command()\l+ execute()\l+ ~Command()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d6a/class_command.html",tooltip="Base (microsim) event class. "];
+  Node4 -> Node2 [color="grey25",fontsize="10",style="solid",label=" #myParent" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{MSTLLogicControl\n|# myCurrentlySwitched\l# myLogics\l# myNetWasLoaded\l# myWAUTs\l|+ add()\l+ check2Switch()\l+ closeNetworkReading()\l+ get()\l+ get()\l+ getActive()\l+ getAllLogics()\l+ getAllTLIds()\l+ getPhaseDef()\l+ initWautSwitch()\land 7 more...\l+ addWAUT()\l+ addWAUTSwitch()\l+ addWAUTJunction()\l+ closeWAUT()\l- MSTLLogicControl()\l- operator=()\l* addWAUT()\l* addWAUTSwitch()\l* addWAUTJunction()\l* closeWAUT()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/da4/class_m_s_t_l_logic_control.html",tooltip="A class that stores and controls tls and switching of their programs. "];
+}

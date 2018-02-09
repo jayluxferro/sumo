@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="RTree\< DATATYPE, DATATYPENP,\l ELEMTYPE, NUMDIMS, CONTEXT,\l ELEMTYPEREAL, TMAXNODES, TMINNODES\l \>::PartitionVars",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/da4/struct_r_tree_1_1_partition_vars.html",tooltip="Variables for finding a split partition. "];
+}

@@ -1,0 +1,6 @@
+digraph "libsumo::Lane"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{libsumo::Lane\n||+ getAllowed()\l+ getCO2Emission()\l+ getCOEmission()\l+ getDisallowed()\l+ getEdgeID()\l+ getElectricityConsumption()\l+ getFoes()\l+ getFuelConsumption()\l+ getHCEmission()\l+ getIDCount()\land 28 more...\l- Lane()\l- Lane()\l- operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

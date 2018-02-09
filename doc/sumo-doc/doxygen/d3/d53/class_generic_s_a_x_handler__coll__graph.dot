@@ -1,0 +1,9 @@
+digraph "GenericSAXHandler"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node57 [label="{GenericSAXHandler\n|- myCharactersVector\l- myFileName\l- myParentIndicator\l|+ characters()\l+ endElement()\l+ GenericSAXHandler()\l+ getFileName()\l+ registerParent()\l+ setFileName()\l+ startElement()\l+ ~GenericSAXHandler()\l+ warning()\l+ error()\l+ fatalError()\l# buildErrorMessage()\l# myCharacters()\l# myEndElement()\l# myStartElement()\l- convert()\l- convertTag()\l- GenericSAXHandler()\l- operator=()\l* AttrMap\l* myPredefinedTags\l* myPredefinedTagsMML\l* TagMap\l* myTagMap\l* warning()\l* error()\l* fatalError()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node58 -> Node57 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node58 [label="{XERCES_CPP_NAMESPACE\l::DefaultHandler\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node57 -> Node57 [color="grey25",fontsize="10",style="solid",label=" -myParentHandler" ,arrowhead="odiamond",fontname="Helvetica"];
+}

@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="ValueRetriever\< double \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/de3/class_value_retriever.html"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="TrackerValueDesc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d7f/class_tracker_value_desc.html",tooltip="Representation of a timeline of floats with their names and moments. "];
+}

@@ -1,0 +1,12 @@
+digraph "NIXMLNodesHandler.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node32 [label="NIXMLNodesHandler.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node32 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="NILoader.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d6a/_n_i_loader_8cpp.html"];
+  Node32 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 [label="NIXMLEdgesHandler.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/da3/_n_i_x_m_l_edges_handler_8cpp.html"];
+  Node32 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node35 [label="NIXMLNodesHandler.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d29/_n_i_x_m_l_nodes_handler_8cpp.html"];
+}

@@ -1,0 +1,14 @@
+digraph "TraCIServerAPI_VehicleType.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node84 [label="TraCIServerAPI_VehicleType.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node84 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node85 [label="TraCIServer.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d7d/_tra_c_i_server_8cpp.html"];
+  Node84 -> Node86 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node86 [label="TraCIServerAPI_Person.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d4f/_tra_c_i_server_a_p_i___person_8cpp.html"];
+  Node84 -> Node87 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node87 [label="TraCIServerAPI_Vehicle.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/de4/_tra_c_i_server_a_p_i___vehicle_8cpp.html"];
+  Node84 -> Node88 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node88 [label="TraCIServerAPI_VehicleType.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/de0/_tra_c_i_server_a_p_i___vehicle_type_8cpp.html"];
+}

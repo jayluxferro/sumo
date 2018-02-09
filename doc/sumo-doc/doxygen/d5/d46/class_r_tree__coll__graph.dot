@@ -1,0 +1,13 @@
+digraph "RTree&lt; DATATYPE, DATATYPENP, ELEMTYPE, NUMDIMS, CONTEXT, ELEMTYPEREAL, TMAXNODES, TMINNODES &gt;"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{RTree\< DATATYPE, DATATYPENP,\l ELEMTYPE, NUMDIMS, CONTEXT,\l ELEMTYPEREAL, TMAXNODES, TMINNODES \>\n|# m_unitSphereVolume\l# myOperation\l|+ Count()\l+ GetAt()\l+ GetFirst()\l+ GetNext()\l+ Insert()\l+ IsNull()\l+ Remove()\l+ RemoveAll()\l+ RTree()\l+ Search()\l+ ~RTree()\l# AddBranch()\l# AllocListNode()\l# AllocNode()\l# CalcRectVolume()\l# ChoosePartition()\l# Classify()\l# CombineRect()\l# CountRec()\l# DisconnectBranch()\l# FreeListNode()\land 21 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #m_root" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{RTree\< DATATYPE, DATATYPENP,\l ELEMTYPE, NUMDIMS, CONTEXT,\l ELEMTYPEREAL, TMAXNODES, TMINNODES \>::Node\n|+ m_count\l+ m_level\l|+ IsInternalNode()\l+ IsLeaf()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/df5/struct_r_tree_1_1_node.html",tooltip="Node for each branch level. "];
+  Node3 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +m_branch" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{RTree\< DATATYPE, DATATYPENP,\l ELEMTYPE, NUMDIMS, CONTEXT,\l ELEMTYPEREAL, TMAXNODES, TMINNODES\l \>::Branch\n|+ @10\l+ m_data\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d04/struct_r_tree_1_1_branch.html"];
+  Node2 -> Node3 [color="grey25",fontsize="10",style="solid",label=" +m_child" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 -> Node3 [color="grey25",fontsize="10",style="solid",label=" +m_rect" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{RTree\< DATATYPE, DATATYPENP,\l ELEMTYPE, NUMDIMS, CONTEXT,\l ELEMTYPEREAL, TMAXNODES, TMINNODES \>::Rect\n|+ m_max\l+ m_min\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d0c/struct_r_tree_1_1_rect.html",tooltip="Minimal bounding rectangle (n-dimensional) "];
+}

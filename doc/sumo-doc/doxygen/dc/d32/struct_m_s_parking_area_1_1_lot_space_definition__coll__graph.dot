@@ -1,0 +1,11 @@
+digraph "MSParkingArea::LotSpaceDefinition"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{MSParkingArea::LotSpaceDefinition\n|+ index\l+ myEndPos\l+ myLength\l+ myRotation\l+ myWidth\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +myPosition" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{Position\n|- myX\l- myY\l- myZ\l|+ add()\l+ add()\l+ add()\l+ almostSame()\l+ angleTo2D()\l+ crossProduct()\l+ distanceSquaredTo()\l+ distanceSquaredTo2D()\l+ distanceTo()\l+ distanceTo2D()\land 28 more...\l+ invalidPosition()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d3b/class_position.html",tooltip="A point in 2D or 3D with translation and scaling methods. "];
+  Node2 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +INVALID" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +vehicle" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{SUMOVehicle\n||+ addContainer()\l+ addPerson()\l+ addStop()\l+ getAcceleration()\l+ getAccumulatedWaitingTime()\l+ getAngle()\l+ getArrivalPos()\l+ getBackPositionOnLane()\l+ getChosenSpeedFactor()\l+ getCurrentRouteEdge()\land 43 more...\l+ saveState()\l+ loadState()\l* saveState()\l* loadState()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d61/class_s_u_m_o_vehicle.html",tooltip="Representation of a vehicle. "];
+}

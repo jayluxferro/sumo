@@ -1,0 +1,23 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1057 [label="FXTopWindow",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1057 -> Node0 [dir="back",color="darkgreen",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="GNEAdditionalDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d75/class_g_n_e_additional_dialog.html",tooltip="Dialog to edit sequences, parameters, etc.. of Additionals. "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="GNECalibratorDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/dcd/class_g_n_e_calibrator_dialog.html",tooltip="Dialog for edit calibrators. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="GNECalibratorFlowDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d6d/class_g_n_e_calibrator_flow_dialog.html",tooltip="Dialog for edit rerouter intervals. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="GNECalibratorRouteDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/de0/class_g_n_e_calibrator_route_dialog.html",tooltip="Dialog for edit Calibrator Routes. "];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="GNECalibratorVehicleType\lDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d6a/class_g_n_e_calibrator_vehicle_type_dialog.html",tooltip="Dialog for edit rerouter intervals. "];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="GNERerouterDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/df6/class_g_n_e_rerouter_dialog.html",tooltip="Dialog for edit rerouters. "];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="GNERerouterIntervalDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dd6/class_g_n_e_rerouter_interval_dialog.html",tooltip="Dialog for edit rerouter intervals. "];
+  Node0 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="GNEVariableSpeedSignDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/ddc/class_g_n_e_variable_speed_sign_dialog.html"];
+}

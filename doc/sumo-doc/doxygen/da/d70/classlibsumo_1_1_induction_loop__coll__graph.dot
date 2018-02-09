@@ -1,0 +1,6 @@
+digraph "libsumo::InductionLoop"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{libsumo::InductionLoop\n||+ getIDCount()\l+ getIDList()\l+ getLaneID()\l+ getLastStepMeanLength()\l+ getLastStepMeanSpeed()\l+ getLastStepOccupancy()\l+ getLastStepVehicleIDs()\l+ getLastStepVehicleNumber()\l+ getPosition()\l+ getTimeSinceDetection()\l+ getTree()\l+ getVehicleData()\l- InductionLoop()\l- InductionLoop()\l- operator=()\l- getDetector()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

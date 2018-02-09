@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="MSTLLogicControl::TLSLogic\lVariants",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dab/class_m_s_t_l_logic_control_1_1_t_l_s_logic_variants.html",tooltip="Storage for all programs of a single tls. "];
+}

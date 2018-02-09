@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="NGNet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d32/class_n_g_net.html",tooltip="The class storing the generated network. "];
+}

@@ -1,0 +1,6 @@
+digraph "TplConvert"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{TplConvert\n||+ getLength()\l+ _2str()\l+ _2str()\l+ _2str()\l+ _2str()\l+ _2str()\l+ _2str()\l+ _2str()\l+ _2strSec()\l+ _2strSec()\l+ _2int()\l+ _str2int()\l+ _hex2int()\l+ _strHex2int()\l+ _2intSec()\l+ _2long()\l+ _str2long()\l+ _hex2long()\l+ _2longSec()\l+ _2double()\l+ _str2double()\l+ _2doubleSec()\l+ _2bool()\l+ _str2Bool()\l+ _2boolSec()\l* _2str()\l* _2str()\l* _2str()\l* _2str()\l* _2str()\l* _2str()\l* _2str()\l* _2strSec()\l* _2strSec()\l* _2int()\l* _str2int()\l* _hex2int()\l* _strHex2int()\l* _2intSec()\l* _2long()\l* _str2long()\l* _hex2long()\l* _2longSec()\l* _2double()\l* _str2double()\l* _2doubleSec()\l* _2bool()\l* _str2Bool()\l* _2boolSec()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

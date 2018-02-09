@@ -1,0 +1,28 @@
+var class_r_o_vehicle =
+[
+    [ "ROVehicle", "d5/d1b/class_r_o_vehicle.html#a83d99a3f9781f505060ac61992e6c05d", null ],
+    [ "~ROVehicle", "d5/d1b/class_r_o_vehicle.html#a94a32ae1ffec01e77ba2c126babb9183", null ],
+    [ "ROVehicle", "d5/d1b/class_r_o_vehicle.html#a62c4f0aef8a0f1269ace8b80275bf7ff", null ],
+    [ "addStop", "d5/d1b/class_r_o_vehicle.html#ad0adb25ba03a6c2d45e905a71400572c", null ],
+    [ "computeRoute", "d5/d1b/class_r_o_vehicle.html#adf50fd792eb4014c72893211332f8ae5", null ],
+    [ "getChosenSpeedFactor", "d5/d1b/class_r_o_vehicle.html#a0e8bffe76475550b7144d443516dea56", null ],
+    [ "getDepart", "d5/d1b/class_r_o_vehicle.html#a8ea486efec2ff301f46326a87ca1402c", null ],
+    [ "getDepartEdge", "d5/d1b/class_r_o_vehicle.html#a571717e4c770ebac58062abc3711b99f", null ],
+    [ "getDepartureTime", "d5/d1b/class_r_o_vehicle.html#a5cd9669f6a9b05062f0c8fc411c40dbe", null ],
+    [ "getID", "d5/d1b/class_r_o_vehicle.html#a54c24e4d5d71169a2b63bb7bb1e0c8be", null ],
+    [ "getMaxSpeed", "d5/d1b/class_r_o_vehicle.html#ae76494b19950a55cbd52cb45b046858f", null ],
+    [ "getParameter", "d5/d1b/class_r_o_vehicle.html#a5376ec92c7a612436be72fc26708b034", null ],
+    [ "getRouteDefinition", "d5/d1b/class_r_o_vehicle.html#a58b8213d6809f77233f320cc2a5d4ba9", null ],
+    [ "getRoutingSuccess", "d5/d1b/class_r_o_vehicle.html#a19535fd763648a1781f4897e46b83555", null ],
+    [ "getStopEdges", "d5/d1b/class_r_o_vehicle.html#a1d4df86273094b9eaad47effc2597509", null ],
+    [ "getType", "d5/d1b/class_r_o_vehicle.html#a6907f400ce87634c7117759c0a31eba9", null ],
+    [ "getVClass", "d5/d1b/class_r_o_vehicle.html#a5510d03161b5118f45843aa4114983e1", null ],
+    [ "isPartOfFlow", "d5/d1b/class_r_o_vehicle.html#a75ea24b7b45ffdbe9b7382f3af3be43d", null ],
+    [ "isPublicTransport", "d5/d1b/class_r_o_vehicle.html#a6374c383298520e9cd75dde89d4f00a3", null ],
+    [ "operator=", "d5/d1b/class_r_o_vehicle.html#aad070608a3b267762341404b96bd025b", null ],
+    [ "saveAsXML", "d5/d1b/class_r_o_vehicle.html#a673fa39d6e94df725b4aab29cf45ea2a", null ],
+    [ "write", "d5/d1b/class_r_o_vehicle.html#a3f8f5afb4425c86ceda553fb13bfdde0", null ],
+    [ "myRoute", "d5/d1b/class_r_o_vehicle.html#af0f3c84587cb2170906dd1877ede3f26", null ],
+    [ "myRoutingSuccess", "d5/d1b/class_r_o_vehicle.html#a90120de9b2c081877b0119a579dd226c", null ],
+    [ "myStopEdges", "d5/d1b/class_r_o_vehicle.html#a7ca430d0a358cb60c31331ddbc24c590", null ]
+];

@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="MSVehicle::WaitingTimeCollector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d2b/class_m_s_vehicle_1_1_waiting_time_collector.html",tooltip="Stores the waiting intervals over the previous seconds (memory is to be specified in ms..."];
+}

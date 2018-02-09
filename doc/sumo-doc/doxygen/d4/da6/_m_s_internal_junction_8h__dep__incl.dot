@@ -1,0 +1,14 @@
+digraph "MSInternalJunction.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node23 [label="MSInternalJunction.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node23 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="GUIJunctionWrapper.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5b/_g_u_i_junction_wrapper_8cpp.html"];
+  Node23 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="MSInternalJunction.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d1b/_m_s_internal_junction_8cpp.html"];
+  Node23 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="MSJunctionControl.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d3d/_m_s_junction_control_8cpp.html"];
+  Node23 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 [label="NLJunctionControlBuilder.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d64/_n_l_junction_control_builder_8cpp.html"];
+}

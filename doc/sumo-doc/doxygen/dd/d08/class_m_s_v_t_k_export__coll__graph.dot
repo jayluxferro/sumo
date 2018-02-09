@@ -1,0 +1,6 @@
+digraph "MSVTKExport"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{MSVTKExport\n||+ write()\l- MSVTKExport()\l- operator=()\l- ctype_space()\l- getOffset()\l- getPositions()\l- getSpeed()\l- List2String()\l- trim()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

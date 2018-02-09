@@ -1,0 +1,31 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1140 [label="FXDialogBox",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1140 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="GNEDialog_About",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d77/class_g_n_e_dialog___about.html",tooltip="The application&#39;s \"About\" - dialog. "];
+  Node1140 -> Node1142 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1142 [label="GNEDialog_AllowDisallow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1c/class_g_n_e_dialog___allow_disallow.html",tooltip="Dialog for edit rerouters. "];
+  Node1140 -> Node1143 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1143 [label="GNEDialog_FixAdditionalPositions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dea/class_g_n_e_dialog___fix_additional_positions.html",tooltip="Dialog for edit rerouters. "];
+  Node1140 -> Node1144 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1144 [label="GNEDialog_Wizard",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d3d/class_g_n_e_dialog___wizard.html"];
+  Node1140 -> Node1145 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1145 [label="GUIDialog_AboutSUMO",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d66/class_g_u_i_dialog___about_s_u_m_o.html",tooltip="The application&#39;s \"About\" - dialog. "];
+  Node1140 -> Node1146 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1146 [label="GUIDialog_AppSettings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d5f/class_g_u_i_dialog___app_settings.html",tooltip="The dialog to change the application (gui) settings. "];
+  Node1140 -> Node1147 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1147 [label="GUIDialog_EditViewport",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d3d/class_g_u_i_dialog___edit_viewport.html",tooltip="A dialog to change the viewport. "];
+  Node1140 -> Node1148 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1148 [label="GUIDialog_ViewSettings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d66/class_g_u_i_dialog___view_settings.html",tooltip="The dialog to change the view (gui) settings. "];
+  Node1140 -> Node1149 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1149 [label="GUIManipulator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/da3/class_g_u_i_manipulator.html"];
+  Node1149 -> Node1150 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1150 [label="GUICalibrator::GUIManip\l_Calibrator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dd4/class_g_u_i_calibrator_1_1_g_u_i_manip___calibrator.html"];
+  Node1149 -> Node1151 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1151 [label="GUILaneSpeedTrigger\l::GUIManip_LaneSpeedTrigger",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d71/class_g_u_i_lane_speed_trigger_1_1_g_u_i_manip___lane_speed_trigger.html"];
+  Node1149 -> Node1152 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1152 [label="GUITriggeredRerouter\l::GUIManip_TriggeredRerouter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d79/class_g_u_i_triggered_rerouter_1_1_g_u_i_manip___triggered_rerouter.html"];
+}

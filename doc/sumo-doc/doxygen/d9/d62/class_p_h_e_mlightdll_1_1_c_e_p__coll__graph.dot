@@ -1,0 +1,6 @@
+digraph "PHEMlightdll::CEP"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{PHEMlightdll::CEP\n|# _auxPower\l# _axleRatio\l# _cepCurveFC\l# _cepCurvePollutants\l# _cepNormalizedCurvePollutants\l# _crossSectionalArea\l# _cWValue\l# _dragNormTable\l# _effectiveWheelDiameter\l# _engineIdlingSpeed\land 24 more...\l- _drivingPower\l- _fuelType\l- _heavyVehicle\l- _normalizingPower\l- _normalizingType\l- _ratedPower\l|+ CalcEngPower()\l+ CalcPower()\l+ CEP()\l+ GetCO2Emission()\l+ GetDecelCoast()\l+ getDrivingPower()\l+ GetEmission()\l+ getFuelType()\l+ getHeavyVehicle()\l+ GetMaxAccel()\land 6 more...\l- FindLowerUpperInPattern()\l- GetPMaxNorm()\l- InitializeInstanceFields()\l- Interpolate()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

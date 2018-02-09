@@ -1,0 +1,12 @@
+digraph "MSTriggeredRerouter::RerouteInterval"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{MSTriggeredRerouter\l::RerouteInterval\n|+ begin\l+ closed\l+ closedLanes\l+ closedLanesAffected\l+ end\l+ id\l+ permissions\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +parkProbs" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{RandomDistributor\<\l MSParkingArea *\>\n|- myProb\l- myProbs\l- myVals\l|+ add()\l+ clear()\l+ get()\l+ getOverallProb()\l+ getProbs()\l+ getVals()\l+ RandomDistributor()\l+ ~RandomDistributor()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9b/class_random_distributor.html"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +routeProbs" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{RandomDistributor\<\l const MSRoute *\>\n|- myProb\l- myProbs\l- myVals\l|+ add()\l+ clear()\l+ get()\l+ getOverallProb()\l+ getProbs()\l+ getVals()\l+ RandomDistributor()\l+ ~RandomDistributor()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9b/class_random_distributor.html"];
+  Node4 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +edgeProbs" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{RandomDistributor\<\l MSEdge *\>\n|- myProb\l- myProbs\l- myVals\l|+ add()\l+ clear()\l+ get()\l+ getOverallProb()\l+ getProbs()\l+ getVals()\l+ RandomDistributor()\l+ ~RandomDistributor()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9b/class_random_distributor.html"];
+}

@@ -1,0 +1,6 @@
+digraph "GUIPropertyScheme&lt; T &gt;"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{GUIPropertyScheme\< T \>\n|- myAllowNegativeValues\l- myColors\l- myIsFixed\l- myIsInterpolated\l- myName\l- myNames\l- myThresholds\l|+ addColor()\l+ allowsNegativeValues()\l+ clear()\l+ getColor()\l+ getColors()\l+ getName()\l+ getNames()\l+ getTagName()\l+ getTagName()\l+ getThresholds()\land 13 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

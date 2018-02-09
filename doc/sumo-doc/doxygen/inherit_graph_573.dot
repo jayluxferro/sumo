@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="SUMOVehicleParserHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d44/class_s_u_m_o_vehicle_parser_helper.html",tooltip="Helper methods for parsing vehicle attributes. "];
+}

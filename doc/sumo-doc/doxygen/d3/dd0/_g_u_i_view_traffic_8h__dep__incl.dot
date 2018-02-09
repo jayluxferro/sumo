@@ -1,0 +1,10 @@
+digraph "GUIViewTraffic.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node57 [label="GUIViewTraffic.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node57 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node58 [label="GUISUMOViewParent.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d67/_g_u_i_s_u_m_o_view_parent_8cpp.html"];
+  Node57 -> Node59 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node59 [label="GUIViewTraffic.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/dd8/_g_u_i_view_traffic_8cpp.html"];
+}

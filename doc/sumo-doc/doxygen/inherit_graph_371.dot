@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="NIImporter_OpenDrive\l::sections_by_s_sorter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d95/class_n_i_importer___open_drive_1_1sections__by__s__sorter.html",tooltip="A class for sorting lane sections by their s-value. "];
+}

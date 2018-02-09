@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="NIXMLEdgesHandler::\lSplit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/ddb/struct_n_i_x_m_l_edges_handler_1_1_split.html",tooltip="A structure which describes changes of lane number or speed along the road. "];
+}

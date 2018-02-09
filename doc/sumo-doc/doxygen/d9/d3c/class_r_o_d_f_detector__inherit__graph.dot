@@ -1,0 +1,8 @@
+digraph "RODFDetector"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{RODFDetector\n|# myFollowingDetectors\l# myLaneID\l# myPosition\l# myPriorDetectors\l# myRoute2Edge\l# myRoutes\l# mySplitProbabilities\l# myType\l|+ addFollowingDetector()\l+ addPriorDetector()\l+ addRoute()\l+ addRoutes()\l+ buildDestinationDistribution()\l+ computeSplitProbabilities()\l+ getFollowerDetectors()\l+ getPriorDetectors()\l+ getRouteVector()\l+ getSplitProbabilities()\l+ hasRoutes()\l+ RODFDetector()\l+ RODFDetector()\l+ setType()\l+ ~RODFDetector()\l+ getLaneID()\l+ getEdgeID()\l+ getPos()\l+ getType()\l+ writeEmitterDefinition()\l+ writeRoutes()\l+ writeSingleSpeedTrigger()\l+ writeEndRerouterDetectors()\l# computeDistanceFactor()\l# getFlowFor()\l- operator=()\l- RODFDetector()\l* getLaneID()\l* getEdgeID()\l* getPos()\l* getType()\l* writeEmitterDefinition()\l* writeRoutes()\l* writeSingleSpeedTrigger()\l* writeEndRerouterDetectors()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{Named\n|# myID\l|+ addTo()\l+ getID()\l+ Named()\l+ setID()\l+ ~Named()\l+ getIDSecure()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dbf/class_named.html",tooltip="Base class for objects which have an id. "];
+}

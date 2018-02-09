@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="GUITexturesHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dff/class_g_u_i_textures_helper.html",tooltip="Global storage for textures; manages and draws them. "];
+}

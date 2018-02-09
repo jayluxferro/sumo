@@ -1,0 +1,6 @@
+digraph "NWWriter_DlrNavteq"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{NWWriter_DlrNavteq\n|- UNDEFINED\l|+ getBrunnelType()\l+ getFormOfWay()\l+ getRoadClass()\l+ writeNetwork()\l- getAllowedTypes()\l- getGraphLength()\l- getNavteqLaneCode()\l- getSinglePostalCode()\l- getSpeedCategory()\l- getSpeedCategoryUpperBound()\l- speedInKph()\l- writeConnectedLanes()\l- writeHeader()\l- writeLinksUnsplitted()\l- writeNodesUnsplitted()\l- writeProhibitedManoeuvres()\l- writeTrafficSignals()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

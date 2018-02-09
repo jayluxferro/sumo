@@ -1,0 +1,6 @@
+digraph "MSTLLogicControl"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{MSTLLogicControl\n|# myCurrentlySwitched\l# myLogics\l# myNetWasLoaded\l# myWAUTs\l|+ add()\l+ check2Switch()\l+ closeNetworkReading()\l+ get()\l+ get()\l+ getActive()\l+ getAllLogics()\l+ getAllTLIds()\l+ getPhaseDef()\l+ initWautSwitch()\land 7 more...\l+ addWAUT()\l+ addWAUTSwitch()\l+ addWAUTJunction()\l+ closeWAUT()\l- MSTLLogicControl()\l- operator=()\l* addWAUT()\l* addWAUTSwitch()\l* addWAUTJunction()\l* closeWAUT()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

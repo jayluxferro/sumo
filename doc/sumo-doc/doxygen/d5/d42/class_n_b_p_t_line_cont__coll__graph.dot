@@ -1,0 +1,6 @@
+digraph "NBPTLineCont"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{NBPTLineCont\n|- myIdCnt\l- myPTLines\l- myServedPTStops\l- BWD\l- FWD\l|+ addEdges2Keep()\l+ begin()\l+ end()\l+ getServedPTStops()\l+ insert()\l+ NBPTLineCont()\l+ process()\l+ ~NBPTLineCont()\l- constructRoute()\l- reviseStops()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

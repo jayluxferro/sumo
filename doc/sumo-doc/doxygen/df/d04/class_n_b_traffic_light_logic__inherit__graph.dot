@@ -1,0 +1,10 @@
+digraph "NBTrafficLightLogic"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{NBTrafficLightLogic\n|- myNumLinks\l- myOffset\l- myPhases\l- mySubID\l- myType\l- ALLOWED_STATES\l- allowedStatesInitializer\l|+ addStep()\l+ addStep()\l+ closeBuilding()\l+ deletePhase()\l+ getDuration()\l+ getNumLinks()\l+ getOffset()\l+ getPhases()\l+ getProgramID()\l+ getType()\land 11 more...\l- operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{Named\n|# myID\l|+ addTo()\l+ getID()\l+ Named()\l+ setID()\l+ ~Named()\l+ getIDSecure()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dbf/class_named.html",tooltip="Base class for objects which have an id. "];
+  Node2 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{Parameterised\n|- myMap\l|+ clearParameter()\l+ getDouble()\l+ getMap()\l+ getParameter()\l+ knowsParameter()\l+ Parameterised()\l+ Parameterised()\l+ setParameter()\l+ unsetParameter()\l+ updateParameter()\l+ writeParams()\l+ ~Parameterised()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dc7/class_parameterised.html",tooltip="An upper class for objects with additional parameters. "];
+}

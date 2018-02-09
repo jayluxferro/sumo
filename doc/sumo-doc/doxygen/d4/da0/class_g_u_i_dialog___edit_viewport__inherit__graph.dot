@@ -1,0 +1,8 @@
+digraph "GUIDialog_EditViewport"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{GUIDialog_EditViewport\n|# buttonOk\l# myOldLookAt\l# myOldLookFrom\l# myParent\l# myXOff\l# myYOff\l# myZOff\l# myZoom\l|+ GUIDialog_EditViewport()\l+ haveGrabbed()\l+ setOldValues()\l+ setValues()\l+ setValues()\l+ show()\l+ writeXML()\l+ ~GUIDialog_EditViewport()\l+ onCmdChanged()\l+ onCmdOk()\l+ onCmdCancel()\l+ onCmdLoad()\l+ onCmdSave()\l# GUIDialog_EditViewport()\l* onCmdChanged()\l* onCmdOk()\l* onCmdCancel()\l* onCmdLoad()\l* onCmdSave()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{FXDialogBox\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

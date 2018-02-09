@@ -1,0 +1,8 @@
+digraph "FXEX::FXSevenSegment"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{FXEX::FXSevenSegment\n|- bgcolor\l- fgcolor\l- groove\l- hsl\l- st\l- value\l- vsl\l|+ FXSevenSegment()\l+ getBgColor()\l+ getDefaultHeight()\l+ getDefaultWidth()\l+ getFgColor()\l+ getGroove()\l+ getHorizontal()\l+ getText()\l+ getThickness()\l+ getVertical()\land 18 more...\l# drawBottomSegment()\l# drawFigure()\l# drawLeftBottomSegment()\l# drawLeftTopSegment()\l# drawMiddleSegment()\l# drawRightBottomSegment()\l# drawRightTopSegment()\l# drawSegments()\l# drawTopSegment()\l# FXSevenSegment()\l- checkSize()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{FXFrame\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

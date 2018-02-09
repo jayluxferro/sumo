@@ -1,0 +1,19 @@
+digraph "MFXAddEditTypedTable.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node8 [label="MFXAddEditTypedTable.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="MFXAddEditTypedTable.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/df9/_m_f_x_add_edit_typed_table_8cpp.html"];
+  Node8 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="GUIDialog_ViewSettings.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d3a/_g_u_i_dialog___view_settings_8cpp.html"];
+  Node8 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="GUIDialog_ViewSettings.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d40/_g_u_i_dialog___view_settings_8h.html"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="GUIViewTraffic.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/dd8/_g_u_i_view_traffic_8cpp.html"];
+  Node11 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="GNEViewNet.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/de5/_g_n_e_view_net_8cpp.html"];
+  Node11 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="GUISUMOAbstractView.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d82/_g_u_i_s_u_m_o_abstract_view_8cpp.html"];
+}

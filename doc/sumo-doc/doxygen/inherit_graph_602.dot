@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="TraCIServerAPI_VehicleType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d89/class_tra_c_i_server_a_p_i___vehicle_type.html",tooltip="APIs for getting/setting vehicle type values via TraCI. "];
+}

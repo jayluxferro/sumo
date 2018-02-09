@@ -1,0 +1,27 @@
+var class_n_b_p_t_line =
+[
+    [ "NBPTLine", "d6/db0/class_n_b_p_t_line.html#ad88db544add99120948c6b11efca3d3c", null ],
+    [ "addEdgeVector", "d6/db0/class_n_b_p_t_line.html#a3ec2d844d8ec7a40fab3ba5e826b9c85", null ],
+    [ "addPTStop", "d6/db0/class_n_b_p_t_line.html#a2827d5d514011bc5b6415baa3991d86d", null ],
+    [ "addWayNode", "d6/db0/class_n_b_p_t_line.html#ab24e0d6c6c41b7f4fd007c221a4a1960", null ],
+    [ "getLineID", "d6/db0/class_n_b_p_t_line.html#a769f8ac3fb1d1a0cee45876a47876349", null ],
+    [ "getMyWays", "d6/db0/class_n_b_p_t_line.html#a5737713a13cc570284554f2e11e6f82b", null ],
+    [ "getName", "d6/db0/class_n_b_p_t_line.html#a52be51480ed9b1e78376f6b33ab1a1b1", null ],
+    [ "getRoute", "d6/db0/class_n_b_p_t_line.html#aab5c12d5e446265e6ad8fad52f792138", null ],
+    [ "getStops", "d6/db0/class_n_b_p_t_line.html#aec2931d6f3f45aae50569b78ae6d1b06", null ],
+    [ "getWaysNodes", "d6/db0/class_n_b_p_t_line.html#a9ae05b8dbac6187c7fa8bdd2a02e1ed3", null ],
+    [ "setId", "d6/db0/class_n_b_p_t_line.html#a38ec6d7da5d3913236e33905631242c9", null ],
+    [ "setMyNumOfStops", "d6/db0/class_n_b_p_t_line.html#ae0f21325c8debf09deef85fdafaaa04b", null ],
+    [ "setRef", "d6/db0/class_n_b_p_t_line.html#af194d1315208924ab6e04c488fdcb22f", null ],
+    [ "write", "d6/db0/class_n_b_p_t_line.html#a77420334ab8d4f3e13c31ce253c4cedb", null ],
+    [ "myCurrentWay", "d6/db0/class_n_b_p_t_line.html#a9c08a5236722ca4fdbbf500ee0df2256", null ],
+    [ "myName", "d6/db0/class_n_b_p_t_line.html#a83b57e3de665899ae621cdd27d14a0f5", null ],
+    [ "myNumOfStops", "d6/db0/class_n_b_p_t_line.html#a57b86743b57f3d6c5c09507a00712c02", null ],
+    [ "myPTLineId", "d6/db0/class_n_b_p_t_line.html#afafbd5a277ead6894919330fe19c2e30", null ],
+    [ "myPTStops", "d6/db0/class_n_b_p_t_line.html#a0c77cc91c2e48a3e0d26392222cb00b8", null ],
+    [ "myRef", "d6/db0/class_n_b_p_t_line.html#aa34b8bc680e5e7f77fec10857f98c9ce", null ],
+    [ "myRoute", "d6/db0/class_n_b_p_t_line.html#a50baf9a768bef2d481d78f219821ec07", null ],
+    [ "myType", "d6/db0/class_n_b_p_t_line.html#ab6c046c78ab5340ea7daa33ccfe5388e", null ],
+    [ "myWays", "d6/db0/class_n_b_p_t_line.html#a323437712ac568926bc9149e762d6225", null ],
+    [ "myWaysNodes", "d6/db0/class_n_b_p_t_line.html#ac4899aaee1c8946443ea4a01b5056590", null ]
+];

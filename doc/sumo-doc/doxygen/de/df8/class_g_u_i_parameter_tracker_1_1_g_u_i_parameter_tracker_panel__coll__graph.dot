@@ -1,0 +1,22 @@
+digraph "GUIParameterTracker::GUIParameterTrackerPanel"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{GUIParameterTracker\l::GUIParameterTrackerPanel\n|- myHeightInPixels\l- myWidthInPixels\l|+ GUIParameterTrackerPanel()\l+ ~GUIParameterTrackerPanel()\l+ onConfigure()\l+ onPaint()\l+ onSimStep()\l# GUIParameterTrackerPanel()\l- drawValue()\l- drawValues()\l* onConfigure()\l* onPaint()\l* onSimStep()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{FXGLCanvas\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node2 [color="grey25",fontsize="10",style="solid",label=" -myApplication" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{GUIMainWindow\n|# myAmGaming\l# myBoldFont\l# myBottomDock\l# myCartesianCoordinate\l# myCartesianFrame\l# myGeoCoordinate\l# myGeoFrame\l# myGLVisual\l# myLeftDock\l# myListInternal\land 8 more...\l|+ addChild()\l+ addChild()\l+ getActiveView()\l+ getBoldFont()\l+ getBuildGLCanvas()\l+ getCartesianLabel()\l+ getCurrentSimTime()\l+ getDelay()\l+ getGeoLabel()\l+ getGLVisual()\land 15 more...\l+ getInstance()\l# GUIMainWindow()\l# setWindowSizeAndPos()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dba/class_g_u_i_main_window.html"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{FXMainWindow\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node4 [color="grey25",fontsize="10",style="solid",label=" #myInstance" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 -> Node4 [color="grey25",fontsize="10",style="solid",label=" #myTrackerLock" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{MFXMutex\n|# lock_\l- mutexHandle\l|+ lock()\l+ locked()\l+ MFXMutex()\l+ unlock()\l+ ~MFXMutex()\l- MFXMutex()\l- operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d79/class_m_f_x_mutex.html"];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node7 [label="{AbstractMutex\n||+ AbstractMutex()\l+ lock()\l+ unlock()\l+ ~AbstractMutex()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d30/class_abstract_mutex.html",tooltip="An abstract class for encapsulating mutex implementations. "];
+  Node8 -> Node2 [color="grey25",fontsize="10",style="solid",label=" -myParent" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 [label="{GUIParameterTracker\n|# myAggregationDelay\l# myAggregationInterval\l# myToolBar\l# myToolBarDrag\l# myTracked\l# myValuePassers\l|+ addTracked()\l+ create()\l+ GUIParameterTracker()\l+ ~GUIParameterTracker()\l+ onConfigure()\l+ onPaint()\l+ onSimStep()\l+ onCmdChangeAggregation()\l+ onCmdSave()\l# GUIParameterTracker()\l- buildToolBar()\l* onConfigure()\l* onPaint()\l* onSimStep()\l* onCmdChangeAggregation()\l* onCmdSave()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d10/class_g_u_i_parameter_tracker.html",tooltip="A window which displays the time line of one (or more) value(s) "];
+  Node5 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 -> Node8 [color="grey25",fontsize="10",style="solid",label=" #myApplication" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 -> Node8 [color="grey25",fontsize="10",style="solid",label=" #myPanel" ,arrowhead="odiamond",fontname="Helvetica"];
+}

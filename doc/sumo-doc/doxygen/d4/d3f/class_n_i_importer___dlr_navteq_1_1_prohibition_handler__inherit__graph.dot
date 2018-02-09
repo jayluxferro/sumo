@@ -1,0 +1,8 @@
+digraph "NIImporter_DlrNavteq::ProhibitionHandler"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{NIImporter_DlrNavteq\l::ProhibitionHandler\n|# myConstructionTime\l# myEdgeCont\l# myFile\l# myVersion\l|+ ProhibitionHandler()\l+ report()\l+ ~ProhibitionHandler()\l- operator=()\l- ProhibitionHandler()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{LineHandler\n||+ LineHandler()\l+ report()\l+ ~LineHandler()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d60/class_line_handler.html",tooltip="Interface definition for a class which retrieves lines from a LineHandler. "];
+}

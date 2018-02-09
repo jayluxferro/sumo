@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="RODFDetFlowLoader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/df7/class_r_o_d_f_det_flow_loader.html",tooltip="A loader for detector flows. "];
+}

@@ -1,0 +1,14 @@
+digraph "MSVTypeProbe"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node3 [label="{MSVTypeProbe\n|- myFrequency\l- myVType\l|+ MSVTypeProbe()\l+ ~MSVTypeProbe()\l+ execute()\l- MSVTypeProbe()\l- operator=()\l* execute()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{Named\n|# myID\l|+ addTo()\l+ getID()\l+ Named()\l+ setID()\l+ ~Named()\l+ getIDSecure()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dbf/class_named.html",tooltip="Base class for objects which have an id. "];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{Command\n||+ Command()\l+ execute()\l+ ~Command()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d6a/class_command.html",tooltip="Base (microsim) event class. "];
+  Node6 -> Node3 [color="grey25",fontsize="10",style="solid",label=" -myOutputDevice" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{OutputDevice\n||+ realString()\l+ getDevice()\l+ createDeviceByOption()\l+ getDeviceByOption()\l+ closeAll()\l* myOutputDevices\l* myAmBinary\l* OutputDevice()\l* ~OutputDevice()\l* ok()\l* close()\l* setPrecision()\l* getPrecision()\l* writeXMLHeader()\l* writeHeader()\land 15 more...\l* getDevice()\l* createDeviceByOption()\l* getDeviceByOption()\l* closeAll()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/da0/class_output_device.html",tooltip="Static storage of an output device and its base (abstract) implementation. "];
+  Node7 -> Node6 [color="grey25",fontsize="10",style="solid",label=" -myFormatter" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{OutputFormatter\n||+ closeTag()\l+ openTag()\l+ openTag()\l+ writePreformattedTag()\l+ writeXMLHeader()\l+ ~OutputFormatter()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d84/class_output_formatter.html",tooltip="Abstract base class for output formatters. "];
+}

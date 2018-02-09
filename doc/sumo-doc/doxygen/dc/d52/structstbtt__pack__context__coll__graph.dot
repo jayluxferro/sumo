@@ -1,0 +1,6 @@
+digraph "stbtt_pack_context"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{stbtt_pack_context\n|+ h_oversample\l+ height\l+ nodes\l+ pack_info\l+ padding\l+ pixels\l+ stride_in_bytes\l+ user_allocator_context\l+ v_oversample\l+ width\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

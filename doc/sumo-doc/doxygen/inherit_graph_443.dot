@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="ODMatrix::cell_by_begin\l_comparator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d15/class_o_d_matrix_1_1cell__by__begin__comparator.html",tooltip="Used for sorting the cells by the begin time they describe. "];
+}

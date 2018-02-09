@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="GUIPropertySchemeStorage\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_g_u_i_property_scheme_storage.html",tooltip="Base class for coloring. Allows changing the used colors and sets the used color in dependence to a v..."];
+}

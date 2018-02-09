@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="MSCrossSection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dcd/class_m_s_cross_section.html",tooltip="A simple description of a position on a lane (crossing of a lane) "];
+}

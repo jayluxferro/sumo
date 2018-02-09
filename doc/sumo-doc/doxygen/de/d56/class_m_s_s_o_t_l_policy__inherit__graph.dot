@@ -1,0 +1,18 @@
+digraph "MSSOTLPolicy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{MSSOTLPolicy\n|- myDesirabilityAlgorithm\l- myName\l- theta_sensitivity\l|+ canRelease()\l+ computeDesirability()\l+ computeDesirability()\l+ decideNextPhase()\l+ getDesirabilityAlgorithm()\l+ getName()\l+ getThetaSensitivity()\l+ MSSOTLPolicy()\l+ MSSOTLPolicy()\l+ MSSOTLPolicy()\l+ setThetaSensitivity()\l+ ~MSSOTLPolicy()\l# init()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{Parameterised\n|- myMap\l|+ clearParameter()\l+ getDouble()\l+ getMap()\l+ getParameter()\l+ knowsParameter()\l+ Parameterised()\l+ Parameterised()\l+ setParameter()\l+ unsetParameter()\l+ updateParameter()\l+ writeParams()\l+ ~Parameterised()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dc7/class_parameterised.html",tooltip="An upper class for objects with additional parameters. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{MSSOTLCongestionPolicy\n||+ canRelease()\l+ decideNextPhase()\l+ MSSOTLCongestionPolicy()\l+ MSSOTLCongestionPolicy()\l+ MSSOTLCongestionPolicy()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/df9/class_m_s_s_o_t_l_congestion_policy.html",tooltip="Class for low-level congestion policy. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{MSSOTLMarchingPolicy\n||+ canRelease()\l+ MSSOTLMarchingPolicy()\l+ MSSOTLMarchingPolicy()\l+ MSSOTLMarchingPolicy()\l# init()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d80/class_m_s_s_o_t_l_marching_policy.html",tooltip="Class for low-level marching policy. "];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{MSSOTLPhasePolicy\n|# m_useVehicleTypesWeights\l|+ canRelease()\l+ MSSOTLPhasePolicy()\l+ MSSOTLPhasePolicy()\l+ MSSOTLPhasePolicy()\l# init()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d53/class_m_s_s_o_t_l_phase_policy.html",tooltip="Class for low-level phase policy. "];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{MSSOTLPlatoonPolicy\n||+ canRelease()\l+ MSSOTLPlatoonPolicy()\l+ MSSOTLPlatoonPolicy()\l+ MSSOTLPlatoonPolicy()\l# init()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/db4/class_m_s_s_o_t_l_platoon_policy.html",tooltip="Class for low-level platoon policy. "];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{MSSOTLRequestPolicy\n||+ canRelease()\l+ getMinDecisionalPhaseDuration()\l+ MSSOTLRequestPolicy()\l+ MSSOTLRequestPolicy()\l+ MSSOTLRequestPolicy()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d11/class_m_s_s_o_t_l_request_policy.html",tooltip="Class for low-level request policy. "];
+}

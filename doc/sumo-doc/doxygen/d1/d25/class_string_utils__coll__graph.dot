@@ -1,0 +1,6 @@
+digraph "StringUtils"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{StringUtils\n|+ emptyString\l|+ charToHex()\l+ convertUmlaute()\l+ endsWith()\l+ escapeXML()\l+ hexToChar()\l+ latin1_to_utf8()\l+ prune()\l+ replace()\l+ startsWith()\l+ to_lower_case()\l+ toTimeString()\l+ urlDecode()\l+ urlEncode()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

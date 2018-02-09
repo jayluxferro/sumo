@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="NIImporter_OpenDrive\l::same_position_finder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/dd9/class_n_i_importer___open_drive_1_1same__position__finder.html"];
+}

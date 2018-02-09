@@ -1,0 +1,37 @@
+digraph "SUMORouteLoaderControl.cpp"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="SUMORouteLoaderControl.cpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="config.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d16/config_8h.html"];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="vector",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node0 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="utils/common/StdDefs.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dbd/_std_defs_8h.html"];
+  Node3 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="string",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="cmath",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="limits",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node0 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="SUMORouteLoader.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dfa/_s_u_m_o_route_loader_8h.html"];
+  Node7 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="utils/common/SUMOTime.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d64/_s_u_m_o_time_8h.html"];
+  Node8 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="UtilExceptions.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/db4/_util_exceptions_8h.html"];
+  Node9 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="stdexcept",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node0 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="SUMORouteLoaderControl.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d85/_s_u_m_o_route_loader_control_8h.html"];
+  Node11 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,6 @@
+digraph "libsumo::Simulation"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{libsumo::Simulation\n|- mySubscribedContextValues\l- mySubscribedValues\l|+ close()\l+ getContextSubscriptionResults()\l+ getContextSubscriptionResults()\l+ getSubscriptionResults()\l+ getSubscriptionResults()\l+ findIntermodalRoute()\l+ findRoute()\l+ getCurrentTime()\l+ getDeltaT()\l+ getMinExpectedNumber()\l+ getNetBoundary()\l+ getParameter()\l+ load()\l+ simulationStep()\l- operator=()\l- Simulation()\l- Simulation()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

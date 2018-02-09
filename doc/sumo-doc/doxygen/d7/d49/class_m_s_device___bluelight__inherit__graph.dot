@@ -1,0 +1,12 @@
+digraph "MSDevice_Bluelight"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{MSDevice_Bluelight\n|- myCustomValue1\l- myCustomValue2\l- myCustomValue3\l|+ deviceName()\l+ generateOutput()\l+ getParameter()\l+ setParameter()\l+ ~MSDevice_Bluelight()\l+ notifyMove()\l+ notifyEnter()\l+ notifyLeave()\l+ buildVehicleDevices()\l+ insertOptions()\l- MSDevice_Bluelight()\l- MSDevice_Bluelight()\l- operator=()\l* notifyMove()\l* notifyEnter()\l* notifyLeave()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{MSDevice\n|# myHolder\l- myEquipmentRNG\l- myExplicitIDs\l|+ deviceName()\l+ generateOutput()\l+ getHolder()\l+ getParameter()\l+ loadState()\l+ MSDevice()\l+ saveState()\l+ setParameter()\l+ ~MSDevice()\l+ buildVehicleDevices()\l+ checkOptions()\l+ cleanupAll()\l+ getEquipmentRNG()\l+ insertOptions()\l# insertDefaultAssignmentOptions()\l# equippedByDefaultAssignment\lOptions()\l- MSDevice()\l- operator=()\l* insertDefaultAssignmentOptions()\l* equippedByDefaultAssignment\lOptions()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d46/class_m_s_device.html",tooltip="Abstract in-vehicle device. "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{MSMoveReminder\n|# myDescription\l# myLane\l- myLastVehicleUpdateValues\l|+ getDescription()\l+ getLane()\l+ MSMoveReminder()\l+ notifyMoveInternal()\l+ setDescription()\l+ ~MSMoveReminder()\l+ notifyEnter()\l+ notifyMove()\l+ notifyLeave()\l+ updateDetector()\l# removeFromVehicleUpdateValues()\l- operator=()\l* notifyEnter()\l* notifyMove()\l* notifyLeave()\l* updateDetector()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/da5/class_m_s_move_reminder.html",tooltip="Something on a lane to be noticed about vehicle movement. "];
+  Node3 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{Named\n|# myID\l|+ addTo()\l+ getID()\l+ Named()\l+ setID()\l+ ~Named()\l+ getIDSecure()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dbf/class_named.html",tooltip="Base class for objects which have an id. "];
+}

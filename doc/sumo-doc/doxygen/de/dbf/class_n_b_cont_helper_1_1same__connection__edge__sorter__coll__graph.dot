@@ -1,0 +1,6 @@
+digraph "NBContHelper::same_connection_edge_sorter"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{NBContHelper::same\l_connection_edge_sorter\n||+ getMinMaxRelAngles()\l+ operator()()\l+ same_connection_edge\l_sorter()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

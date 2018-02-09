@@ -1,0 +1,6 @@
+digraph "LineReader"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{LineReader\n|- myAvailable\l- myBuffer\l- myFileName\l- myRead\l- myRread\l- myStrBuffer\l- myStrm\l|+ close()\l+ getFileName()\l+ getPosition()\l+ good()\l+ hasMore()\l+ LineReader()\l+ LineReader()\l+ readAll()\l+ readLine()\l+ readLine()\l+ reinit()\l+ setFile()\l+ setPos()\l+ ~LineReader()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

@@ -1,0 +1,6 @@
+digraph "NIVissimTL::NIVissimTLSignal"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{NIVissimTL::NIVissimTLSignal\n|# myEdgeID\l# myGroupIDs\l# myID\l# myLane\l# myName\l# myPosition\l# myVehicleTypes\l# myDict\l|+ addTo()\l+ getPosition()\l+ isWithin()\l+ NIVissimTLSignal()\l+ ~NIVissimTLSignal()\l+ clearDict()\l+ dictionary()\l+ dictionary()\l+ getSignalsFor()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

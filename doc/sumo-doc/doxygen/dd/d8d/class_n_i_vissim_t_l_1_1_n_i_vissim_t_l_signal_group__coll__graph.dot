@@ -1,0 +1,6 @@
+digraph "NIVissimTL::NIVissimTLSignalGroup"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{NIVissimTL::NIVissimTLSignal\lGroup\n|- myFirstIsRed\l- myID\l- myName\l- myTimes\l- myTRedYellow\l- myTYellow\l- myDict\l|+ addTo()\l+ NIVissimTLSignalGroup()\l+ ~NIVissimTLSignalGroup()\l+ clearDict()\l+ dictionary()\l+ dictionary()\l+ getGroupsFor()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

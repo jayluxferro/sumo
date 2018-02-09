@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="GUIE3Collector::MyWrapper\l::SingleCrossingDefinition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d0b/struct_g_u_i_e3_collector_1_1_my_wrapper_1_1_single_crossing_definition.html",tooltip="Representation of a single crossing point. "];
+}

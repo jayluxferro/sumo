@@ -1,0 +1,8 @@
+digraph "GNECrossingFrame::crossingParameters"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{GNECrossingFrame::crossing\lParameters\n|- myCrossingEdges\l- myCrossingEdgesLabel\l- myCrossingFrameParent\l- myCrossingPriorityCheckButton\l- myCrossingPriorityLabel\l- myCrossingWidth\l- myCrossingWidthLabel\l- myCurrentParametersValid\l- myCurrentSelectedEdges\l- myEdgeSelector\l- myHelpCrossingAttribute\l- myCandidateColor\l- mySelectedColor\l|+ clearEdges()\l+ crossingParameters()\l+ disableCrossingParameters()\l+ enableCrossingParameters()\l+ getCandidateColor()\l+ getCrossingEdges()\l+ getCrossingPriority()\l+ getCrossingWidth()\l+ getSelectedColor()\l+ invertEdges()\l+ isCrossingParametersEnabled()\l+ isCurrentParametersValid()\l+ markEdge()\l+ useSelectedEdges()\l+ ~crossingParameters()\l+ onCmdSetAttribute()\l+ onCmdHelp()\l# crossingParameters()\l* onCmdSetAttribute()\l* onCmdHelp()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{FXGroupBox\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

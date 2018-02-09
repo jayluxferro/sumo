@@ -1,0 +1,11 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node293 [label="prohibited_withPermissions\l\< IntermodalEdge\< E, L,\l N, V \>, IntermodalTrip\<\l E, N, V \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/dd8/structprohibited__with_permissions.html"];
+  Node293 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="DijkstraRouter\< Intermodal\lEdge\< E, L, N, V \>, Intermodal\lTrip\< E, N, V \>, prohibited\l_withPermissions\< IntermodalEdge\l\< E, L, N, V \>, IntermodalTrip\l\< E, N, V \> \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d22/class_dijkstra_router.html"];
+  Node0 [label="SUMOAbstractRouter\l\< IntermodalEdge\< E,\l L, N, V \>, IntermodalTrip\l\< E, N, V \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d23/class_s_u_m_o_abstract_router.html"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

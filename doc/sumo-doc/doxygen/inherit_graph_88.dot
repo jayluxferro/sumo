@@ -1,0 +1,17 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1132 [label="FXGLCanvas",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1132 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="GUIParameterTracker\l::GUIParameterTrackerPanel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d0b/class_g_u_i_parameter_tracker_1_1_g_u_i_parameter_tracker_panel.html"];
+  Node1132 -> Node1134 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1134 [label="GUISUMOAbstractView",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d5a/class_g_u_i_s_u_m_o_abstract_view.html"];
+  Node1134 -> Node1135 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1135 [label="GNEViewNet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/db9/class_g_n_e_view_net.html"];
+  Node1134 -> Node1136 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1136 [label="GUIViewTraffic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d43/class_g_u_i_view_traffic.html"];
+  Node1132 -> Node1137 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1137 [label="GUITLLogicPhasesTrackerWindow\l::GUITLLogicPhasesTrackerPanel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d98/class_g_u_i_t_l_logic_phases_tracker_window_1_1_g_u_i_t_l_logic_phases_tracker_panel.html",tooltip="The canvas for the visualisation of phases. "];
+}

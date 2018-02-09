@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="NWWriter_MATSim",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d67/class_n_w_writer___m_a_t_sim.html",tooltip="Exporter writing networks using the MATSim format. "];
+}

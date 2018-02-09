@@ -1,0 +1,16 @@
+digraph "GNEViewNet::movingEdges"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{GNEViewNet::movingEdges\n|+ index\l+ inverted\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +originalPosition" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{Position\n|- myX\l- myY\l- myZ\l|+ add()\l+ add()\l+ add()\l+ almostSame()\l+ angleTo2D()\l+ crossProduct()\l+ distanceSquaredTo()\l+ distanceSquaredTo2D()\l+ distanceTo()\l+ distanceTo2D()\land 28 more...\l+ invalidPosition()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d3b/class_position.html",tooltip="A point in 2D or 3D with translation and scaling methods. "];
+  Node2 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +INVALID" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +originalShape" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{PositionVector\n||+ add()\l+ add()\l+ angleAt2D()\l+ append()\l+ area()\l+ around()\l+ beginEndAngle()\l+ closePolygon()\l+ crosses()\l+ distance2D()\land 65 more...\l+ positionAtOffset()\l+ positionAtOffset2D()\l+ sideOffset()\l- intersects()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d56/class_position_vector.html",tooltip="A list of positions. "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{AbstractPoly\n||+ AbstractPoly()\l+ AbstractPoly()\l+ around()\l+ crosses()\l+ overlapsWith()\l+ partialWithin()\l+ ~AbstractPoly()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d1a/class_abstract_poly.html"];
+  Node5 -> Node3 [dir="back",color="firebrick4",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{std::vector\< Position \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node3 [color="grey25",fontsize="10",style="solid",label=" +EMPTY" ,arrowhead="odiamond",fontname="Helvetica"];
+}

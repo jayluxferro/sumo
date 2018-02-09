@@ -1,0 +1,17 @@
+digraph "SUMOVTypeParameter"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{SUMOVTypeParameter\n|+ actionStepLength\l+ boardingDuration\l+ cfModel\l+ cfParameter\l+ containerCapacity\l+ defaultProbability\l+ emissionClass\l+ id\l+ impatience\l+ jmParameter\land 14 more...\l+ width\l+ height\l+ shape\l+ osgFile\l+ imgFile\l|+ getCFParam()\l+ getCFParamString()\l+ getJMParam()\l+ getLCParam()\l+ SUMOVTypeParameter()\l+ validateCFParameter()\l+ wasSet()\l+ write()\l+ getDefault()\l+ getDefaultAccel()\l+ getDefaultDecel()\l+ getDefaultEmergencyDecel()\l+ getDefaultImperfection()\l* width\l* height\l* shape\l* osgFile\l* imgFile\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{Parameterised\n|- myMap\l|+ clearParameter()\l+ getDouble()\l+ getMap()\l+ getParameter()\l+ knowsParameter()\l+ Parameterised()\l+ Parameterised()\l+ setParameter()\l+ unsetParameter()\l+ updateParameter()\l+ writeParams()\l+ ~Parameterised()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dc7/class_parameterised.html",tooltip="An upper class for objects with additional parameters. "];
+  Node4 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +color" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{RGBColor\n|+ DEFAULT_COLOR_STRING\l+ YELLOW\l- myAlpha\l- myBlue\l- myGreen\l- myRed\l|+ alpha()\l+ blue()\l+ changedBrightness()\l+ green()\l+ invertedColor()\l+ operator!=()\l+ operator==()\l+ red()\l+ RGBColor()\l+ RGBColor()\l+ RGBColor()\l+ set()\l+ ~RGBColor()\l+ fromHSV()\l+ interpolate()\l+ parseColor()\l+ parseColorReporting()\l* YELLOW\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/da9/class_r_g_b_color.html"];
+  Node4 -> Node4 [color="grey25",fontsize="10",style="solid",label=" +BLACK\n+BLUE\n+RED\n+DEFAULT_COLOR\n+GREY\n+MAGENTA\n+GREEN\n+CYAN\n+ORANGE\n+WHITE\n..." ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +speedFactor" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{Distribution_Parameterized\n|- myParameter\l|+ Distribution_Parameterized()\l+ Distribution_Parameterized()\l+ getMax()\l+ getParameter()\l+ getParameter()\l+ parse()\l+ sample()\l+ toStr()\l+ ~Distribution_Parameterized()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0d/class_distribution___parameterized.html"];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{Distribution\n||+ Distribution()\l+ getMax()\l+ sample()\l+ toStr()\l+ ~Distribution()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d4f/class_distribution.html"];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node7 [label="{Named\n|# myID\l|+ addTo()\l+ getID()\l+ Named()\l+ setID()\l+ ~Named()\l+ getIDSecure()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dbf/class_named.html",tooltip="Base class for objects which have an id. "];
+}

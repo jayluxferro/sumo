@@ -1,0 +1,6 @@
+digraph "libsumo::TraCIPhase"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{libsumo::TraCIPhase\n|+ duration\l+ duration1\l+ duration2\l+ phase\l|+ TraCIPhase()\l+ ~TraCIPhase()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

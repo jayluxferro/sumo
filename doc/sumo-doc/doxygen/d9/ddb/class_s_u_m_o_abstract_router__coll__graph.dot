@@ -1,0 +1,8 @@
+digraph "SUMOAbstractRouter&lt; E, V &gt;"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node5 [label="{SUMOAbstractRouter\l\< E, V \>\n|# myBulkMode\l- myNumQueries\l- myQueryStartTime\l- myQueryTimeSum\l- myQueryVisits\l- myType\l|+ clone()\l+ compute()\l+ endQuery()\l+ getEffort()\l+ recomputeCosts()\l+ setBulkMode()\l+ startQuery()\l+ SUMOAbstractRouter()\l+ ~SUMOAbstractRouter()\l- operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6 -> Node5 [color="grey25",fontsize="10",style="solid",label=" #myOperation" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{E\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

@@ -1,0 +1,13 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="SUMOSAXAttributes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/ddf/class_s_u_m_o_s_a_x_attributes.html",tooltip="Encapsulated SAX-Attributes. "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="SUMOSAXAttributesImpl\l_Binary",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d24/class_s_u_m_o_s_a_x_attributes_impl___binary.html",tooltip="Encapsulated Xerces-SAX-attributes. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SUMOSAXAttributesImpl\l_Cached",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dce/class_s_u_m_o_s_a_x_attributes_impl___cached.html",tooltip="Encapsulated Xerces-SAX-attributes. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SUMOSAXAttributesImpl\l_Xerces",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d42/class_s_u_m_o_s_a_x_attributes_impl___xerces.html",tooltip="Encapsulated Xerces-SAX-attributes. "];
+}

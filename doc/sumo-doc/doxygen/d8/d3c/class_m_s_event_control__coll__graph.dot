@@ -1,0 +1,6 @@
+digraph "MSEventControl"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{MSEventControl\n|- currentTimeStep\l- myEvents\l|+ addEvent()\l+ execute()\l+ isEmpty()\l+ MSEventControl()\l+ setCurrentTimeStep()\l+ ~MSEventControl()\l- getCurrentTimeStep()\l- MSEventControl()\l- operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

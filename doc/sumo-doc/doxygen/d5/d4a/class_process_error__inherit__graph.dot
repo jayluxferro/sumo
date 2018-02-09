@@ -1,0 +1,12 @@
+digraph "ProcessError"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{ProcessError\n||+ ProcessError()\l+ ProcessError()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{runtime_error\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{InvalidArgument\n||+ InvalidArgument()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d68/class_invalid_argument.html"];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{IOError\n||+ IOError()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dcb/class_i_o_error.html"];
+}

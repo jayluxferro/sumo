@@ -1,0 +1,6 @@
+digraph "NBRampsComputer"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{NBRampsComputer\n|+ ADDED_ON_RAMP_EDGE\l|+ computeRamps()\l- buildOffRamp()\l- buildOnRamp()\l- determinedByLaneNumber()\l- determinedBySpeed()\l- fulfillsRampConstraints()\l- getOffRampEdges()\l- getOnRampEdges()\l- hasWrongMode()\l- mayNeedOffRamp()\l- mayNeedOnRamp()\l- moveRampRight()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

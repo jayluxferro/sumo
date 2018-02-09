@@ -1,0 +1,13 @@
+digraph "NBNode::WalkingArea"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{NBNode::WalkingArea\n|+ hasCustomShape\l+ id\l+ length\l+ minNextCrossingEdges\l+ minPrevCrossingEdges\l+ nextCrossings\l+ nextSidewalks\l+ prevSidewalks\l+ width\l|+ WalkingArea()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +shape" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{PositionVector\n||+ add()\l+ add()\l+ angleAt2D()\l+ append()\l+ area()\l+ around()\l+ beginEndAngle()\l+ closePolygon()\l+ crosses()\l+ distance2D()\land 65 more...\l+ positionAtOffset()\l+ positionAtOffset2D()\l+ sideOffset()\l- intersects()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d56/class_position_vector.html",tooltip="A list of positions. "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{AbstractPoly\n||+ AbstractPoly()\l+ AbstractPoly()\l+ around()\l+ crosses()\l+ overlapsWith()\l+ partialWithin()\l+ ~AbstractPoly()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d1a/class_abstract_poly.html"];
+  Node4 -> Node2 [dir="back",color="firebrick4",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{std::vector\< Position \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node2 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +EMPTY" ,arrowhead="odiamond",fontname="Helvetica"];
+}

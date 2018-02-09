@@ -1,0 +1,12 @@
+digraph "NIXMLTypesHandler"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{NIXMLTypesHandler\n|- myCurrentTypeID\l- myTypeCont\l|+ NIXMLTypesHandler()\l+ ~NIXMLTypesHandler()\l# myStartElement()\l- NIXMLTypesHandler()\l- operator=()\l* myStartElement()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{SUMOSAXHandler\n||+ SUMOSAXHandler()\l+ ~SUMOSAXHandler()\l- operator=()\l- SUMOSAXHandler()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/db8/class_s_u_m_o_s_a_x_handler.html",tooltip="SAX-handler base for SUMO-files. "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{GenericSAXHandler\n|- myCharactersVector\l- myFileName\l- myParentHandler\l- myParentIndicator\l|+ characters()\l+ endElement()\l+ GenericSAXHandler()\l+ getFileName()\l+ registerParent()\l+ setFileName()\l+ startElement()\l+ ~GenericSAXHandler()\l+ warning()\l+ error()\l+ fatalError()\l# buildErrorMessage()\l# myCharacters()\l# myEndElement()\l# myStartElement()\l- convert()\l- convertTag()\l- GenericSAXHandler()\l- operator=()\l* warning()\l* error()\l* fatalError()\l* AttrMap\l* myPredefinedTags\l* myPredefinedTagsMML\l* TagMap\l* myTagMap\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/da8/class_generic_s_a_x_handler.html",tooltip="A handler which converts occuring elements and attributes into enums. "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{XERCES_CPP_NAMESPACE\l::DefaultHandler\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

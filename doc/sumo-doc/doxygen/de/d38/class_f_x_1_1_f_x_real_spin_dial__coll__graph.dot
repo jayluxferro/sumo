@@ -1,0 +1,12 @@
+digraph "FX::FXRealSpinDial"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{FX::FXRealSpinDial\n|# dial\l# dialpos\l# downButton\l# incr\l# keystate\l# pos\l# range\l# upButton\l|+ create()\l+ decrement()\l+ disable()\l+ enable()\l+ FXRealSpinDial()\l+ getCoarseIncrement()\l+ getCursorColor()\l+ getDefaultHeight()\l+ getDefaultWidth()\l+ getDial()\land 73 more...\l# FXRealSpinDial()\l- FXRealSpinDial()\l- operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{FXPacker\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node2 [color="grey25",fontsize="10",style="solid",label=" #textField" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{FX::FXRealSpinDialText\n|# exponent\l# flags\l# fmtString\l# precision\l|+ FXRealSpinDialText()\l+ getNumberFormatExponent()\l+ getNumberFormatPrecision()\l+ getNumberFormatString()\l+ onCmdSetRealValue()\l+ onMotion()\l+ setFormatString()\l+ setNumberFormat()\l# FXRealSpinDialText()\l- FXRealSpinDialText()\l- operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d1b/class_f_x_1_1_f_x_real_spin_dial_text.html"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{FXTextField\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

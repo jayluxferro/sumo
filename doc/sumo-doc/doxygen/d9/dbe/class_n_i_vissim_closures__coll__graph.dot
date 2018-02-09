@@ -1,0 +1,6 @@
+digraph "NIVissimClosures"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{NIVissimClosures\n|- myFromNode\l- myID\l- myOverEdges\l- myToNode\l- myDict\l|+ NIVissimClosures()\l+ ~NIVissimClosures()\l+ clearDict()\l+ dictionary()\l+ dictionary()\l+ dictionary()\l- NIVissimClosures()\l- operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

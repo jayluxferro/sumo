@@ -1,0 +1,8 @@
+digraph "GUIDanielPerspectiveChanger"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{GUIDanielPerspectiveChanger\n|- myDragDelay\l- myMouseButtonState\l- myMouseDownTime\l- myMoveOnClick\l- myOrigHeight\l- myOrigWidth\l- myRotation\l- myZoomBase\l|+ centerTo()\l+ changeCanvasSizeLeft()\l+ getRotation()\l+ getXPos()\l+ getYPos()\l+ getZoom()\l+ getZPos()\l+ GUIDanielPerspectiveChanger()\l+ onKeyPress()\l+ onLeftBtnPress()\land 11 more...\l- GUIDanielPerspectiveChanger()\l- move()\l- operator=()\l- rotate()\l- zoom()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{GUIPerspectiveChanger\n|# myCallback\l# myMouseXPosition\l# myMouseYPosition\l# myViewPort\l|+ centerTo()\l+ changeCanvasSizeLeft()\l+ getMouseXPosition()\l+ getMouseYPosition()\l+ getRotation()\l+ getViewport()\l+ getXPos()\l+ getYPos()\l+ getZoom()\l+ getZPos()\land 7 more...\l+ onLeftBtnPress()\l+ onLeftBtnRelease()\l+ onRightBtnPress()\l+ onRightBtnRelease()\l+ onDoubleClicked()\l+ onMouseWheel()\l+ onMouseMove()\l+ onKeyPress()\l+ onKeyRelease()\l- GUIPerspectiveChanger()\l- operator=()\l- patchedViewPort()\l* onLeftBtnPress()\l* onLeftBtnRelease()\l* onRightBtnPress()\l* onRightBtnRelease()\l* onDoubleClicked()\l* onMouseWheel()\l* onMouseMove()\l* onKeyPress()\l* onKeyRelease()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d4e/class_g_u_i_perspective_changer.html"];
+}

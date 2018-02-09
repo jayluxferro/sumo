@@ -1,0 +1,6 @@
+digraph "NIImporter_OpenDrive::OpenDriveLane"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{NIImporter_OpenDrive\l::OpenDriveLane\n|+ id\l+ level\l+ predecessor\l+ speed\l+ speeds\l+ successor\l+ type\l+ width\l+ widthData\l|+ OpenDriveLane()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

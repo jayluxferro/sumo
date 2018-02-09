@@ -1,0 +1,14 @@
+digraph "GeoConvHelper"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{GeoConvHelper\n|- myGeoScale\l- myProjectionMethod\l- myProjString\l- myUseInverseProjection\l- myNumLoaded\l|+ cartesian2geo()\l+ GeoConvHelper()\l+ GeoConvHelper()\l+ getConvBoundary()\l+ getOffset()\l+ getOffsetBase()\l+ getOrigBoundary()\l+ getProjString()\l+ moveConvertedBy()\l+ setConvBoundary()\l+ usingGeoProjection()\l+ usingInverseGeoProjection()\l+ x2cartesian()\l+ x2cartesian_const()\l+ ~GeoConvHelper()\l+ addProjectionOptions()\l+ computeFinal()\l+ getFinal()\l+ getLoaded()\l+ getProcessing()\l+ init()\l+ init()\l+ resetLoaded()\l+ setLoaded()\l+ writeLocation()\l- GeoConvHelper()\l- operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -myConvBoundary\n-myOrigBoundary" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{Boundary\n|- myWasInitialised\l- myXmax\l- myXmin\l- myYmax\l- myYmin\l- myZmax\l- myZmin\l|+ add()\l+ add()\l+ add()\l+ around()\l+ Boundary()\l+ Boundary()\l+ Boundary()\l+ crosses()\l+ distanceTo2D()\l+ distanceTo2D()\land 20 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dda/class_boundary.html",tooltip="A class that stores a 2D geometrical boundary. "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{AbstractPoly\n||+ AbstractPoly()\l+ AbstractPoly()\l+ around()\l+ crosses()\l+ overlapsWith()\l+ partialWithin()\l+ ~AbstractPoly()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d1a/class_abstract_poly.html"];
+  Node4 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -myOffset" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{Position\n|- myX\l- myY\l- myZ\l|+ add()\l+ add()\l+ add()\l+ almostSame()\l+ angleTo2D()\l+ crossProduct()\l+ distanceSquaredTo()\l+ distanceSquaredTo2D()\l+ distanceTo()\l+ distanceTo2D()\land 28 more...\l+ invalidPosition()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d3b/class_position.html",tooltip="A point in 2D or 3D with translation and scaling methods. "];
+  Node4 -> Node4 [color="grey25",fontsize="10",style="solid",label=" +INVALID" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node1 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -myFinal\n-myProcessing\n-myLoaded" ,arrowhead="odiamond",fontname="Helvetica"];
+}

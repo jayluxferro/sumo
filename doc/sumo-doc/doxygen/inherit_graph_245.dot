@@ -1,0 +1,13 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="MSTLLogicControl::WAUTSwitch\lProcedure",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/de8/class_m_s_t_l_logic_control_1_1_w_a_u_t_switch_procedure.html",tooltip="This is the abstract base class for switching from one tls program to another. "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="MSTLLogicControl::WAUTSwitch\lProcedure_GSP",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/dab/class_m_s_t_l_logic_control_1_1_w_a_u_t_switch_procedure___g_s_p.html",tooltip="This class switches using the GSP algorithm. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="MSTLLogicControl::WAUTSwitch\lProcedure_JustSwitch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d9d/class_m_s_t_l_logic_control_1_1_w_a_u_t_switch_procedure___just_switch.html",tooltip="This class simply switches to the next program. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="MSTLLogicControl::WAUTSwitch\lProcedure_Stretch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dd3/class_m_s_t_l_logic_control_1_1_w_a_u_t_switch_procedure___stretch.html",tooltip="This class switches using the Stretch algorithm. "];
+}

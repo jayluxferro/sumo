@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="NBTurningDirectionsComputer\l::Combination",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d7e/struct_n_b_turning_directions_computer_1_1_combination.html",tooltip="Stores the information about the angle between an incoming (\"from\") and an outgoing (\"to\") edge..."];
+}

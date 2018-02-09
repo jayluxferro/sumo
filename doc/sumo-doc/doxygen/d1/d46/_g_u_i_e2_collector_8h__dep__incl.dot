@@ -1,0 +1,10 @@
+digraph "GUIE2Collector.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node95 [label="GUIE2Collector.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node95 -> Node96 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node96 [label="GUIDetectorBuilder.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/db7/_g_u_i_detector_builder_8cpp.html"];
+  Node95 -> Node97 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node97 [label="GUIE2Collector.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc9/_g_u_i_e2_collector_8cpp.html"];
+}

@@ -1,0 +1,8 @@
+digraph "PCPolyContainer"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{PCPolyContainer\n|- myDoPrune\l- myIDEnums\l- myLanePosPois\l- myPruningBoundary\l- myRemoveByNames\l|+ add()\l+ add()\l+ addLanePos()\l+ getEnumIDFor()\l+ PCPolyContainer()\l+ save()\l+ saveDlrTDP()\l+ ~PCPolyContainer()\l- operator=()\l- PCPolyContainer()\l- writeDlrTDPHeader()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{ShapeContainer\n|# myPOIs\l# myPolygons\l|+ addPOI()\l+ addPolygon()\l+ getPOIs()\l+ getPolygons()\l+ movePOI()\l+ removePOI()\l+ removePolygon()\l+ reshapePolygon()\l+ ShapeContainer()\l+ ~ShapeContainer()\l# add()\l# add()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d6b/class_shape_container.html",tooltip="Storage for geometrical objects. "];
+}

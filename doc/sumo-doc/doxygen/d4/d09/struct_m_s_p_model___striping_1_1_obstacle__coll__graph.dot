@@ -1,0 +1,6 @@
+digraph "MSPModel_Striping::Obstacle"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{MSPModel_Striping::\lObstacle\n|+ description\l+ speed\l+ type\l+ xBack\l+ xFwd\l|+ Obstacle()\l+ Obstacle()\l+ Obstacle()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

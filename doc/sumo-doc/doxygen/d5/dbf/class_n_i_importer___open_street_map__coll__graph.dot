@@ -1,0 +1,6 @@
+digraph "NIImporter_OpenStreetMap"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{NIImporter_OpenStreetMap\n|# INVALID_ID\l# MAXSPEED_UNGIVEN\l- myEdges\l- myKnownCompoundTypes\l- myOSMNodes\l- myPlatformShapes\l- myUniqueNodes\l- myUnusableTypes\l- compoundTypeSeparator\l|+ loadNetwork()\l# load()\l# NIImporter_OpenStreetMap()\l# ~NIImporter_OpenStreetMap()\l- getNeighboringNodes()\l- insertEdge()\l- insertNodeChecking()\l- reconstructLayerElevation()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

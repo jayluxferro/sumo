@@ -1,0 +1,6 @@
+digraph "tcpip::Socket"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{tcpip::Socket\n|# lengthLen\l- blocking_\l- host_\l- port_\l- server_socket_\l- socket_\l- verbose_\l|+ accept()\l+ close()\l+ connect()\l+ has_client_connection()\l+ is_blocking()\l+ port()\l+ receive()\l+ receiveExact()\l+ send()\l+ sendExact()\land 6 more...\l# printBufferOnVerbose()\l# receiveComplete()\l# recvAndCheck()\l- atoaddr()\l- BailOnSocketError()\l- datawaiting()\l- init()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

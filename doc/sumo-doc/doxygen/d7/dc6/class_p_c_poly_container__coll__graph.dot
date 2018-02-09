@@ -1,0 +1,16 @@
+digraph "PCPolyContainer"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{PCPolyContainer\n|- myDoPrune\l- myIDEnums\l- myLanePosPois\l- myRemoveByNames\l|+ add()\l+ add()\l+ addLanePos()\l+ getEnumIDFor()\l+ PCPolyContainer()\l+ save()\l+ saveDlrTDP()\l+ ~PCPolyContainer()\l- operator=()\l- PCPolyContainer()\l- writeDlrTDPHeader()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{ShapeContainer\n||+ addPOI()\l+ addPolygon()\l+ getPOIs()\l+ getPolygons()\l+ movePOI()\l+ removePOI()\l+ removePolygon()\l+ reshapePolygon()\l+ ShapeContainer()\l+ ~ShapeContainer()\l# add()\l# add()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d6b/class_shape_container.html",tooltip="Storage for geometrical objects. "];
+  Node4 -> Node3 [color="grey25",fontsize="10",style="solid",label=" #myPOIs" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{NamedObjectCont\< PointOf\lInterest * \>\n|- myMap\l|+ add()\l+ begin()\l+ changeID()\l+ clear()\l+ end()\l+ get()\l+ insertIDs()\l+ remove()\l+ size()\l+ ~NamedObjectCont()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4d/class_named_object_cont.html"];
+  Node5 -> Node3 [color="grey25",fontsize="10",style="solid",label=" #myPolygons" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{NamedObjectCont\< SUMOPolygon * \>\n|- myMap\l|+ add()\l+ begin()\l+ changeID()\l+ clear()\l+ end()\l+ get()\l+ insertIDs()\l+ remove()\l+ size()\l+ ~NamedObjectCont()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4d/class_named_object_cont.html"];
+  Node6 -> Node2 [color="grey25",fontsize="10",style="solid",label=" -myPruningBoundary" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{Boundary\n|- myWasInitialised\l- myXmax\l- myXmin\l- myYmax\l- myYmin\l- myZmax\l- myZmin\l|+ add()\l+ add()\l+ add()\l+ around()\l+ Boundary()\l+ Boundary()\l+ Boundary()\l+ crosses()\l+ distanceTo2D()\l+ distanceTo2D()\land 20 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dda/class_boundary.html",tooltip="A class that stores a 2D geometrical boundary. "];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node7 [label="{AbstractPoly\n||+ AbstractPoly()\l+ AbstractPoly()\l+ around()\l+ crosses()\l+ overlapsWith()\l+ partialWithin()\l+ ~AbstractPoly()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d1a/class_abstract_poly.html"];
+}

@@ -1,0 +1,16 @@
+digraph "NIVissimVehicleClassVector.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node4 [label="NIVissimVehicleClassVector.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="NIVissimTrafficDescription.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d0d/_n_i_vissim_traffic_description_8h.html"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="NIImporter_Vissim.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d29/_n_i_importer___vissim_8cpp.html"];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="NIVissimTrafficDescription.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d5f/_n_i_vissim_traffic_description_8cpp.html"];
+  Node5 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="NIVissimSingleTypeParser\l_Verkehrszusammensetzungsdefinition.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d5a/_n_i_vissim_single_type_parser___verkehrszusammensetzungsdefinition_8cpp.html"];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

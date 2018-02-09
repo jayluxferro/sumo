@@ -1,0 +1,8 @@
+digraph "ROPerson::Walk"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{ROPerson::Walk\n|- arr\l- dep\l- destStop\l- dur\l- edges\l- v\l|+ getDestination()\l+ getOrigin()\l+ saveAsXML()\l+ Walk()\l+ Walk()\l- operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{ROPerson::TripItem\n|# cost\l|+ getDestination()\l+ getOrigin()\l+ saveAsXML()\l+ TripItem()\l+ ~TripItem()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d65/class_r_o_person_1_1_trip_item.html",tooltip="A TripItem is part of a trip, e.g., go from here to here by car. "];
+}

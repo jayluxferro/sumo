@@ -1,0 +1,6 @@
+digraph "SUMORouteLoaderControl"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{SUMORouteLoaderControl\n|- myAllLoaded\l- myCurrentLoadTime\l- myFirstLoadTime\l- myInAdvanceStepNo\l- myLoadAll\l- myRouteLoaders\l|+ add()\l+ getFirstLoadTime()\l+ haveAllLoaded()\l+ loadNext()\l+ SUMORouteLoaderControl()\l+ ~SUMORouteLoaderControl()\l- operator=()\l- SUMORouteLoaderControl()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

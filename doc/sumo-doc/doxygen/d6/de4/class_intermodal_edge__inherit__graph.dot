@@ -1,0 +1,18 @@
+digraph "IntermodalEdge&lt; E, L, N, V &gt;"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{IntermodalEdge\< E,\l L, N, V \>\n|# myFollowingEdges\l- myEdge\l- myEfforts\l- myLength\l- myLine\l- myNumericalID\l|+ addSuccessor()\l+ clearSuccessors()\l+ getEdge()\l+ getEffort()\l+ getLength()\l+ getLine()\l+ getNumericalID()\l+ getSuccessors()\l+ getTravelTime()\l+ hasEffort()\land 7 more...\l+ getEffortStatic()\l+ getTravelTimeStatic()\l- IntermodalEdge()\l- operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{Named\n|# myID\l|+ addTo()\l+ getID()\l+ Named()\l+ setID()\l+ ~Named()\l+ getIDSecure()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dbf/class_named.html",tooltip="Base class for objects which have an id. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{AccessEdge\< E, L, N, V \>\n|- myTransferTime\l|+ AccessEdge()\l+ getTravelTime()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d7f/class_access_edge.html",tooltip="the access edge connecting different modes that is given to the internal router (SUMOAbstractRouter) ..."];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{CarEdge\< E, L, N, V \>\n|- myClassesSuccessorMap\l- myStartPos\l|+ CarEdge()\l+ getSuccessors()\l+ getTravelTime()\l+ includeInRoute()\l+ prohibits()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d80/class_car_edge.html",tooltip="the car edge type that is given to the internal router (SUMOAbstractRouter) "];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{PedestrianEdge\< E,\l L, N, V \>\n|- myForward\l- myLane\l- myStartPos\l|+ getTravelTime()\l+ includeInRoute()\l+ PedestrianEdge()\l+ prohibits()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d72/class_pedestrian_edge.html",tooltip="the pedestrian edge type that is given to the internal router (SUMOAbstractRouter) ..."];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{PublicTransportEdge\l\< E, L, N, V \>\n|- myEntryStop\l- mySchedules\l|+ addSchedule()\l+ getEntryStop()\l+ getTravelTime()\l+ includeInRoute()\l+ PublicTransportEdge()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d63/class_public_transport_edge.html",tooltip="the public transport edge type connecting the stop edges "];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{StopEdge\< E, L, N, V \>\n||+ includeInRoute()\l+ prohibits()\l+ StopEdge()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dc7/class_stop_edge.html",tooltip="the stop edge type representing bus and train stops "];
+}

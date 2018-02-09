@@ -1,0 +1,6 @@
+digraph "PHEMlightdll::Helpers"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{PHEMlightdll::Helpers\n|- _Class\l- _commentPrefix\l- _eClass\l- _ErrMsg\l- _PHEMDataV\l- _sClass\l- _tClass\l- _vClass\l|+ getCommentPrefix()\l+ geteClass()\l+ getErrMsg()\l+ getgClass()\l+ getPHEMDataV()\l+ getsClass()\l+ gettClass()\l+ getvClass()\l+ setclass()\l+ setCommentPrefix()\land 7 more...\l- geteclass()\l- getsclass()\l- gettclass()\l- getvclass()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

@@ -1,0 +1,6 @@
+digraph "MSTransportableControl"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{MSTransportableControl\n|# myHaveNewWaiting\l# myJammedNumber\l# myLoadedNumber\l# myRunningNumber\l# myTransportables\l# myWaiting4Departure\l# myWaiting4Vehicle\l# myWaitingForVehicleNumber\l# myWaitingUntil\l|+ abortWaiting()\l+ abortWaitingForVehicle()\l+ add()\l+ addWaiting()\l+ boardAnyWaiting()\l+ buildContainer()\l+ buildPerson()\l+ checkWaiting()\l+ erase()\l+ get()\land 10 more...\l+ getLoadedNumber()\l+ getRunningNumber()\l+ getJammedNumber()\l* getLoadedNumber()\l* getRunningNumber()\l* getJammedNumber()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

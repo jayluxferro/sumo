@@ -1,0 +1,8 @@
+digraph "LogitCalculator&lt; R, E, V &gt;"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{LogitCalculator\< R,\l E, V \>\n|- myBeta\l- myCommonalities\l- myGamma\l- myTheta\l|+ calculateProbabilities()\l+ LogitCalculator()\l+ setCosts()\l+ ~LogitCalculator()\l- getBetaForCLogit()\l- getThetaForCLogit()\l- operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{RouteCostCalculator\l\< R, E, V \>\n|- myKeepRoutes\l- myMaxRouteNumber\l- mySkipRouteCalculation\l- myInstance\l|+ calculateProbabilities()\l+ getMaxRouteNumber()\l+ keepRoutes()\l+ setCosts()\l+ skipRouteCalculation()\l+ cleanup()\l+ getCalculator()\l# RouteCostCalculator()\l# ~RouteCostCalculator()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/df7/class_route_cost_calculator.html",tooltip="Abstract base class providing static factory method. "];
+}
